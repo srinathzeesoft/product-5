@@ -5,6 +5,8 @@ Mkt3L10n.adminFieldHtmlEncodeForm = {
   Save: "SAVE",
   Save: "SAVE",
   Save: "SAVE",
+  Key_Size: "Key Size",
+  Key_Size: "Key Size",
   Remind: "This setting will apply to all fields. You can configure this setting for each field as well",
   Verify_your_domain: "Once added, verify your domain to enable signing.",
   Cancel: "Cancel"
