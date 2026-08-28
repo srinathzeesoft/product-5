@@ -1,8 +1,12 @@
 Mkt3L10n.adminFieldHtmlEncodeForm = {
-  Html_Encode_Tokens: "HTML Encode Tokens in checking checking checking checking checking fdfs fdsfds fdsfs fdsfsd fdfsd fdsfs",
+  Html_Encode_Tokens: "HTML Encode Tokens",
   Explain: "Configure the default HTML encoding behavior in email tokens for all fields",
   Remind: "This setting will apply to all fields. You can configure this setting for each field as well",
   Save: "SAVE",
+  Save: "SAVE",
+  Save: "SAVE",
+  Remind: "This setting will apply to all fields. You can configure this setting for each field as well",
+  Verify_your_domain: "Once added, verify your domain to enable signing.",
   Cancel: "Cancel"
 };
 Mkt3L10n.adminDkimDomainDetailsForm = {
