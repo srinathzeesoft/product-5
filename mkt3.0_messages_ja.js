@@ -1,692 +1,682 @@
-module.exports = {
-  "mkt3": {
-    "0_messages": {
-      "js": {
-        "Mkt3L10n": {
-          "testGroupChampionChallengerEditorSummary": "テスト タイプ",
-          "analyticsCustomReportCanvas": "レポートの選択",
-          "emailBlastHeadStartABTestConfirmForm": "以下の機能をも無効にし：",
-          "assetNoDraftApprovalForm": "下書きの作成",
-          "auditTrailAdminDetails": "アクション",
-          "mktSmsMessage": "<b>{0}</b> は承認済みです。削除するには承認を取り消す必要があります",
-          "facebookPushToFacebookForm": "更新しています",
-          "migrationConsole": "確認用メール",
-          "abmDashboard": "ダッシュボード",
-          "nurtureTrackPanel": "{0} か月",
-          "abmImportAccountCanvas": "インポート処理中",
-          "mktMobilePushNotification": "<b>{0}</b> は使用中のため削除できません",
-          "emailBlastControlPanel": "注: スケジュールは A/B テストが設定します",
-          "launchpointServiceIntegrationSettingsForm": "オフラインコンバージョンを使用したい場合、Facebook をビジネスマネージャと連携させる必要があります。",
-          "fieldValidationRuleForm": "空の値",
-          "testGroupSummaryPanel": "チャンピオンの選択",
-          "controllerAbmDashboard": "パイプライン別上位重点顧客 {0}",
-          "contentActionsMenu": "<b>下書きアクション</b>",
-          "controllerSocialApp": "{0} 参照による訪問",
-          "adminSsfsServiceWizard": "スマートキャンペーンから <b>{1}</b> が起動されたときに、<b>{0}</b> に送信する Marketo リードのフィールドのリストを入力してください。<br><b>{0}</b> にはすべてのアクティブなフィールドへのアクセス権があります.",
-          "AdobeConnect": "ユーザーを追加",
-          "formEditorConversationalFormChoices": "対話型フロー設定",
-          "email2HeaderEditor": "返信先メールアドレスを入力",
-          "predictiveAudiencesAdmin": "実行しています",
-          "reconfigureAuthForm": "WEB API S2S",
-          "nurtureDashboard": "編集済み:",
-          "smartListReportSubscriptionGrid": "フォーマット",
-          "email2CodeEditor": "キャンセル",
-          "filter": "適用",
-          "mktocustomobjectPreview": "リンク済みオブジェクト名",
-          "emailEditorSettingsForm": "メールはすでに {{system.viewAsWebpageLink}} トークンを含んでいます",
-          "abmAccountListPushToFacebookLinkedInForm": "オーディエンスを消去してリードを追加",
-          "socialAppSummaryPanel": "{0} 参照によるサインアップ",
-          "mktocustomactivityActivityTypeForm": "同名のフィールドがすでに存在します",
-          "landingPagePreviewer": "プレビュー URL の生成",
-          "mktInAppMessage": "下書きを破棄しています",
-          "LandingPage": "オーバーフロー",
-          "mobilePushNotificationSummaryPanel": "送信済みオファー",
-          "SettingsForm": "IP アドレス",
-          "email2EditorToolbar": "承認して終了",
-          "CalendarView": "グローバル オーバーレイ",
-          "mktocustomobjectDashboard": "カスタムオブジェクトの新規作成",
-          "formFieldSelection": "複数の選択:",
-          "inAppProgramDashboard": "なし：{0}",
-          "auditTrailAssetGrid": "親",
-          "dcVideoShareForm": "YouTube 動画の置換",
-          "Email": "修正済みエラー:<ul>{0}</ul>",
-          "modelMobilePushNotification": "下書き",
-          "ImageInfo": "名前",
-          "mobilePushNotificationDashboard": "送信後の時間数",
-          "abmIcpModelingCreateModel": "アカウントプロファイリングを使用するには、モデル基準リストで100以上のユニークアカウントに担当者が関連付けられている必要があります",
-          "nurtureTrackForm": "詳細",
-          "Tree": "差出人メール",
-          "abmWelcomeOnboarding": "<h1>重点顧客の</br>インポート</h1>",
-          "customFlowActions": "コンテキスト承認済み",
-          "abmDiscoverMktoGrid": "いずれかのアカウントプロファイル指標",
-          "leadDbOverview": "クリックして再読み込み",
-          "home": "Marketo Sky（ベータ版）",
-          "adminAbmSettingsPanel": "加重",
-          "ApproveFailedModal": "テンプレートを承認できませんでした.",
-          "socialAppDashboardFunnel": "共有",
-          "inAppMessageSummaryPanel": "使用者",
-          "FormPicker": "フォローアップ ページ",
-          "presentationToolbar": "起動",
-          "lpCanvas": "HTML",
-          "AdditionalOptions": "プライバシーリンク",
-          "WEditor": "トークン",
-          "iCalendarSettingsForm": "件名",
-          "programCalendar": "マーケティングカレンダーの編集とドラッグは許可されていません",
-          "adminSubscriptionFeatureForm": "機能のサマリ",
-          "recentEmailsGrid": "最終更新日",
-          "hiddenFieldForm": "デフォルト値の使用",
-          "RecipientTimeZoneSettingsForm": "プログラムのデフォルト設定時間を使用して配信",
-          "abmAccountListAccountGrid": "市町村",
-          "controllerVespaConfigurePushAccessForm": "この証明書は無効になっています",
-          "controllerSubscriptionBundleForm": "追加しています",
-          "controllerPackagingForm": "適用",
-          "mobilePushNotificationSendSampleForm": "メールで顧客を選択",
-          "adminEditLicensesForm": "申し訳ありませんがライセンスが足りません。詳細はセールス担当者にお問い合わせください.",
-          "predefinedLayoutLPEditor": "編集",
-          "mobilePushNotification": "「<b>{0}</b>」 を削除してもよろしいですか？",
-          "launchpointServiceForm": "API およびプログラム",
-          "MetaDataForm": "Facebook の OG タグ",
-          "downloadMarketoSolutionForm": "Marketo Sales Insight",
-          "emailTemplateVariableTable": "グローバル変数",
-          "socialAppWinnerPicker": "懸賞勝者",
-          "socialAppEditorSweepstakesSettingsGroup": "このスクリプトを HTML に追加し、この機能を呼び出してコンバージョンを登録",
-          "app": "このページにアクセスする権限がありません",
-          "inAppMessageEditorPrimaryButtonStyle": "画像",
-          "MktCalendarIcons": "マーカー",
-          "mktocustomobject": "同じ名前のオブジェクトの同期が現在有効化されています。オブジェクトに固有の名前を付けて再試行してください.",
-          "abmAccountTeamGrid": "件名",
-          "adminHomeSummary": "フィールド管理",
-          "fileAemUploadForm": "閉じる",
-          "presentationSetupTreePanel": "参照",
-          "Toolbar": "下書きのプレビュー",
-          "fieldValidationGrid": "機能",
-          "SmartListReportSubscriptionForm": "詳細",
-          "mercuryAdmin": "Marketo Sky をすでにデフォルト体験にしているユーザーは、この設定の変更により、クラシック UI のデフォルト体験に戻ります.",
-          "emailTemplatePicker": "マイテンプレートを検索...",
-          "AssetSectionContextMenu": "デスクトップに非表示",
-          "trackCadenceForm": "日付",
-          "mobilePushNotificationEditor": "なし",
-          "vespaConfigurePushAccessForm": "証明書",
-          "socialAppEditorTimelineSettingsGroup": "毎日",
-          "abmIcpModelingNewAccounts": "この処理には時間がかかる場合があります。このタブを閉じて、Marketo のほかの場所で作業を続行できます。完了次第、通知をお送りします.",
-          "abmNamedAccountDashboard": "アカウントスコア",
-          "editFacebookMappingsForm": "<b>Facebook コンバージョン</b>",
-          "inAppMessage": "サンプルを送信する前にアプリ内メッセージエディタの手順 1 に戻り、アプリを選択してください",
-          "adminAbmTeamSettingsPanel": "アカウント所有者",
-          "inAppMessageSendSampleForm": "アプリ",
-          "calendarAssetActionsContextMenu": "フローの表示",
-          "presentationGoalsGridPanel": "ここにゴールをドラッグして開始します",
-          "smartCampaignAssetForm": "アカウントキャンペーン",
-          "mktocustomactivity": "ご確認ください。これを実行してもよろしいですか？<br><br><b>アクティビティ名：{0}</b><br><br>このアクティビティタイプを削除すると、このデータは過去に一切存在していなかったものとして扱われます。<br><br>これを理解したうえで処理を実行する場合は、以下のボックスに<b>承諾済み</b>と入力し確認を完了させてください。<br><br><div class='mktMessageIndent mktRequired'><b>確認：</b><span id='mktTypeTextWrap'></span><br><span id='mktAgreeCbWrap'></span></div>",
-          "linkToNamedAccountForm": "リンク",
-          "socialAppAssetForm": "ポルトガル語 (ブラジル)",
-          "conditionalLogicForm": "いずれかに該当",
-          "vespaAppDetailsPanel": "プッシュアクセスタイプ",
-          "mktocustomobjectObjectDetailsPanel": "リード詳細で表示",
-          "testGroupEmailBlastEditor": "通知",
-          "emailPreview": "未知のリード",
-          "socialAppEditorVideoShareSettingsGroup": "確認メッセージ",
-          "email2PredictiveContent": "プレゼンテーション",
-          "ReportSubscriptionForm": "毎週日曜日",
-          "testGroupChampionChallengerEditor": "メール全体",
-          "inAppControlPanel": "再開",
-          "adminAddWhitelistDomainForm": "削除",
-          "mktocustomobjectFieldForm": "いいえ",
-          "mobilePushNotificationAssetForm": "モバイルプッシュ通知の新規作成",
-          "lpConversationalFormPicker": "インライン",
-          "formFinish": "無効化済み",
-          "socialAppParticipants": "残りコード",
-          "adminAddDomainForm": "例 : m1",
-          "LanguageMenu": "英語 (米国)",
-          "ContextMenu": "名前変更",
-          "controllerVariants": "H",
-          "abmNamedAccountGrid": "{0} 削除済み",
-          "calendarEntryRescheduleForm": "アンカーに関連し、過去に発生していない、このプログラムすべてのエントリを再スケジュールします。",
-          "inAppMessageToolbar": "プレビュー",
-          "formEditorConversationalFormDefaultChoice": "対話型フローを使用",
-          "mktocustomactivityActivityDetailsPanel": "電話",
-          "FieldSelection": "{0} の削除",
-          "controllerMobilePushNotificationSendSampleForm": "デバイスを選択してください",
-          "controllerCrmEditCredentialsForm": "認証情報の入力",
-          "controllerAddToAccountListForm": "{0} の重点顧客はすでに顧客リスト {1} に属しているため追加できません。",
-          "createDynamicListForm": "ソース",
-          "abmNamedAccountDeleteNamedAccountForm": "重点顧客の削除操作に失敗しました",
-          "dcPollForm": "投票",
-          "adminSalesInsightInstallWizard": "続行する前に免責事項を確認してください.",
-          "deleteZoneForm": "メールのバッチ送信プログラム",
-          "adminCrmFieldSettingsForm": "Marketo フィールド",
-          "abmPotentialPeopleGrid": "メール",
-          "smartListReportSubscription": "レポート配信登録の最大数に達しています",
-          "formFieldWidget": "リッチ テキスト",
-          "SendTestEmailForm": "テキストのみのバージョンも送信",
-          "CustomHtmlForm": "カスタム HTML の置換",
-          "adminSalesInsight": "フィールドデータ移行プロセスが開始されようとしています...",
-          "LeadNurture": "E メールが承認されていません",
-          "controllerEmailEditor": "予測コンテンツの有効化",
-          "controllerSocialAppEditor": "{0} を承認できません",
-          "mktocustomobjectObjectForm": "表示",
-          "newExperienceEditSubscriptionForm": "「ニューエクスペリエンス」をすでにデフォルト表示にしているユーザーは、この設定の変更により、Classic UI のデフォルト表示に戻ります.",
-          "LocalePicker": "言語とロケールの設定は Experience cloud で管理されます",
-          "storeSocialAppFlow": "ソーシャルネットワーク",
-          "abmDiscoverMktoCanvas": "ターゲット顧客",
-          "Inbox": "<b>{0}</b> の通知を削除してもよろしいですか？",
-          "controllerNurtureDashboard": "一時停止",
-          "VTypes": "無効なメールアドレス",
-          "smsMessageSummaryPanel": "表示: サマリ",
-          "assetForm": "アセットの複製",
-          "AddCalendarEntryTypeForm": "名前",
-          "inAppMessageEditor": "サンプルの送信",
-          "smsMessageDashboard": "今月",
-          "FormTheme": "オプション:",
-          "SegmentForm": "セグメント",
-          "emailChampionChallengerDashboard": "サマリ",
-          "adminAddBrandedDomainForm": "次のワークスペースに対して <b>{0}</b> を第一ドメインにする:",
-          "adminViewEnterpriseKeyForm": "Munchkin ID の取得中にエラーが発生しました.",
-          "dcSweepstakesForm": "置換",
-          "lpEditor": "モバイルをドラッグして並べ替える",
-          "abmAccountListAdBridgeForm": "LiveRamp",
-          "assetMoveForm": "ランディングページの移動",
-          "mktocustomactivityToolbar": "新規カスタムアクティビティ",
-          "Manager": "名前",
-          "ValidateFailedModal": "HTML5 Doctype がありません",
-          "abmAccountListDashboard": "顧客リストスコア（平均）",
-          "modelNotificationMessageComponent": "投票",
-          "abmNamedAccountAccountDetailPanel": "国",
-          "adminPasswordForm": "パスワードの一致",
-          "mktocustomactivityFieldPanel": "プライマリー属性",
-          "Calendar": "確認",
-          "formLocale": "ロシア",
-          "modelInAppMessage": "画像",
-          "smartListAssetForm": "アカウントスマートリストの複製",
-          "Canvas": "アイコン",
-          "inAppMessagePreview": "タブレット",
-          "adminUserInviteWizard": "理由",
-          "mobilePushNotificationEditorActionsSettingsPanel": "Android",
-          "storeFormFlow": "埋め込みフォーム",
-          "testGroupSubjectVariant": "件名",
-          "linkedInFieldMapping": "Marketo フィールド",
-          "formSettings": "ポーランド語",
-          "ViewSelectionPanel": "オーバーレイ",
-          "sfdcSyncStatusGrid": "更新済み",
-          "auditTrailExportForm": "コンマ区切り値",
-          "vespaVerifyPushForm": "Android",
-          "landingPageTemplatePreviewer": "下書きの編集",
-          "abmIcpModelingDashboard": "ランクとインジケータを保存",
-          "adBridgeForm": "Marketo が持つ強みと MediaMath の TerminalOne Marketing Operating System™ を組み合わせることで、マーケティング担当者はさまざまなチャネルを利用してコンテキストの枠を広げ、オーディエンスのエンゲージメントを促すことができます。<br/><br/><a href='http://launchpoint.marketo.com/mediamath/1553-terminalone-marketing-operating-system' target='_blank'>詳細</a>",
-          "UpgradeTemplateModal": "アップグレード",
-          "formIsAppendForm": "キャンセル",
-          "controllerSocialAppEditorSettings": "ファイル サイズ 1MB 以上は許容されません",
-          "formRichTextFieldEditor": "削除",
-          "landingPagePersonalizedUrlSettingsForm": "例: {0}JoeSmith",
-          "formFieldNames": "配信停止",
-          "inAppMessageEditorNoTextLayout": "ボタン",
-          "modelForm": "下書き",
-          "vespaAppForm": "タイプ",
-          "abmIcpModelingTuneModelForm": "モデルを調整",
-          "inAppMessageEditorImageOnlyLayout": "画像が選択されていません",
-          "abmNamedAccountPersonas": "ペルソナ",
-          "modelEmailTestGroupVariant": "B",
-          "newCustomGoalForm": "名前",
-          "setAdWordsConvForm": "選択...",
-          "activityCampaignGrid": "企業",
-          "vespaTestDevicesPanel": "テストデバイスを削除しますか?",
-          "editRotationIntervalForm": "ローテーションの無効化",
-          "endDateDialog": "日付の選択",
-          "adminSalesInsightDataSubprocessingNoticeForm": "データサブプロセスの通知",
-          "landingPageUrlSettingsForm": "破棄  {0}",
-          "controllerPresentation": "起動",
-          "socialAppEditorApprovalForm": "承認せずに閉じる",
-          "analyticsHome": "メールインサイト",
-          "ColumnSetDialog": "追加 >>",
-          "abmCanvas": "保留中の商談",
-          "newExperienceAdmin": "リリース前機能の有効化",
-          "auditTrailAssetFilter": "アクション",
-          "editAdWordsMappingsForm": "新しいコンバージョン名",
-          "abmNamedAccountCanvas": "ダッシュボード",
-          "abmNamedAccountToolbar": "Marketo 内の企業から選択",
-          "newPresentationForm": "名前",
-          "abmIcpModelingUpdateAccountsForm": "既存アカウントの更新",
-          "mobilePushNotificationEditorMessageSettingsPanel": "プラットフォームを少なくとも 1 つ有効化する必要があります",
-          "landingPageAssetForm": "ランディングページの複製",
-          "TrackForm": "このプログラムにはストリームがすでに存在します。別の名前を選択してください。",
-          "mktocustomactivityPreview": "プレビュー",
-          "adminNewSubscriptionForm": "ファーストネーム",
-          "modelSocialAppStats": "過去 90 日間",
-          "emailVariantActionsMenu": "下書きの承認",
-          "adminAbmWeeklyReportSettingsPanel": "水曜日",
-          "inspectSyncForm": "エラー : {0}",
-          "CalendarEntryTypeStore": "セミナー",
-          "dcReferralOfferForm": "置換",
-          "mobilePushNotificationPreviewerAndroidPanel": "ホーム画面",
-          "mobilePushNotificationPreviewer": "デフォルトの表示",
-          "createNamedAccountForm": "同名の顧客がすでに存在します",
-          "calendarViewDetailsModal": "プログラムタグ",
-          "contentAnalytics": "すべてのキャスト：",
-          "mktocustomactivityDependencyPanel": "オブジェクトフィールドを使用しているリストまたはキャンペーン",
-          "socialAppEditorNetworkContentSettings": "ソーシャルネットワーク オプション",
-          "adminScoreSettingsForm": "外部スコア (API 有効)",
-          "AbstractPanel": "ロード中...",
-          "trackAnalytics": "ストリーム内のリード:",
-          "abmDiscoverCRMGrid": "収益",
-          "smsMessage": "SMS メッセージの承認取消",
-          "FiscalCalendarForm": "会計年度のカレンダー設定",
-          "adminAccountSettingsForm": "電話番号",
-          "mktocustomactivityFieldToolbar": "フィールドの削除",
-          "calendarWebinarDetailsSummaryPanel": "イベント ステータス",
-          "ProfileCapture": "無効化済み",
-          "DynamicContent": "スニペット情報を検索できません",
-          "featureSwitchForm": "有効化済み",
-          "landingPageTemplateEditor": "モバイルに対応させる",
-          "calendarEntryEditDatesForm": "時間帯",
-          "reportAssetForm": "レポートの複製",
-          "socialAppDashboard": "<div style=\\\"font-weight: bold\\\">訪問者数:</div><p>一定期間中にサイトにユーザーがアクセスした回数 (訪問者ごとに開始される一意のセッション)。 いったんサイトを離れ 30 分以内に再度訪問したユーザーは、最初のアクセスの一部とみなされます。 30 分以上の時間差でサイトを訪問したり、ブラウザを閉じて再起動したユーザによるアクセスは新規セッション/アクセスになります。</p><br/><div style=\\\"font-weight: bold\\\">キャンペーン訪問者数:</div><p>サイトのすべてのキャンペーンへのアクセス者の数。 同一キャンペーンの 1 ページに配置された複数のプレースメントにアクセスした場合は、キャンペーン訪問者数は 1 とみなされます。 同一キャンペーンの複数ページに配置されたプレースメントにアクセスした場合もまた、キャンペーン訪問者数は 1 とみなされます。</p><br/><div style=\\\"font-weight: bold\\\">インタラクション数:</div><p>ユーザーが行ったソーシャルアクションの回数 (投票、評価、共有、コメントの投稿、オファーへのサインアップ、動画の共有など)。 </p><br/><div style=\\\"font-weight: bold\\\">共有数:</div><p>ユーザーがソーシャルネットワークでメッセージを共有した回数。</p><br/><div style=\\\"font-weight: bold\\\">結果クリック数:</div><p>キャンペーンからのリンクの共有によって、ページが表示された回数。</p><br/><div style=\\\"font-weight: bold\\\">コンバージョン:</div><p>サイトに実装されているコンバージョン スクリプトの定義に基づき、ユーザーが特定のアクション (製品の購入など) を行った回数。 \\\"登録\\\" (あるいは共有リンクをたどってサイトを閲覧し、最初にインタラクションを行ったユーザー) はコンバージョン スクリプトが実装されていない場合のデフォルトのコンバージョン イベントです。</p><br/>",
-          "rangeField": "最大値が必要です",
-          "templateCarousel": "使用者",
-          "setFacebookConvForm": "コンバージョン",
-          "listAssetForm": "新規リスト",
-          "mobilePushNotificationPreviewerContentPanel": "サンプルの送信",
-          "presentationSetupGridPanel": "{0} 分",
-          "snippetEditor": "下書きのプレビュー",
-          "snippetPreviewer": "下書きの編集",
-          "adminSalesInsightActionsFieldMappingPreviewForm": "同期の開始",
-          "Content": "アカウントの変更",
-          "inAppMessageEditorImageStyle": "画像：",
-          "trackActionsMenu": "アーカイブ済みコンテンツを表示",
-          "presentationSummaryPanel": "ローテーション間隔",
-          "formFieldMaskForm": "マスク {0} 入力",
-          "ToggleMunchkinModal": "Munchkin トラッキングの無効化",
-          "crmEditCredentialsForm": "Web API のバージョン",
-          "modelSocialApp": "下書き",
-          "adminSalesUserInviteWizard": "ステップ2: ライセンス",
-          "activitySearchToolbar": "{0} 件のエントリ",
-          "newMembersAreaChart": "日",
-          "mktocustomobjectFieldPanel": "状態",
-          "codeEditorSearchModal": "コードを検索",
-          "socialAppEditorShareUrlSettingsGroup": "ランディングページ",
-          "ScriptingObject": "OK",
-          "calendarEmailBlastDetailsSummaryPanel": "勝者",
-          "loginHistoryFilter": "ログイン日",
-          "customKnownLeadForm": "本人ではありませんか？",
-          "SyncMonitor": "自動保存済み",
-          "adminNewSubscriptionFormV2": "作成",
-          "socialAppDashboardAudience": "ソーシャルリーチトレンド",
-          "adminAccountTeamForm": "アカウントチームフィールド",
-          "nurtureNewContent": "プッシュ通知を選択してください",
-          "socialAppEditorLinkedinContentSettings": "{html_title} を使ってメッセージにページ タイトルを自動的に引用します",
-          "controllerWinnerPicker": "<i>当選者を決定する</i>をチェックしてください",
-          "auditTrailCanvas": "日付",
-          "socialAppParticipantsGrid": "ソーシャルプロファイル名",
-          "presentationViewerGoalPanel": "無効",
-          "calendarDetailsSummaryPanel": "詳細",
-          "featureEnableConfirmation": "CAPTCHA を無効化してもよろしいですか？これにより CAPTCHA がすべてのフォームから削除されます。",
-          "adminResolveMultiUserPanel": "現在のユーザーログイン ID に対応する解決アクション - <b>{0}</b>",
-          "socialAppEditorButtonStyleBeforeClickSettingsGroup": "ラベル",
-          "templateContextMenu": "デザインスタジオに複製",
-          "mobilePushNotificationEditorAndroidSettingsPanel": "アプリが選択されていません",
-          "socialAppDisqualificationForm": "理由",
-          "adminPersonaSettingsForm": "ペルソナグループに名前を付け、それらを定義するフィールドを選択します。<br>ペルソナグループは 3 つが上限です.",
-          "ImageForm": "画像の選択",
-          "emailEditor2": "モジュールがありません。メールはテンプレートから切り離されます。",
-          "webServicesApiRequestsModal": "閉じる",
-          "smsMessageEditorLinkForm": "リンクのトラッキング",
-          "picklistForm": "簡易エディタ",
-          "adminPersonaSetting": "自動",
-          "email2ElementContextMenu": "削除",
-          "controllerMobilePushNotificationEditor": "<i>なし</i>",
-          "inAppMessageEditorTextButtonLayout": "ボタン",
-          "abmDiscoverCRMCanvas": "アカウントが階層別にグループ化されている場合、フィルターは利用できません.",
-          "inAppMessageEditorPrimaryTextStyle": "配置",
-          "facebookPages": "ID",
-          "dcSnippetForm": "スニペットに置換",
-          "socialAppWinners": "勝者",
-          "FormEdit": "下書きの破棄",
-          "snippetAssetForm": "新規スニペット",
-          "adminScoreSettings": "フィールドの選択",
-          "mobilePushNotificationToolbar": "下書きの編集",
-          "vespaSendForm": "送信",
-          "messagebox": "許可されていません",
-          "socialAppVoteViewerForm": "閉じる",
-          "calendarPublishForm": "閉じる",
-          "controllerGoals": "ゴールを削除できません<br/><br/> これらのゴールは他の場所で使用されています <br/> {0}",
-          "adminPackagingFormV2": "バンドルのサマリ",
-          "audienceExportForm": "既存のオーディエンスを上書き",
-          "googleAdWordsSettingsForm": "自動タギング",
-          "CalendarEntryContextMenu": "詳細の表示",
-          "emailImagePicker": "挿入",
-          "adminAccountInsightSettingsForm": "Chrome プラグイン設定",
-          "appNavigationMenu": "ターゲットアカウント管理",
-          "DynamicComponentEditor": "セグメンテーション",
-          "presentationGoalsTreePanel": "スマートリスト・ゴール",
-          "emailBlastDashboard": "E",
-          "activityFiltersForm": "アクティビティ元",
-          "adminSubscriptionBundleForm": "バンドルのサマリ",
-          "ssfsActTypeAttrib": "成功",
-          "smsMessageToolbar": "複製",
-          "socialAppEditorButtonStyleSettingsGroup": "画像のアップロード",
-          "appSubscriptionSwitchModal": "<b>{0}</b> から <b>{1}</b> へ切り替えてもよろしいですか。",
-          "socialAppEditorReferralOfferSignUpOrderAppSettings": "この並び順で、参加者は必要に応じて共有ステップをスキップできます。",
-          "EmailVerification": "ユーザーのメールが更新されると確認のためのメールを送信します。ユーザーのメールとログイン情報はユーザが新しいメールを確認するまで更新されません。",
-          "checkImportStatusModal": "失敗",
-          "smsMessageEditorApprovalForm": "承認せずに閉じる",
-          "base": "Marketo E メールデザイナ",
-          "ObjectsForm": "すべて展開",
-          "daysToggle": "木",
-          "controllerFormEditor": "お待ちください...",
-          "CardsCanvasPanel": "ツリーからアプリを追加または選択",
-          "landingPagePreviewUrlForm": "閉じる",
-          "note": "注意",
-          "inAppMessageEditorCloseButtonStyle": "標準",
-          "abmNamedAccountAddToAccountListForm": "顧客リストに追加",
-          "inAppMessageEditorDecisionLayout": "ボタン",
-          "FailedTransaction": "contact",
-          "controllerInAppMessageEditor": "アプリ内メッセージの承認",
-          "sfdcSyncErrorsGrid": "時間",
-          "inAppMessageEditorStyles": "Marketo ランディングページ",
-          "adminTagsCalendarEntryTypeMenu": "非表示",
-          "controllerFileUploadForm": "Box アカウント障害",
-          "SocialSignOnForm": "ソーシャルフォームの入力をフォームに追加",
-          "controllerAbmNamedAccountDashboard": "収益",
-          "TokenPicker": "デフォルト値",
-          "SocialMetrics": "ソーシャルリフト値",
-          "goalsToolbar": "新規カスタムゴール",
-          "newSmartListGoalForm": "ゴールターゲット",
-          "socialAppEditorSweepstakesContentSettings": "例 background-color: purple;",
-          "adminTinyMceSettingForm": "レガシー",
-          "socialAppApprovalForm": "これはランディングページの承認済みレイアウトに影響します",
-          "Feature": "社内",
-          "inAppMessageEditorBackgroundStyle": "境界",
-          "assetAutosuggestField": "選択...",
-          "adminPackagingForm": "利用不可",
-          "wildcardRedirectForm": "ランディングページ",
-          "canvasPanelHeader": "キャンセル",
-          "controllerSubscriptionFeatureForm": "一部のフィールドにエラーがあります。以下にハイライトで示されています",
-          "fileDetail": "使用者",
-          "runInAppProgramConfirmForm": "オーディエンスに新規カスタムフィールドが含まれます。オーディエンスサイズによりメッセージが表示されるまでに数分から数時間かかる場合があります。",
-          "adminDkimDomainDetailsForm": "追加した後、ドメインを確認して署名を有効化してください.",
-          "adminAbmSalesSettingsPanel": "顧客の優先順位基準:",
-          "activityGrid": "マーケティングアセット名で検索",
-          "leadComponentForm": "新規リード",
-          "emailCcSettingsForm": "メールフィールドを選択 ...",
-          "abmIcpModelingSaveRanksAndIndicatorsForm": "すべての A および B ランクのアカウントを特定アカウントに自動的に昇格してもよろしいですか？続行する前に、A および B ランクのアカウントの数を検証してください.",
-          "selectListForm": "適用",
-          "socialAppEditorTwitterContentSettings": "{html_title} を使ってメッセージにページ タイトルを自動的に引用します",
-          "vespaContextMenu": "プッシュ設定の検証",
-          "smartCampaignAbortCampaignForm": "{0}を中止してもよろしいですか？すべてのフロー アクションが停止されます",
-          "controllerVespaAppForm": "モバイルアプリの編集",
-          "inAppMessageEditorDefaultLayout": "ボタン",
-          "mktocustomobjectDependencyPanel": "オブジェクトフィールドを使用しているリストまたはキャンペーン",
-          "controllerFileAemUploadForm": "{0} 枚の画像をインポートできませんでした",
-          "socialAppEditorFlowNavToolbar": "戻る",
-          "socialAppEditorLeadCaptureSettingsGroup": "状態",
-          "mktoerrors": "リストには 1 つ以上の値が必要です",
-          "emailVideoPicker": "動画の挿入",
-          "nurtureContentScheduleForm": "失効日",
-          "socialAppEditorButtonStyleAfterClickSettingsGroup": "クリック後のスタイル",
-          "SocialApp": "下書きの破棄",
-          "colorPicker": "G",
-          "appGlobalSearch": "検索...",
-          "inAppMessageImageForm": "選択",
-          "abmIcpModelingDeleteModelForm": "モデルの削除",
-          "audienceImportForm": "Audience Library フォルダ",
-          "ReportSettingsForm": "アクティビティ日",
-          "socialAppWidgetEmbedCodeForm": "本文コード",
-          "socialAppDashboardSettingsForm": "差出人",
-          "modelSmsMessage": "承認済み",
-          "localAssetGallery": "フォーム",
-          "adminFieldHtmlEncodeForm": "メールでの HTML エンコードトークン",
-          "addNotificationForm": "通知タイプ",
-          "inAppMessageEditorApprovalForm": "エディタに戻る",
-          "auditTrailAdminFilter": "アクション",
-          "EditableSectionContextMenu": "編集",
-          "modelTestGroup": "エンゲージメント スコア",
-          "RichTextEditor": "HTMLソースコンテンツは上限 65535 文字以内にしてください",
-          "adminSalesInsightRestApiConfigForm": "REST API 構成",
-          "storeAssetGroup": "デザイン スタジオ...",
-          "socialAppEditorPrivacySettingsGroup": "プライバシーリンクの表示",
-          "clonePresentationForm": "名前",
-          "cancelAudienceExportForm": "<b>{0}</b>への同期を停止してもよろしいですか",
-          "msdErrorDetailsForm": "詳細",
-          "ShareButtonOptions": "<i>注意: 共有フローで選択されているネットワークのみが有効です</i>",
-          "dcShareButtonForm": "ボタンのタイプ",
-          "meue": "システムエラーに遭遇しました。問題が解決しない場合は、Marketo サポートにご連絡ください.",
-          "OverlayMenu": "すべてのメールプログラム",
-          "columnPicker": "適用",
-          "modalForm": "一部のフィールドにエラーがあります。以下にハイライトで示されています",
-          "vespa": "<a href='{0}' target='_blank'>iOS（未統合）</a>",
-          "referralOfferParticipantsContextMenu": "\\\"達成メールの送信済み\\\" としてマーク",
-          "Sender": "無効なメールアドレス リスト (例: a@b.com; c@d.com)",
-          "sweepstakesParticipantsContextMenu": "リード詳細の表示",
-          "programOperationalModeForm": "アナリティクス動作設定の編集",
-          "ThemeStyleOverrideForm": "カスタム CSS を下に追加",
-          "vespaNewDeviceForm": "新規テストデバイス",
-          "modelEmailBlastTestGroup": "日時",
-          "ShareButton": "方法の選択",
-          "email2EditableSectionContextMenu": "動的に設定",
-          "CalendarPanel": "サポートされているブラウザを確認",
-          "linkedInAccounts": "アカウント名",
-          "inbox": "削除",
-          "abmAccountList": "スタティック",
-          "auditTrailAdminGrid": "ID",
-          "abmNamedAccountPersonaGrid": "ペルソナ",
-          "mktocustomobjectToolbar": "下書きの破棄",
-          "formProgressiveProfiling": "空のフィールド",
-          "adminUsersExportForm": "コンマ区切り値",
-          "LandingPageContent": "このランディングページ テンプレートには ID のない mktEditable セクションが含まれています",
-          "launchpointServiceDetails": "閉じる",
-          "adminAbmReportSettingsForm": "金曜日",
-          "socialAppEditorReferralOfferSettingsGroup": "スマートリストトリガー",
-          "formFollowupSet": "外部 URL",
-          "socialAppEditorShareButtonSettingsGroup": "共有後",
-          "nurtureTouchPanel": "コンテンツの追加",
-          "fieldValidationApplyRuleForm": "保存",
-          "testGroupWholeEmailVariant": "複製",
-          "vespaDashboard": "現在、アクションを完了することができません。<br>引き続き問題がある場合は、Marketo カスタマーサポートにお問い合わせください",
-          "nurtureTouch": "配信停止: {0}",
-          "webServicesBulkExportApiModal": "API リクエスト",
-          "mktowsEditIpRestrictionForm": "追加",
-          "nurtureRuntimeTestForm": "リードの作成…",
-          "controllerLandingPage": "ソーシャル",
-          "abmOpportunityGrid": "ステージ",
-          "psnippetCanvas": "エディタに切り替え",
-          "controllerDashboardSettingsForm": "開始日と終了日フィールドを入力してください",
-          "launchpointAuthorizeForm": "インストールに成功しました",
-          "SocialCampaignForm": "ソーシャルキャンペーン",
-          "mobilePushNotificationEditorIosSettingsPanel": "メッセージを入力してください...",
-          "facebookLeadMapping": "Facebook フィールドの選択",
-          "calendarCampaignSummaryModalForm": "スマート リスト",
-          "AssetFragment": "{0}次に該当{1}",
-          "appTopBar": "ヘルプ",
-          "TagsContainer": "プログラムタグの追加",
-          "CalendarEntryTypesPanel": "{0} 項目",
-          "formLanguage": "中国語 (簡体)",
-          "ImagePicker": "スワップ{0}",
-          "analyticsGroupedColumnChart": "成功",
-          "auditTrailAssetDetails": "メール",
-          "mktocustomobjectFieldToolbar": "フィールド アクション",
-          "ownerAssetField": "フォルダ",
-          "activityProgramGrid": "差出人",
-          "templateEditor": "HTML の妥当性検証",
-          "emailBlastEmailAbortForm": "中止",
-          "WinnerPicker": "宣言日",
-          "inAppMessageEditorLayoutPanel": "レイアウト",
-          "controllerInAppMessageSendSampleForm": "新しいデバイスは登録されていませんでした。QR コードをスキャンするか URL にアクセスしてから次に進んでください",
-          "TestGroupToolbar": "テストの編集",
-          "socialAppWinnersGrid": "プロモ コード",
-          "emailPreviewer": "メールでリードを選択",
-          "mobilePushNotificationEditorSummary": "Android",
-          "emailBlastTestGroupSummaryForm": "閉じる",
-          "Email2ComponentForm": "<b>保存されません。無効な属性が指定されました。</b><br>「mktoModule」は、予約済みの HTML クラス属性です。これを削除してから、もう一度保存してみてください。",
-          "abmDiscoverCRMIncludeChildrenForm": "送信",
-          "abmAccountListToolbar": "顧客リストアクション",
-          "listSelectListForm": "リストの選択",
-          "controllerFieldValidationGrid": "フィールドが使用しているルールは削除できません",
-          "mktocustomobjectTreePanel": "カスタムオブジェクトの新規作成",
-          "formEmbedCodeForm": "標準",
-          "controllerAbmAccountListDashboard": "収益",
-          "snippetCanvas": "Marketo スニペット デザイナ",
-          "assignAccountMemberForm": "アカウントメンバーの割り当て",
-          "mobilePushNotificationEditorApprovalForm": "エディタに戻る",
-          "socialAppEditorLeadCaptureContentSettings": "リード情報取得画面は情報が提供されていない場合にのみ表示されます",
-          "activityFilterByField": "1 つ選択してください",
-          "mktocustomobjectFieldContextMenu": "フィールドの削除",
-          "stopInAppProgramConfirmForm": "これによりプログラムの実行が停止します。停止したプログラムは再開できません。",
-          "vespaSecureModeForm": "アクセスセキュリティではモバイルアプリからログインしたユーザーの ID を認証します。<a href=\\\"{0}\\\" target=\\\"_blank\\\">詳細</a>",
-          "presentationViewer": "全画面",
-          "FormExportTheme": "表示 {0} CSS",
-          "TagSelection": "プログラムタグでフィルター…",
-          "adminEditSubscriptionForm": "目的",
-          "abmColumnPicker": "10 個までのアカウントプロファイル指標のみを列として追加できます。指標を削除してから新しい指標を追加してください.",
-          "SimpleWarning": "警告",
-          "warning": "警告",
-          "controllerMobilePushNotificationPreviewer": "サンプルを送信する前にプッシュ通知エディタの手順 1 に戻り、アプリを選択してください",
-          "Snippet": "下書きのプレビュー",
-          "calendarPresentationContextMenu": "削除",
-          "HeaderEditor": "返信先",
-          "fileUploadForm": "次のフォルダに保存",
-          "ProgressModal": "お待ちください...",
-          "emailAssetForm": "テスト グループ",
-          "viewSummaryModal": "いいえ",
-          "socialAppEditorContent": "友達と共有",
-          "controllerVespaVerifyPushForm": "見つかりません",
-          "nurtureTrack": "フロー",
-          "wizardEditorNavBar": "終了",
-          "buttonStyleForm": "カラー コードの HEX 値は、3 または 6 文字でなければなりません",
-          "adminFieldMapToCrmForm": "CRM フィールドにマップ",
-          "inAppMessageEditorDecisionFullScreenLayout": "補助テキスト",
-          "EditEntryDescriptionForm": "詳細の編集",
-          "previewerSnippet": "下書きの編集",
-          "controllerTestGroupEditor": "テストのリセット",
-          "Asset": "このセグメンテーションを追加すると合計 {0} のバリエーションが作成されます。 これは制限の {1} を超えてしまいます。<br /><br />セグメンテーションを簡素化しますか？",
-          "createAccountListForm": "顧客リストの名前変更",
-          "mobilePushNotificationPreviewerIosPanel": "通知センター",
-          "controllermktocustomobjectVerifyPushForm": "確認完了",
-          "controllerSmsMessageEditor": "SMS メッセージの承認中",
-          "analyzerAssetForm": "アナライザの複製",
-          "emailTemplateAssetForm": "新規メールテンプレート",
-          "mktocustomactivityContextMenu": "アクティビティの承認",
-          "smsMessageEditorContentPanel": "トークン",
-          "PagingDataView": "他の画像...",
-          "socialAppEditorEmailsSettingsGroup": "プロモ コードの使用",
-          "controllerInbox": "すべての通知",
-          "controllerCanvasPanelHeader": "メッセージ",
-          "controllerTestGroup": "クリックして開く",
-          "landingPageTemplateAssetForm": "ガイド付きテンプレート",
-          "abmNamedAccountUnlinkFromNamedAccountForm": "重点顧客のリンク解除操作に失敗しました",
-          "mktocustomactivityDashboard": "Marketo カスタムアクティビティ",
-          "adminSubscriptionInformationForm": "サブスクリプション情報の編集",
-          "smsMessageAssetForm": "SMS メッセージの複製",
-          "distributionField": "セグメント {0}",
-          "charts": "エクスポート",
-          "smsMessageEditorMessageField": "ここにメッセージを入力してください",
-          "assetUsedByGrid": "不明",
-          "DlManager": "次の dlCompCode: {0} はすでに {1} が使用しています",
-          "emailChampionChallengerSummaryForm": "閉じる",
-          "assignTeamMemberForm": "アカウント所有者の割り当て",
-          "abmEmailActivityCard": "過去 30 日間",
-          "disablePrefillForm": "事前入力",
-          "programMembershipChart": "現在",
-          "adminAbmScoreWeightsForm": "各ペルソナに加重を指定します。加重評価は、基本となるリードスコアを上書きしません.",
-          "adminABMToolbar": "設定の編集",
-          "actionTilePanel": "詳細表示",
-          "abmIcpModelingTabPanel": "アカウントプロファイル",
-          "socialAppEditorReferralOfferContentSettings": "スタイリング オプション",
-          "mktocustomobjectContextMenu": "オブジェクトをエクスポート",
-          "socialAppEditorPollSettingsGroup": "設定",
-          "socialAppEditorReshareContentSettings": "これはメールにユーザーの一意の URL を自動的に追加します",
-          "loginHistoryGrid": "ログインに失敗しました",
-          "ReplaceHtml": "HTML を置換するとメールがテンプレートから切断されます",
-          "abmSelectionBox": "選択済み企業 <strong>{0}/{1}</strong>",
-          "formAssetForm": "新規フォーム",
-          "socialAppEditorRulesSettingsGroup": "リンクURLのルール",
-          "AbstractModal": "閉じる",
-          "socialAppPromoCodeViewer": "プロモ コード",
-          "smsMessageEditor": "サンプルの送信",
-          "managePresentationsPanel": "名前",
-          "activityLeadGrid": "アクティビティのタイプ",
-          "AssetToken": "編集してください",
-          "mktoCustomObjectSummary": "カスタム オブジェクト",
-          "vespaToolbar": "プッシュ設定の検証",
-          "adminVespaSmartlistFiltersGrid": "スマートリストフィルターがありません",
-          "presentationGoalsPanel": "目標",
-          "emailGridContextMenu": "サンプルの送信",
-          "adminAbmReportResubscribeForm": "ユーザー",
-          "analyticsLandingPageChart": "コンバージョン",
-          "adminAcceptFullContactTermsForm": "FullContact 利用規約に同意する",
-          "mobilePushNotificationApprovalForm": "利用不可",
-          "adminAccountTeam": "アカウントロールの削除",
-          "controllerCalendarPro": "オーバーレイ",
-          "ScheduleContentForm": "失効日は、発効日より後でなければなりません",
-          "emailEditorComponentForm": "HTML",
-          "fileSummary": "URL",
-          "testGroupSettingsPanel": "テストステージ",
-          "assetField": "選択...",
-          "abmWebActivityCard": "エラー",
-          "socialAppEditorVideoShareContentSettings": "動画の詳細",
-          "emailBlastEditEmailsForm": "通知の編集",
-          "socialAppEditorFacebookPostContentSettings": "共有コンテンツの URL は自動的に Facebook メッセージに追加されます。",
-          "nurtureTrackRules": "遷移ルールの編集",
-          "SnippetEmptyPanel": "「セグメンテーション基準」を使ってスニペット ダイナミックを作成",
-          "calendarCustomViewForm": "詳細",
-          "dataViewPanel": "テンプレートが見つかりません",
-          "emailBlastCommunicationLimitForm": "制限を無視",
-          "abmAccountListGrid": "<label>アカウントリストがありません</label><label>アカウントリストについての<a href=\\\"http://docs.marketo.com/display/public/DOCS/Account+Lists\\\" target=\\\"_blank\\\">詳細を表示</a></label>",
-          "RemotePagingToolbar": "クイック検索",
-          "formPreview": "下書きの編集",
-          "controllerForm": "{0}を削除してよろしいですか？",
-          "lpCustomHtmlForm": "カスタム HTML エディタ",
-          "socialAppEditorEmailCaptureContentSettings": "メールのキャプチャ画面は情報が提供されていない場合にのみ表示されます",
-          "formEmbed": "埋め込みコード",
-          "presentationSetupPanel": "セットアップ",
-          "subscriptionChat": "チャット ウィンドウ",
-          "abmNamedAccountIcpIndicatorsGrid": "カテゴリ",
-          "actionableContentGroup": "編集",
-          "colorField": "選択",
-          "emailHtmlVariableEditor": "保存",
-          "RawEntryTypePanel": "タイプの選択",
-          "abmFilterAutoSuggest": "空",
-          "formFollowup": "デフォルト",
-          "socialAppEditorContentPanel": "クリック前",
-          "Dashboard": "アクティビティ日",
-          "abmAccountListTree": "すべてのアカウントリスト",
-          "LandingPagePropertyPanel": "プロパティ シート",
-          "QuickSearch": "クイック検索...",
-          "MessageModal": "閉じる",
-          "SegmentButton": "セグメンテーション基準",
-          "presentationTreePanel": "プレゼンテーション...",
-          "FacebookPostSettings": "<a href=\\\"{0}\\\" target=\\\"_blank\\\">詳細</a>",
-          "lpFormSettings": "これは管理者設定により無効になります",
-          "inAppMessageEditorStylePanel": "スタイル",
-          "socialAppWinnerCandidate": "すべて承認",
-          "lpRichTextForm": "リッチ テキスト エディタ",
-          "assetApiErrors": "カレンダーエントリを作成できません",
-          "ShareButtonForm": "設定の編集",
-          "inAppMessageAssetForm": "新規アプリ内メッセージ",
-          "LandingPageFormPicker": "このページに留まる",
-          "socialAppEditorShareButtonContentSettings": "スタイリング オプション",
-          "testGroupFromVariant": "差出人",
-          "emailEditorToolbar": "下書きのプレビュー",
-          "testGroupEditorVariantsContainer": "テスト バリエーションが最大数に達しました",
-          "SourcePanel": "HTML ソース",
-          "inboxPanel": "フィルター条件",
-          "mktocustomactivityTreePanel": "Marketo カスタムアクティビティ",
-          "adminHome": "管理",
-          "email2AltTextToolbar": "テキストバージョンを編集",
-          "controllerAdminNewSubscriptionForm": "サブスクリプション作成中…",
-          "SocialFunnel": "合計",
-          "saveToDesignStudio": "テンプレートなし",
-          "PreviewPanel": "プレビュー",
-          "socialAppEditor": "セットアップ",
-          "modelEmailBlast": "承認済み",
-          "abmDynamicListTree": "すべての動的リスト",
-          "programOneClickImportForm": "ワークスペースの選択",
-          "sendTestTemplateForm": "サンプル メールの送信",
-          "Palette": "パレット",
-          "appComponentUsedBy": "なし",
-          "testGroupDateTimeVariant": "名前",
-          "TreeDragZone": "{0} 選択した行{1}",
-          "modelEmailBlastStats": "次の後"
-        }
-      }
-    }
-  }
-};
+Mkt3L10n.nurtureTrackPanel = "{0} か月";
+Mkt3L10n.smartListReportSubscriptionGrid = "フォーマット";
+Mkt3L10n.filter = "適用";
+Mkt3L10n.landingPagePreviewer = "プレビュー URL の生成";
+Mkt3L10n.analyticsCustomReportCanvas = "レポートの選択";
+Mkt3L10n.emailBlastHeadStartABTestConfirmForm = "以下の機能をも無効にし：";
+Mkt3L10n.assetNoDraftApprovalForm = "下書きの作成";
+Mkt3L10n.auditTrailAdminDetails = "アクション";
+Mkt3L10n.mktSmsMessage = "<b>{0}</b> は承認済みです。削除するには承認を取り消す必要があります";
+Mkt3L10n.facebookPushToFacebookForm = "更新しています";
+Mkt3L10n.migrationConsole = "確認用メール";
+Mkt3L10n.abmDashboard = "ダッシュボード";
+Mkt3L10n.abmImportAccountCanvas = "インポート処理中";
+Mkt3L10n.mktMobilePushNotification = "<b>{0}</b> は使用中のため削除できません";
+Mkt3L10n.emailBlastControlPanel = "注: スケジュールは A/B テストが設定します";
+Mkt3L10n.launchpointServiceIntegrationSettingsForm = "オフラインコンバージョンを使用したい場合、Facebook をビジネスマネージャと連携させる必要があります。";
+Mkt3L10n.fieldValidationRuleForm = "空の値";
+Mkt3L10n.testGroupSummaryPanel = "チャンピオンの選択";
+Mkt3L10n.controllerAbmDashboard = "パイプライン別上位重点顧客 {0}";
+Mkt3L10n.contentActionsMenu = "<b>下書きアクション</b>";
+Mkt3L10n.controllerSocialApp = "{0} 参照による訪問";
+Mkt3L10n.adminSsfsServiceWizard = "スマートキャンペーンから <b>{1}</b> が起動されたときに、<b>{0}</b> に送信する Marketo リードのフィールドのリストを入力してください。<br><b>{0}</b> にはすべてのアクティブなフィールドへのアクセス権があります.";
+Mkt3L10n.AdobeConnect = "ユーザーを追加";
+Mkt3L10n.formEditorConversationalFormChoices = "対話型フロー設定";
+Mkt3L10n.email2HeaderEditor = "返信先メールアドレスを入力";
+Mkt3L10n.reconfigureAuthForm = "WEB API S2S";
+Mkt3L10n.predictiveAudiencesAdmin = "実行しています";
+Mkt3L10n.nurtureDashboard = "編集済み:";
+Mkt3L10n.email2CodeEditor = "キャンセル";
+Mkt3L10n.mktocustomobjectPreview = "リンク済みオブジェクト名";
+Mkt3L10n.emailEditorSettingsForm = "メールはすでに {{system.viewAsWebpageLink}} トークンを含んでいます";
+Mkt3L10n.abmAccountListPushToFacebookLinkedInForm = "オーディエンスを消去してリードを追加";
+Mkt3L10n.testGroupChampionChallengerEditorSummary = "テスト タイプ";
+Mkt3L10n.socialAppSummaryPanel = "{0} 参照によるサインアップ";
+Mkt3L10n.mktocustomactivityActivityTypeForm = "同名のフィールドがすでに存在します";
+Mkt3L10n.mktInAppMessage = "下書きを破棄しています";
+Mkt3L10n.LandingPage = "オーバーフロー";
+Mkt3L10n.mobilePushNotificationSummaryPanel = "送信済みオファー";
+Mkt3L10n.email2EditorToolbar = "承認して終了";
+Mkt3L10n.CalendarView = "グローバル オーバーレイ";
+Mkt3L10n.mktocustomobjectDashboard = "カスタムオブジェクトの新規作成";
+Mkt3L10n.SettingsForm = "IP アドレス";
+Mkt3L10n.formFieldSelection = "複数の選択:";
+Mkt3L10n.inAppProgramDashboard = "なし：{0}";
+Mkt3L10n.auditTrailAssetGrid = "親";
+Mkt3L10n.dcVideoShareForm = "YouTube 動画の置換";
+Mkt3L10n.Email = "修正済みエラー:<ul>{0}</ul>";
+Mkt3L10n.modelMobilePushNotification = "下書き";
+Mkt3L10n.ImageInfo = "名前";
+Mkt3L10n.mobilePushNotificationDashboard = "送信後の時間数";
+Mkt3L10n.abmIcpModelingCreateModel = "アカウントプロファイリングを使用するには、モデル基準リストで100以上のユニークアカウントに担当者が関連付けられている必要があります";
+Mkt3L10n.nurtureTrackForm = "詳細";
+Mkt3L10n.Tree = "差出人メール";
+Mkt3L10n.abmWelcomeOnboarding = "<h1>重点顧客の</br>インポート</h1>";
+Mkt3L10n.customFlowActions = "コンテキスト承認済み";
+Mkt3L10n.abmDiscoverMktoGrid = "いずれかのアカウントプロファイル指標";
+Mkt3L10n.leadDbOverview = "クリックして再読み込み";
+Mkt3L10n.home = "Marketo Sky（ベータ版）";
+Mkt3L10n.adminAbmSettingsPanel = "加重";
+Mkt3L10n.ApproveFailedModal = "テンプレートを承認できませんでした.";
+Mkt3L10n.socialAppDashboardFunnel = "共有";
+Mkt3L10n.inAppMessageSummaryPanel = "使用者";
+Mkt3L10n.FormPicker = "フォローアップ ページ";
+Mkt3L10n.presentationToolbar = "起動";
+Mkt3L10n.lpCanvas = "HTML";
+Mkt3L10n.AdditionalOptions = "プライバシーリンク";
+Mkt3L10n.WEditor = "トークン";
+Mkt3L10n.iCalendarSettingsForm = "件名";
+Mkt3L10n.programCalendar = "マーケティングカレンダーの編集とドラッグは許可されていません";
+Mkt3L10n.adminSubscriptionFeatureForm = "機能のサマリ";
+Mkt3L10n.recentEmailsGrid = "最終更新日";
+Mkt3L10n.hiddenFieldForm = "デフォルト値の使用";
+Mkt3L10n.RecipientTimeZoneSettingsForm = "プログラムのデフォルト設定時間を使用して配信";
+Mkt3L10n.abmAccountListAccountGrid = "市町村";
+Mkt3L10n.controllerVespaConfigurePushAccessForm = "この証明書は無効になっています";
+Mkt3L10n.controllerSubscriptionBundleForm = "追加しています";
+Mkt3L10n.controllerPackagingForm = "適用";
+Mkt3L10n.mobilePushNotificationSendSampleForm = "メールで顧客を選択";
+Mkt3L10n.adminEditLicensesForm = "申し訳ありませんがライセンスが足りません。詳細はセールス担当者にお問い合わせください.";
+Mkt3L10n.predefinedLayoutLPEditor = "編集";
+Mkt3L10n.mobilePushNotification = "「<b>{0}</b>」 を削除してもよろしいですか？";
+Mkt3L10n.launchpointServiceForm = "API およびプログラム";
+Mkt3L10n.MetaDataForm = "Facebook の OG タグ";
+Mkt3L10n.downloadMarketoSolutionForm = "Marketo Sales Insight";
+Mkt3L10n.emailTemplateVariableTable = "グローバル変数";
+Mkt3L10n.socialAppWinnerPicker = "懸賞勝者";
+Mkt3L10n.socialAppEditorSweepstakesSettingsGroup = "このスクリプトを HTML に追加し、この機能を呼び出してコンバージョンを登録";
+Mkt3L10n.app = "このページにアクセスする権限がありません";
+Mkt3L10n.inAppMessageEditorPrimaryButtonStyle = "画像";
+Mkt3L10n.MktCalendarIcons = "マーカー";
+Mkt3L10n.mktocustomobject = "同じ名前のオブジェクトの同期が現在有効化されています。オブジェクトに固有の名前を付けて再試行してください.";
+Mkt3L10n.abmAccountTeamGrid = "件名";
+Mkt3L10n.adminHomeSummary = "フィールド管理";
+Mkt3L10n.fileAemUploadForm = "閉じる";
+Mkt3L10n.presentationSetupTreePanel = "参照";
+Mkt3L10n.Toolbar = "下書きのプレビュー";
+Mkt3L10n.fieldValidationGrid = "機能";
+Mkt3L10n.SmartListReportSubscriptionForm = "詳細";
+Mkt3L10n.mercuryAdmin = "Marketo Sky をすでにデフォルト体験にしているユーザーは、この設定の変更により、クラシック UI のデフォルト体験に戻ります.";
+Mkt3L10n.emailTemplatePicker = "マイテンプレートを検索...";
+Mkt3L10n.AssetSectionContextMenu = "デスクトップに非表示";
+Mkt3L10n.trackCadenceForm = "日付";
+Mkt3L10n.mobilePushNotificationEditor = "なし";
+Mkt3L10n.vespaConfigurePushAccessForm = "証明書";
+Mkt3L10n.socialAppEditorTimelineSettingsGroup = "毎日";
+Mkt3L10n.abmIcpModelingNewAccounts = "この処理には時間がかかる場合があります。このタブを閉じて、Marketo のほかの場所で作業を続行できます。完了次第、通知をお送りします.";
+Mkt3L10n.abmNamedAccountDashboard = "アカウントスコア";
+Mkt3L10n.editFacebookMappingsForm = "<b>Facebook コンバージョン</b>";
+Mkt3L10n.inAppMessage = "サンプルを送信する前にアプリ内メッセージエディタの手順 1 に戻り、アプリを選択してください";
+Mkt3L10n.adminAbmTeamSettingsPanel = "アカウント所有者";
+Mkt3L10n.inAppMessageSendSampleForm = "アプリ";
+Mkt3L10n.calendarAssetActionsContextMenu = "フローの表示";
+Mkt3L10n.presentationGoalsGridPanel = "ここにゴールをドラッグして開始します";
+Mkt3L10n.smartCampaignAssetForm = "アカウントキャンペーン";
+Mkt3L10n.mktocustomactivity = "ご確認ください。これを実行してもよろしいですか？<br><br><b>アクティビティ名：{0}</b><br><br>このアクティビティタイプを削除すると、このデータは過去に一切存在していなかったものとして扱われます。<br><br>これを理解したうえで処理を実行する場合は、以下のボックスに<b>承諾済み</b>と入力し確認を完了させてください。<br><br><div class='mktMessageIndent mktRequired'><b>確認：</b><span id='mktTypeTextWrap'></span><br><span id='mktAgreeCbWrap'></span></div>";
+Mkt3L10n.linkToNamedAccountForm = "リンク";
+Mkt3L10n.socialAppAssetForm = "ポルトガル語 (ブラジル)";
+Mkt3L10n.conditionalLogicForm = "いずれかに該当";
+Mkt3L10n.vespaAppDetailsPanel = "プッシュアクセスタイプ";
+Mkt3L10n.mktocustomobjectObjectDetailsPanel = "リード詳細で表示";
+Mkt3L10n.testGroupEmailBlastEditor = "通知";
+Mkt3L10n.emailPreview = "未知のリード";
+Mkt3L10n.socialAppEditorVideoShareSettingsGroup = "確認メッセージ";
+Mkt3L10n.email2PredictiveContent = "プレゼンテーション";
+Mkt3L10n.ReportSubscriptionForm = "毎週日曜日";
+Mkt3L10n.testGroupChampionChallengerEditor = "メール全体";
+Mkt3L10n.inAppControlPanel = "再開";
+Mkt3L10n.adminAddWhitelistDomainForm = "削除";
+Mkt3L10n.mktocustomobjectFieldForm = "いいえ";
+Mkt3L10n.mobilePushNotificationAssetForm = "モバイルプッシュ通知の新規作成";
+Mkt3L10n.lpConversationalFormPicker = "インライン";
+Mkt3L10n.formFinish = "無効化済み";
+Mkt3L10n.socialAppParticipants = "残りコード";
+Mkt3L10n.adminAddDomainForm = "例 : m1";
+Mkt3L10n.LanguageMenu = "英語 (米国)";
+Mkt3L10n.ContextMenu = "名前変更";
+Mkt3L10n.controllerVariants = "H";
+Mkt3L10n.abmNamedAccountGrid = "{0} 削除済み";
+Mkt3L10n.calendarEntryRescheduleForm = "アンカーに関連し、過去に発生していない、このプログラムすべてのエントリを再スケジュールします。";
+Mkt3L10n.inAppMessageToolbar = "プレビュー";
+Mkt3L10n.formEditorConversationalFormDefaultChoice = "対話型フローを使用";
+Mkt3L10n.mktocustomactivityActivityDetailsPanel = "電話";
+Mkt3L10n.FieldSelection = "{0} の削除";
+Mkt3L10n.controllerMobilePushNotificationSendSampleForm = "デバイスを選択してください";
+Mkt3L10n.controllerCrmEditCredentialsForm = "認証情報の入力";
+Mkt3L10n.controllerAddToAccountListForm = "{0} の重点顧客はすでに顧客リスト {1} に属しているため追加できません。";
+Mkt3L10n.createDynamicListForm = "ソース";
+Mkt3L10n.abmNamedAccountDeleteNamedAccountForm = "重点顧客の削除操作に失敗しました";
+Mkt3L10n.dcPollForm = "投票";
+Mkt3L10n.adminSalesInsightInstallWizard = "続行する前に免責事項を確認してください.";
+Mkt3L10n.deleteZoneForm = "メールのバッチ送信プログラム";
+Mkt3L10n.adminCrmFieldSettingsForm = "Marketo フィールド";
+Mkt3L10n.abmPotentialPeopleGrid = "メール";
+Mkt3L10n.smartListReportSubscription = "レポート配信登録の最大数に達しています";
+Mkt3L10n.formFieldWidget = "リッチ テキスト";
+Mkt3L10n.SendTestEmailForm = "テキストのみのバージョンも送信";
+Mkt3L10n.CustomHtmlForm = "カスタム HTML の置換";
+Mkt3L10n.adminSalesInsight = "フィールドデータ移行プロセスが開始されようとしています...";
+Mkt3L10n.LeadNurture = "E メールが承認されていません";
+Mkt3L10n.controllerEmailEditor = "予測コンテンツの有効化";
+Mkt3L10n.controllerSocialAppEditor = "{0} を承認できません";
+Mkt3L10n.mktocustomobjectObjectForm = "表示";
+Mkt3L10n.newExperienceEditSubscriptionForm = "「ニューエクスペリエンス」をすでにデフォルト表示にしているユーザーは、この設定の変更により、Classic UI のデフォルト表示に戻ります.";
+Mkt3L10n.LocalePicker = "言語とロケールの設定は Experience cloud で管理されます";
+Mkt3L10n.storeSocialAppFlow = "ソーシャルネットワーク";
+Mkt3L10n.abmDiscoverMktoCanvas = "ターゲット顧客";
+Mkt3L10n.Inbox = "<b>{0}</b> の通知を削除してもよろしいですか？";
+Mkt3L10n.controllerNurtureDashboard = "一時停止";
+Mkt3L10n.VTypes = "無効なメールアドレス";
+Mkt3L10n.smsMessageSummaryPanel = "表示: サマリ";
+Mkt3L10n.assetForm = "アセットの複製";
+Mkt3L10n.AddCalendarEntryTypeForm = "名前";
+Mkt3L10n.inAppMessageEditor = "サンプルの送信";
+Mkt3L10n.smsMessageDashboard = "今月";
+Mkt3L10n.FormTheme = "オプション:";
+Mkt3L10n.SegmentForm = "セグメント";
+Mkt3L10n.emailChampionChallengerDashboard = "サマリ";
+Mkt3L10n.adminAddBrandedDomainForm = "次のワークスペースに対して <b>{0}</b> を第一ドメインにする:";
+Mkt3L10n.adminViewEnterpriseKeyForm = "Munchkin ID の取得中にエラーが発生しました.";
+Mkt3L10n.dcSweepstakesForm = "置換";
+Mkt3L10n.lpEditor = "モバイルをドラッグして並べ替える";
+Mkt3L10n.abmAccountListAdBridgeForm = "LiveRamp";
+Mkt3L10n.assetMoveForm = "ランディングページの移動";
+Mkt3L10n.mktocustomactivityToolbar = "新規カスタムアクティビティ";
+Mkt3L10n.Manager = "名前";
+Mkt3L10n.ValidateFailedModal = "HTML5 Doctype がありません";
+Mkt3L10n.abmAccountListDashboard = "顧客リストスコア（平均）";
+Mkt3L10n.modelNotificationMessageComponent = "投票";
+Mkt3L10n.abmNamedAccountAccountDetailPanel = "国";
+Mkt3L10n.adminPasswordForm = "パスワードの一致";
+Mkt3L10n.mktocustomactivityFieldPanel = "プライマリー属性";
+Mkt3L10n.Calendar = "確認";
+Mkt3L10n.formLocale = "ロシア";
+Mkt3L10n.modelInAppMessage = "画像";
+Mkt3L10n.smartListAssetForm = "アカウントスマートリストの複製";
+Mkt3L10n.Canvas = "アイコン";
+Mkt3L10n.inAppMessagePreview = "タブレット";
+Mkt3L10n.adminUserInviteWizard = "理由";
+Mkt3L10n.mobilePushNotificationEditorActionsSettingsPanel = "Android";
+Mkt3L10n.storeFormFlow = "埋め込みフォーム";
+Mkt3L10n.testGroupSubjectVariant = "件名";
+Mkt3L10n.linkedInFieldMapping = "Marketo フィールド";
+Mkt3L10n.formSettings = "ポーランド語";
+Mkt3L10n.ViewSelectionPanel = "オーバーレイ";
+Mkt3L10n.sfdcSyncStatusGrid = "更新済み";
+Mkt3L10n.auditTrailExportForm = "コンマ区切り値";
+Mkt3L10n.vespaVerifyPushForm = "Android";
+Mkt3L10n.landingPageTemplatePreviewer = "下書きの編集";
+Mkt3L10n.abmIcpModelingDashboard = "ランクとインジケータを保存";
+Mkt3L10n.adBridgeForm = "Marketo が持つ強みと MediaMath の TerminalOne Marketing Operating System™ を組み合わせることで、マーケティング担当者はさまざまなチャネルを利用してコンテキストの枠を広げ、オーディエンスのエンゲージメントを促すことができます。<br/><br/><a href='http://launchpoint.marketo.com/mediamath/1553-terminalone-marketing-operating-system' target='_blank'>詳細</a>";
+Mkt3L10n.UpgradeTemplateModal = "アップグレード";
+Mkt3L10n.formIsAppendForm = "キャンセル";
+Mkt3L10n.controllerSocialAppEditorSettings = "ファイル サイズ 1MB 以上は許容されません";
+Mkt3L10n.formRichTextFieldEditor = "削除";
+Mkt3L10n.landingPagePersonalizedUrlSettingsForm = "例: {0}JoeSmith";
+Mkt3L10n.formFieldNames = "配信停止";
+Mkt3L10n.inAppMessageEditorNoTextLayout = "ボタン";
+Mkt3L10n.modelForm = "下書き";
+Mkt3L10n.vespaAppForm = "タイプ";
+Mkt3L10n.abmIcpModelingTuneModelForm = "モデルを調整";
+Mkt3L10n.inAppMessageEditorImageOnlyLayout = "画像が選択されていません";
+Mkt3L10n.abmNamedAccountPersonas = "ペルソナ";
+Mkt3L10n.modelEmailTestGroupVariant = "B";
+Mkt3L10n.newCustomGoalForm = "名前";
+Mkt3L10n.setAdWordsConvForm = "選択...";
+Mkt3L10n.activityCampaignGrid = "企業";
+Mkt3L10n.vespaTestDevicesPanel = "テストデバイスを削除しますか?";
+Mkt3L10n.editRotationIntervalForm = "ローテーションの無効化";
+Mkt3L10n.endDateDialog = "日付の選択";
+Mkt3L10n.landingPageUrlSettingsForm = "破棄  {0}";
+Mkt3L10n.controllerPresentation = "起動";
+Mkt3L10n.socialAppEditorApprovalForm = "承認せずに閉じる";
+Mkt3L10n.analyticsHome = "メールインサイト";
+Mkt3L10n.ColumnSetDialog = "追加 >>";
+Mkt3L10n.abmCanvas = "保留中の商談";
+Mkt3L10n.newExperienceAdmin = "リリース前機能の有効化";
+Mkt3L10n.auditTrailAssetFilter = "アクション";
+Mkt3L10n.editAdWordsMappingsForm = "新しいコンバージョン名";
+Mkt3L10n.abmNamedAccountCanvas = "ダッシュボード";
+Mkt3L10n.abmNamedAccountToolbar = "Marketo 内の企業から選択";
+Mkt3L10n.newPresentationForm = "名前";
+Mkt3L10n.abmIcpModelingUpdateAccountsForm = "既存アカウントの更新";
+Mkt3L10n.mobilePushNotificationEditorMessageSettingsPanel = "プラットフォームを少なくとも 1 つ有効化する必要があります";
+Mkt3L10n.landingPageAssetForm = "ランディングページの複製";
+Mkt3L10n.TrackForm = "このプログラムにはストリームがすでに存在します。別の名前を選択してください。";
+Mkt3L10n.mktocustomactivityPreview = "プレビュー";
+Mkt3L10n.adminNewSubscriptionForm = "ファーストネーム";
+Mkt3L10n.modelSocialAppStats = "過去 90 日間";
+Mkt3L10n.emailVariantActionsMenu = "下書きの承認";
+Mkt3L10n.adminAbmWeeklyReportSettingsPanel = "水曜日";
+Mkt3L10n.inspectSyncForm = "エラー : {0}";
+Mkt3L10n.CalendarEntryTypeStore = "セミナー";
+Mkt3L10n.dcReferralOfferForm = "置換";
+Mkt3L10n.mobilePushNotificationPreviewerAndroidPanel = "ホーム画面";
+Mkt3L10n.mobilePushNotificationPreviewer = "デフォルトの表示";
+Mkt3L10n.createNamedAccountForm = "同名の顧客がすでに存在します";
+Mkt3L10n.calendarViewDetailsModal = "プログラムタグ";
+Mkt3L10n.contentAnalytics = "すべてのキャスト：";
+Mkt3L10n.mktocustomactivityDependencyPanel = "オブジェクトフィールドを使用しているリストまたはキャンペーン";
+Mkt3L10n.socialAppEditorNetworkContentSettings = "ソーシャルネットワーク オプション";
+Mkt3L10n.adminScoreSettingsForm = "外部スコア (API 有効)";
+Mkt3L10n.AbstractPanel = "ロード中...";
+Mkt3L10n.trackAnalytics = "ストリーム内のリード:";
+Mkt3L10n.abmDiscoverCRMGrid = "収益";
+Mkt3L10n.smsMessage = "SMS メッセージの承認取消";
+Mkt3L10n.FiscalCalendarForm = "会計年度のカレンダー設定";
+Mkt3L10n.adminSalesInsightDataSubprocessingNoticeForm = "データサブプロセスの通知";
+Mkt3L10n.adminAccountSettingsForm = "電話番号";
+Mkt3L10n.mktocustomactivityFieldToolbar = "フィールドの削除";
+Mkt3L10n.calendarWebinarDetailsSummaryPanel = "イベント ステータス";
+Mkt3L10n.ProfileCapture = "無効化済み";
+Mkt3L10n.DynamicContent = "スニペット情報を検索できません";
+Mkt3L10n.featureSwitchForm = "有効化済み";
+Mkt3L10n.landingPageTemplateEditor = "モバイルに対応させる";
+Mkt3L10n.calendarEntryEditDatesForm = "時間帯";
+Mkt3L10n.reportAssetForm = "レポートの複製";
+Mkt3L10n.socialAppDashboard = "<div style=\\\"font-weight: bold\\\">訪問者数:</div><p>一定期間中にサイトにユーザーがアクセスした回数 (訪問者ごとに開始される一意のセッション)。 いったんサイトを離れ 30 分以内に再度訪問したユーザーは、最初のアクセスの一部とみなされます。 30 分以上の時間差でサイトを訪問したり、ブラウザを閉じて再起動したユーザによるアクセスは新規セッション/アクセスになります。</p><br/><div style=\\\"font-weight: bold\\\">キャンペーン訪問者数:</div><p>サイトのすべてのキャンペーンへのアクセス者の数。 同一キャンペーンの 1 ページに配置された複数のプレースメントにアクセスした場合は、キャンペーン訪問者数は 1 とみなされます。 同一キャンペーンの複数ページに配置されたプレースメントにアクセスした場合もまた、キャンペーン訪問者数は 1 とみなされます。</p><br/><div style=\\\"font-weight: bold\\\">インタラクション数:</div><p>ユーザーが行ったソーシャルアクションの回数 (投票、評価、共有、コメントの投稿、オファーへのサインアップ、動画の共有など)。 </p><br/><div style=\\\"font-weight: bold\\\">共有数:</div><p>ユーザーがソーシャルネットワークでメッセージを共有した回数。</p><br/><div style=\\\"font-weight: bold\\\">結果クリック数:</div><p>キャンペーンからのリンクの共有によって、ページが表示された回数。</p><br/><div style=\\\"font-weight: bold\\\">コンバージョン:</div><p>サイトに実装されているコンバージョン スクリプトの定義に基づき、ユーザーが特定のアクション (製品の購入など) を行った回数。 \\\"登録\\\" (あるいは共有リンクをたどってサイトを閲覧し、最初にインタラクションを行ったユーザー) はコンバージョン スクリプトが実装されていない場合のデフォルトのコンバージョン イベントです。</p><br/>";
+Mkt3L10n.rangeField = "最大値が必要です";
+Mkt3L10n.templateCarousel = "使用者";
+Mkt3L10n.setFacebookConvForm = "コンバージョン";
+Mkt3L10n.listAssetForm = "新規リスト";
+Mkt3L10n.mobilePushNotificationPreviewerContentPanel = "サンプルの送信";
+Mkt3L10n.presentationSetupGridPanel = "{0} 分";
+Mkt3L10n.snippetEditor = "下書きのプレビュー";
+Mkt3L10n.snippetPreviewer = "下書きの編集";
+Mkt3L10n.adminSalesInsightActionsFieldMappingPreviewForm = "同期の開始";
+Mkt3L10n.Content = "アカウントの変更";
+Mkt3L10n.inAppMessageEditorImageStyle = "画像：";
+Mkt3L10n.trackActionsMenu = "アーカイブ済みコンテンツを表示";
+Mkt3L10n.presentationSummaryPanel = "ローテーション間隔";
+Mkt3L10n.formFieldMaskForm = "マスク {0} 入力";
+Mkt3L10n.ToggleMunchkinModal = "Munchkin トラッキングの無効化";
+Mkt3L10n.crmEditCredentialsForm = "Web API のバージョン";
+Mkt3L10n.modelSocialApp = "下書き";
+Mkt3L10n.adminSalesUserInviteWizard = "ステップ2: ライセンス";
+Mkt3L10n.activitySearchToolbar = "{0} 件のエントリ";
+Mkt3L10n.newMembersAreaChart = "日";
+Mkt3L10n.mktocustomobjectFieldPanel = "状態";
+Mkt3L10n.codeEditorSearchModal = "コードを検索";
+Mkt3L10n.socialAppEditorShareUrlSettingsGroup = "ランディングページ";
+Mkt3L10n.ScriptingObject = "OK";
+Mkt3L10n.calendarEmailBlastDetailsSummaryPanel = "勝者";
+Mkt3L10n.loginHistoryFilter = "ログイン日";
+Mkt3L10n.customKnownLeadForm = "本人ではありませんか？";
+Mkt3L10n.SyncMonitor = "自動保存済み";
+Mkt3L10n.adminNewSubscriptionFormV2 = "作成";
+Mkt3L10n.socialAppDashboardAudience = "ソーシャルリーチトレンド";
+Mkt3L10n.adminAccountTeamForm = "アカウントチームフィールド";
+Mkt3L10n.nurtureNewContent = "プッシュ通知を選択してください";
+Mkt3L10n.socialAppEditorLinkedinContentSettings = "{html_title} を使ってメッセージにページ タイトルを自動的に引用します";
+Mkt3L10n.controllerWinnerPicker = "<i>当選者を決定する</i>をチェックしてください";
+Mkt3L10n.auditTrailCanvas = "日付";
+Mkt3L10n.socialAppParticipantsGrid = "ソーシャルプロファイル名";
+Mkt3L10n.presentationViewerGoalPanel = "無効";
+Mkt3L10n.calendarDetailsSummaryPanel = "詳細";
+Mkt3L10n.featureEnableConfirmation = "CAPTCHA を無効化してもよろしいですか？これにより CAPTCHA がすべてのフォームから削除されます。";
+Mkt3L10n.adminResolveMultiUserPanel = "現在のユーザーログイン ID に対応する解決アクション - <b>{0}</b>";
+Mkt3L10n.socialAppEditorButtonStyleBeforeClickSettingsGroup = "ラベル";
+Mkt3L10n.templateContextMenu = "デザインスタジオに複製";
+Mkt3L10n.mobilePushNotificationEditorAndroidSettingsPanel = "アプリが選択されていません";
+Mkt3L10n.socialAppDisqualificationForm = "理由";
+Mkt3L10n.adminPersonaSettingsForm = "ペルソナグループに名前を付け、それらを定義するフィールドを選択します。<br>ペルソナグループは 3 つが上限です.";
+Mkt3L10n.ImageForm = "画像の選択";
+Mkt3L10n.emailEditor2 = "モジュールがありません。メールはテンプレートから切り離されます。";
+Mkt3L10n.webServicesApiRequestsModal = "閉じる";
+Mkt3L10n.smsMessageEditorLinkForm = "リンクのトラッキング";
+Mkt3L10n.picklistForm = "簡易エディタ";
+Mkt3L10n.adminPersonaSetting = "自動";
+Mkt3L10n.email2ElementContextMenu = "削除";
+Mkt3L10n.controllerMobilePushNotificationEditor = "<i>なし</i>";
+Mkt3L10n.inAppMessageEditorTextButtonLayout = "ボタン";
+Mkt3L10n.abmDiscoverCRMCanvas = "アカウントが階層別にグループ化されている場合、フィルターは利用できません.";
+Mkt3L10n.inAppMessageEditorPrimaryTextStyle = "配置";
+Mkt3L10n.facebookPages = "ID";
+Mkt3L10n.dcSnippetForm = "スニペットに置換";
+Mkt3L10n.socialAppWinners = "勝者";
+Mkt3L10n.FormEdit = "下書きの破棄";
+Mkt3L10n.snippetAssetForm = "新規スニペット";
+Mkt3L10n.adminScoreSettings = "フィールドの選択";
+Mkt3L10n.mobilePushNotificationToolbar = "下書きの編集";
+Mkt3L10n.vespaSendForm = "送信";
+Mkt3L10n.messagebox = "許可されていません";
+Mkt3L10n.socialAppVoteViewerForm = "閉じる";
+Mkt3L10n.calendarPublishForm = "閉じる";
+Mkt3L10n.controllerGoals = "ゴールを削除できません<br/><br/> これらのゴールは他の場所で使用されています <br/> {0}";
+Mkt3L10n.adminPackagingFormV2 = "バンドルのサマリ";
+Mkt3L10n.audienceExportForm = "既存のオーディエンスを上書き";
+Mkt3L10n.googleAdWordsSettingsForm = "自動タギング";
+Mkt3L10n.CalendarEntryContextMenu = "詳細の表示";
+Mkt3L10n.emailImagePicker = "挿入";
+Mkt3L10n.adminAccountInsightSettingsForm = "Chrome プラグイン設定";
+Mkt3L10n.appNavigationMenu = "ターゲットアカウント管理";
+Mkt3L10n.DynamicComponentEditor = "セグメンテーション";
+Mkt3L10n.presentationGoalsTreePanel = "スマートリスト・ゴール";
+Mkt3L10n.emailBlastDashboard = "E";
+Mkt3L10n.activityFiltersForm = "アクティビティ元";
+Mkt3L10n.adminSubscriptionBundleForm = "バンドルのサマリ";
+Mkt3L10n.ssfsActTypeAttrib = "成功";
+Mkt3L10n.smsMessageToolbar = "複製";
+Mkt3L10n.socialAppEditorButtonStyleSettingsGroup = "画像のアップロード";
+Mkt3L10n.appSubscriptionSwitchModal = "<b>{0}</b> から <b>{1}</b> へ切り替えてもよろしいですか。";
+Mkt3L10n.socialAppEditorReferralOfferSignUpOrderAppSettings = "この並び順で、参加者は必要に応じて共有ステップをスキップできます。";
+Mkt3L10n.EmailVerification = "ユーザーのメールが更新されると確認のためのメールを送信します。ユーザーのメールとログイン情報はユーザが新しいメールを確認するまで更新されません。";
+Mkt3L10n.checkImportStatusModal = "失敗";
+Mkt3L10n.smsMessageEditorApprovalForm = "承認せずに閉じる";
+Mkt3L10n.base = "Marketo E メールデザイナ";
+Mkt3L10n.ObjectsForm = "すべて展開";
+Mkt3L10n.daysToggle = "木";
+Mkt3L10n.controllerFormEditor = "お待ちください...";
+Mkt3L10n.CardsCanvasPanel = "ツリーからアプリを追加または選択";
+Mkt3L10n.landingPagePreviewUrlForm = "閉じる";
+Mkt3L10n.note = "注意";
+Mkt3L10n.inAppMessageEditorCloseButtonStyle = "標準";
+Mkt3L10n.abmNamedAccountAddToAccountListForm = "顧客リストに追加";
+Mkt3L10n.inAppMessageEditorDecisionLayout = "ボタン";
+Mkt3L10n.FailedTransaction = "contact";
+Mkt3L10n.controllerInAppMessageEditor = "アプリ内メッセージの承認";
+Mkt3L10n.sfdcSyncErrorsGrid = "時間";
+Mkt3L10n.inAppMessageEditorStyles = "Marketo ランディングページ";
+Mkt3L10n.adminTagsCalendarEntryTypeMenu = "非表示";
+Mkt3L10n.controllerFileUploadForm = "Box アカウント障害";
+Mkt3L10n.SocialSignOnForm = "ソーシャルフォームの入力をフォームに追加";
+Mkt3L10n.controllerAbmNamedAccountDashboard = "収益";
+Mkt3L10n.TokenPicker = "デフォルト値";
+Mkt3L10n.SocialMetrics = "ソーシャルリフト値";
+Mkt3L10n.goalsToolbar = "新規カスタムゴール";
+Mkt3L10n.newSmartListGoalForm = "ゴールターゲット";
+Mkt3L10n.socialAppEditorSweepstakesContentSettings = "例 background-color: purple;";
+Mkt3L10n.adminTinyMceSettingForm = "レガシー";
+Mkt3L10n.socialAppApprovalForm = "これはランディングページの承認済みレイアウトに影響します";
+Mkt3L10n.Feature = "社内";
+Mkt3L10n.inAppMessageEditorBackgroundStyle = "境界";
+Mkt3L10n.assetAutosuggestField = "選択...";
+Mkt3L10n.adminPackagingForm = "利用不可";
+Mkt3L10n.wildcardRedirectForm = "ランディングページ";
+Mkt3L10n.canvasPanelHeader = "キャンセル";
+Mkt3L10n.controllerSubscriptionFeatureForm = "一部のフィールドにエラーがあります。以下にハイライトで示されています";
+Mkt3L10n.fileDetail = "使用者";
+Mkt3L10n.runInAppProgramConfirmForm = "オーディエンスに新規カスタムフィールドが含まれます。オーディエンスサイズによりメッセージが表示されるまでに数分から数時間かかる場合があります。";
+Mkt3L10n.adminDkimDomainDetailsForm = "追加した後、ドメインを確認して署名を有効化してください.";
+Mkt3L10n.adminAbmSalesSettingsPanel = "顧客の優先順位基準:";
+Mkt3L10n.activityGrid = "マーケティングアセット名で検索";
+Mkt3L10n.leadComponentForm = "新規リード";
+Mkt3L10n.emailCcSettingsForm = "メールフィールドを選択 ...";
+Mkt3L10n.abmIcpModelingSaveRanksAndIndicatorsForm = "すべての A および B ランクのアカウントを特定アカウントに自動的に昇格してもよろしいですか？続行する前に、A および B ランクのアカウントの数を検証してください.";
+Mkt3L10n.selectListForm = "適用";
+Mkt3L10n.socialAppEditorTwitterContentSettings = "{html_title} を使ってメッセージにページ タイトルを自動的に引用します";
+Mkt3L10n.vespaContextMenu = "プッシュ設定の検証";
+Mkt3L10n.smartCampaignAbortCampaignForm = "{0}を中止してもよろしいですか？すべてのフロー アクションが停止されます";
+Mkt3L10n.controllerVespaAppForm = "モバイルアプリの編集";
+Mkt3L10n.inAppMessageEditorDefaultLayout = "ボタン";
+Mkt3L10n.mktocustomobjectDependencyPanel = "オブジェクトフィールドを使用しているリストまたはキャンペーン";
+Mkt3L10n.controllerFileAemUploadForm = "{0} 枚の画像をインポートできませんでした";
+Mkt3L10n.socialAppEditorFlowNavToolbar = "戻る";
+Mkt3L10n.socialAppEditorLeadCaptureSettingsGroup = "状態";
+Mkt3L10n.mktoerrors = "リストには 1 つ以上の値が必要です";
+Mkt3L10n.emailVideoPicker = "動画の挿入";
+Mkt3L10n.nurtureContentScheduleForm = "失効日";
+Mkt3L10n.socialAppEditorButtonStyleAfterClickSettingsGroup = "クリック後のスタイル";
+Mkt3L10n.SocialApp = "下書きの破棄";
+Mkt3L10n.colorPicker = "G";
+Mkt3L10n.appGlobalSearch = "検索...";
+Mkt3L10n.inAppMessageImageForm = "選択";
+Mkt3L10n.abmIcpModelingDeleteModelForm = "モデルの削除";
+Mkt3L10n.audienceImportForm = "Audience Library フォルダ";
+Mkt3L10n.ReportSettingsForm = "アクティビティ日";
+Mkt3L10n.socialAppWidgetEmbedCodeForm = "本文コード";
+Mkt3L10n.socialAppDashboardSettingsForm = "差出人";
+Mkt3L10n.modelSmsMessage = "承認済み";
+Mkt3L10n.localAssetGallery = "フォーム";
+Mkt3L10n.adminFieldHtmlEncodeForm = "メールでの HTML エンコードトークン";
+Mkt3L10n.addNotificationForm = "通知タイプ";
+Mkt3L10n.inAppMessageEditorApprovalForm = "エディタに戻る";
+Mkt3L10n.auditTrailAdminFilter = "アクション";
+Mkt3L10n.EditableSectionContextMenu = "編集";
+Mkt3L10n.modelTestGroup = "エンゲージメント スコア";
+Mkt3L10n.RichTextEditor = "HTMLソースコンテンツは上限 65535 文字以内にしてください";
+Mkt3L10n.adminSalesInsightRestApiConfigForm = "REST API 構成";
+Mkt3L10n.storeAssetGroup = "デザイン スタジオ...";
+Mkt3L10n.socialAppEditorPrivacySettingsGroup = "プライバシーリンクの表示";
+Mkt3L10n.clonePresentationForm = "名前";
+Mkt3L10n.cancelAudienceExportForm = "<b>{0}</b>への同期を停止してもよろしいですか";
+Mkt3L10n.msdErrorDetailsForm = "詳細";
+Mkt3L10n.ShareButtonOptions = "<i>注意: 共有フローで選択されているネットワークのみが有効です</i>";
+Mkt3L10n.dcShareButtonForm = "ボタンのタイプ";
+Mkt3L10n.meue = "システムエラーに遭遇しました。問題が解決しない場合は、Marketo サポートにご連絡ください.";
+Mkt3L10n.OverlayMenu = "すべてのメールプログラム";
+Mkt3L10n.columnPicker = "適用";
+Mkt3L10n.modalForm = "一部のフィールドにエラーがあります。以下にハイライトで示されています";
+Mkt3L10n.vespa = "<a href='{0}' target='_blank'>iOS（未統合）</a>";
+Mkt3L10n.referralOfferParticipantsContextMenu = "\\\"達成メールの送信済み\\\" としてマーク";
+Mkt3L10n.Sender = "無効なメールアドレス リスト (例: a@b.com; c@d.com)";
+Mkt3L10n.sweepstakesParticipantsContextMenu = "リード詳細の表示";
+Mkt3L10n.programOperationalModeForm = "アナリティクス動作設定の編集";
+Mkt3L10n.ThemeStyleOverrideForm = "カスタム CSS を下に追加";
+Mkt3L10n.vespaNewDeviceForm = "新規テストデバイス";
+Mkt3L10n.modelEmailBlastTestGroup = "日時";
+Mkt3L10n.ShareButton = "方法の選択";
+Mkt3L10n.email2EditableSectionContextMenu = "動的に設定";
+Mkt3L10n.CalendarPanel = "サポートされているブラウザを確認";
+Mkt3L10n.linkedInAccounts = "アカウント名";
+Mkt3L10n.inbox = "削除";
+Mkt3L10n.abmAccountList = "スタティック";
+Mkt3L10n.auditTrailAdminGrid = "ID";
+Mkt3L10n.abmNamedAccountPersonaGrid = "ペルソナ";
+Mkt3L10n.mktocustomobjectToolbar = "下書きの破棄";
+Mkt3L10n.formProgressiveProfiling = "空のフィールド";
+Mkt3L10n.adminUsersExportForm = "コンマ区切り値";
+Mkt3L10n.LandingPageContent = "このランディングページ テンプレートには ID のない mktEditable セクションが含まれています";
+Mkt3L10n.launchpointServiceDetails = "閉じる";
+Mkt3L10n.adminAbmReportSettingsForm = "金曜日";
+Mkt3L10n.socialAppEditorReferralOfferSettingsGroup = "スマートリストトリガー";
+Mkt3L10n.formFollowupSet = "外部 URL";
+Mkt3L10n.socialAppEditorShareButtonSettingsGroup = "共有後";
+Mkt3L10n.nurtureTouchPanel = "コンテンツの追加";
+Mkt3L10n.fieldValidationApplyRuleForm = "保存";
+Mkt3L10n.testGroupWholeEmailVariant = "複製";
+Mkt3L10n.vespaDashboard = "現在、アクションを完了することができません。<br>引き続き問題がある場合は、Marketo カスタマーサポートにお問い合わせください";
+Mkt3L10n.nurtureTouch = "配信停止: {0}";
+Mkt3L10n.webServicesBulkExportApiModal = "API リクエスト";
+Mkt3L10n.mktowsEditIpRestrictionForm = "追加";
+Mkt3L10n.nurtureRuntimeTestForm = "リードの作成…";
+Mkt3L10n.controllerLandingPage = "ソーシャル";
+Mkt3L10n.abmOpportunityGrid = "ステージ";
+Mkt3L10n.psnippetCanvas = "エディタに切り替え";
+Mkt3L10n.controllerDashboardSettingsForm = "開始日と終了日フィールドを入力してください";
+Mkt3L10n.launchpointAuthorizeForm = "インストールに成功しました";
+Mkt3L10n.SocialCampaignForm = "ソーシャルキャンペーン";
+Mkt3L10n.mobilePushNotificationEditorIosSettingsPanel = "メッセージを入力してください...";
+Mkt3L10n.facebookLeadMapping = "Facebook フィールドの選択";
+Mkt3L10n.calendarCampaignSummaryModalForm = "スマート リスト";
+Mkt3L10n.AssetFragment = "{0}次に該当{1}";
+Mkt3L10n.appTopBar = "ヘルプ";
+Mkt3L10n.TagsContainer = "プログラムタグの追加";
+Mkt3L10n.CalendarEntryTypesPanel = "{0} 項目";
+Mkt3L10n.formLanguage = "中国語 (簡体)";
+Mkt3L10n.ImagePicker = "スワップ{0}";
+Mkt3L10n.analyticsGroupedColumnChart = "成功";
+Mkt3L10n.auditTrailAssetDetails = "メール";
+Mkt3L10n.mktocustomobjectFieldToolbar = "フィールド アクション";
+Mkt3L10n.ownerAssetField = "フォルダ";
+Mkt3L10n.activityProgramGrid = "差出人";
+Mkt3L10n.templateEditor = "HTML の妥当性検証";
+Mkt3L10n.emailBlastEmailAbortForm = "中止";
+Mkt3L10n.WinnerPicker = "宣言日";
+Mkt3L10n.inAppMessageEditorLayoutPanel = "レイアウト";
+Mkt3L10n.controllerInAppMessageSendSampleForm = "新しいデバイスは登録されていませんでした。QR コードをスキャンするか URL にアクセスしてから次に進んでください";
+Mkt3L10n.TestGroupToolbar = "テストの編集";
+Mkt3L10n.socialAppWinnersGrid = "プロモ コード";
+Mkt3L10n.emailPreviewer = "メールでリードを選択";
+Mkt3L10n.mobilePushNotificationEditorSummary = "Android";
+Mkt3L10n.emailBlastTestGroupSummaryForm = "閉じる";
+Mkt3L10n.Email2ComponentForm = "<b>保存されません。無効な属性が指定されました。</b><br>「mktoModule」は、予約済みの HTML クラス属性です。これを削除してから、もう一度保存してみてください。";
+Mkt3L10n.abmDiscoverCRMIncludeChildrenForm = "送信";
+Mkt3L10n.abmAccountListToolbar = "顧客リストアクション";
+Mkt3L10n.listSelectListForm = "リストの選択";
+Mkt3L10n.controllerFieldValidationGrid = "フィールドが使用しているルールは削除できません";
+Mkt3L10n.mktocustomobjectTreePanel = "カスタムオブジェクトの新規作成";
+Mkt3L10n.formEmbedCodeForm = "標準";
+Mkt3L10n.controllerAbmAccountListDashboard = "収益";
+Mkt3L10n.snippetCanvas = "Marketo スニペット デザイナ";
+Mkt3L10n.assignAccountMemberForm = "アカウントメンバーの割り当て";
+Mkt3L10n.mobilePushNotificationEditorApprovalForm = "エディタに戻る";
+Mkt3L10n.socialAppEditorLeadCaptureContentSettings = "リード情報取得画面は情報が提供されていない場合にのみ表示されます";
+Mkt3L10n.activityFilterByField = "1 つ選択してください";
+Mkt3L10n.mktocustomobjectFieldContextMenu = "フィールドの削除";
+Mkt3L10n.stopInAppProgramConfirmForm = "これによりプログラムの実行が停止します。停止したプログラムは再開できません。";
+Mkt3L10n.vespaSecureModeForm = "アクセスセキュリティではモバイルアプリからログインしたユーザーの ID を認証します。<a href=\\\"{0}\\\" target=\\\"_blank\\\">詳細</a>";
+Mkt3L10n.presentationViewer = "全画面";
+Mkt3L10n.FormExportTheme = "表示 {0} CSS";
+Mkt3L10n.TagSelection = "プログラムタグでフィルター…";
+Mkt3L10n.adminEditSubscriptionForm = "目的";
+Mkt3L10n.abmColumnPicker = "10 個までのアカウントプロファイル指標のみを列として追加できます。指標を削除してから新しい指標を追加してください.";
+Mkt3L10n.SimpleWarning = "警告";
+Mkt3L10n.warning = "警告";
+Mkt3L10n.controllerMobilePushNotificationPreviewer = "サンプルを送信する前にプッシュ通知エディタの手順 1 に戻り、アプリを選択してください";
+Mkt3L10n.Snippet = "下書きのプレビュー";
+Mkt3L10n.calendarPresentationContextMenu = "削除";
+Mkt3L10n.HeaderEditor = "返信先";
+Mkt3L10n.fileUploadForm = "次のフォルダに保存";
+Mkt3L10n.ProgressModal = "お待ちください...";
+Mkt3L10n.emailAssetForm = "テスト グループ";
+Mkt3L10n.viewSummaryModal = "いいえ";
+Mkt3L10n.socialAppEditorContent = "友達と共有";
+Mkt3L10n.controllerVespaVerifyPushForm = "見つかりません";
+Mkt3L10n.nurtureTrack = "フロー";
+Mkt3L10n.wizardEditorNavBar = "終了";
+Mkt3L10n.buttonStyleForm = "カラー コードの HEX 値は、3 または 6 文字でなければなりません";
+Mkt3L10n.adminFieldMapToCrmForm = "CRM フィールドにマップ";
+Mkt3L10n.inAppMessageEditorDecisionFullScreenLayout = "補助テキスト";
+Mkt3L10n.EditEntryDescriptionForm = "詳細の編集";
+Mkt3L10n.previewerSnippet = "下書きの編集";
+Mkt3L10n.controllerTestGroupEditor = "テストのリセット";
+Mkt3L10n.Asset = "このセグメンテーションを追加すると合計 {0} のバリエーションが作成されます。 これは制限の {1} を超えてしまいます。<br /><br />セグメンテーションを簡素化しますか？";
+Mkt3L10n.createAccountListForm = "顧客リストの名前変更";
+Mkt3L10n.mobilePushNotificationPreviewerIosPanel = "通知センター";
+Mkt3L10n.controllermktocustomobjectVerifyPushForm = "確認完了";
+Mkt3L10n.controllerSmsMessageEditor = "SMS メッセージの承認中";
+Mkt3L10n.analyzerAssetForm = "アナライザの複製";
+Mkt3L10n.emailTemplateAssetForm = "新規メールテンプレート";
+Mkt3L10n.mktocustomactivityContextMenu = "アクティビティの承認";
+Mkt3L10n.smsMessageEditorContentPanel = "トークン";
+Mkt3L10n.PagingDataView = "他の画像...";
+Mkt3L10n.socialAppEditorEmailsSettingsGroup = "プロモ コードの使用";
+Mkt3L10n.controllerInbox = "すべての通知";
+Mkt3L10n.controllerCanvasPanelHeader = "メッセージ";
+Mkt3L10n.controllerTestGroup = "クリックして開く";
+Mkt3L10n.landingPageTemplateAssetForm = "ガイド付きテンプレート";
+Mkt3L10n.abmNamedAccountUnlinkFromNamedAccountForm = "重点顧客のリンク解除操作に失敗しました";
+Mkt3L10n.mktocustomactivityDashboard = "Marketo カスタムアクティビティ";
+Mkt3L10n.adminSubscriptionInformationForm = "サブスクリプション情報の編集";
+Mkt3L10n.smsMessageAssetForm = "SMS メッセージの複製";
+Mkt3L10n.distributionField = "セグメント {0}";
+Mkt3L10n.charts = "エクスポート";
+Mkt3L10n.smsMessageEditorMessageField = "ここにメッセージを入力してください";
+Mkt3L10n.assetUsedByGrid = "不明";
+Mkt3L10n.DlManager = "次の dlCompCode: {0} はすでに {1} が使用しています";
+Mkt3L10n.emailChampionChallengerSummaryForm = "閉じる";
+Mkt3L10n.assignTeamMemberForm = "アカウント所有者の割り当て";
+Mkt3L10n.abmEmailActivityCard = "過去 30 日間";
+Mkt3L10n.disablePrefillForm = "事前入力";
+Mkt3L10n.programMembershipChart = "現在";
+Mkt3L10n.adminAbmScoreWeightsForm = "各ペルソナに加重を指定します。加重評価は、基本となるリードスコアを上書きしません.";
+Mkt3L10n.adminABMToolbar = "設定の編集";
+Mkt3L10n.actionTilePanel = "詳細表示";
+Mkt3L10n.abmIcpModelingTabPanel = "アカウントプロファイル";
+Mkt3L10n.socialAppEditorReferralOfferContentSettings = "スタイリング オプション";
+Mkt3L10n.mktocustomobjectContextMenu = "オブジェクトをエクスポート";
+Mkt3L10n.socialAppEditorPollSettingsGroup = "設定";
+Mkt3L10n.socialAppEditorReshareContentSettings = "これはメールにユーザーの一意の URL を自動的に追加します";
+Mkt3L10n.loginHistoryGrid = "ログインに失敗しました";
+Mkt3L10n.ReplaceHtml = "HTML を置換するとメールがテンプレートから切断されます";
+Mkt3L10n.abmSelectionBox = "選択済み企業 <strong>{0}/{1}</strong>";
+Mkt3L10n.formAssetForm = "新規フォーム";
+Mkt3L10n.socialAppEditorRulesSettingsGroup = "リンクURLのルール";
+Mkt3L10n.AbstractModal = "閉じる";
+Mkt3L10n.socialAppPromoCodeViewer = "プロモ コード";
+Mkt3L10n.smsMessageEditor = "サンプルの送信";
+Mkt3L10n.managePresentationsPanel = "名前";
+Mkt3L10n.mktoCustomObjectSummary = "カスタム オブジェクト";
+Mkt3L10n.vespaToolbar = "プッシュ設定の検証";
+Mkt3L10n.activityLeadGrid = "アクティビティのタイプ";
+Mkt3L10n.AssetToken = "編集してください";
+Mkt3L10n.adminVespaSmartlistFiltersGrid = "スマートリストフィルターがありません";
+Mkt3L10n.presentationGoalsPanel = "目標";
+Mkt3L10n.emailGridContextMenu = "サンプルの送信";
+Mkt3L10n.adminAbmReportResubscribeForm = "ユーザー";
+Mkt3L10n.analyticsLandingPageChart = "コンバージョン";
+Mkt3L10n.adminAcceptFullContactTermsForm = "FullContact 利用規約に同意する";
+Mkt3L10n.mobilePushNotificationApprovalForm = "利用不可";
+Mkt3L10n.adminAccountTeam = "アカウントロールの削除";
+Mkt3L10n.controllerCalendarPro = "オーバーレイ";
+Mkt3L10n.ScheduleContentForm = "失効日は、発効日より後でなければなりません";
+Mkt3L10n.emailEditorComponentForm = "HTML";
+Mkt3L10n.fileSummary = "URL";
+Mkt3L10n.testGroupSettingsPanel = "テストステージ";
+Mkt3L10n.assetField = "選択...";
+Mkt3L10n.abmWebActivityCard = "エラー";
+Mkt3L10n.socialAppEditorVideoShareContentSettings = "動画の詳細";
+Mkt3L10n.emailBlastEditEmailsForm = "通知の編集";
+Mkt3L10n.socialAppEditorFacebookPostContentSettings = "共有コンテンツの URL は自動的に Facebook メッセージに追加されます。";
+Mkt3L10n.nurtureTrackRules = "遷移ルールの編集";
+Mkt3L10n.SnippetEmptyPanel = "「セグメンテーション基準」を使ってスニペット ダイナミックを作成";
+Mkt3L10n.calendarCustomViewForm = "詳細";
+Mkt3L10n.dataViewPanel = "テンプレートが見つかりません";
+Mkt3L10n.emailBlastCommunicationLimitForm = "制限を無視";
+Mkt3L10n.abmAccountListGrid = "<label>アカウントリストがありません</label><label>アカウントリストについての<a href=\\\"http://docs.marketo.com/display/public/DOCS/Account+Lists\\\" target=\\\"_blank\\\">詳細を表示</a></label>";
+Mkt3L10n.RemotePagingToolbar = "クイック検索";
+Mkt3L10n.formPreview = "下書きの編集";
+Mkt3L10n.controllerForm = "{0}を削除してよろしいですか？";
+Mkt3L10n.lpCustomHtmlForm = "カスタム HTML エディタ";
+Mkt3L10n.socialAppEditorEmailCaptureContentSettings = "メールのキャプチャ画面は情報が提供されていない場合にのみ表示されます";
+Mkt3L10n.presentationSetupPanel = "セットアップ";
+Mkt3L10n.formEmbed = "埋め込みコード";
+Mkt3L10n.subscriptionChat = "チャット ウィンドウ";
+Mkt3L10n.abmNamedAccountIcpIndicatorsGrid = "カテゴリ";
+Mkt3L10n.actionableContentGroup = "編集";
+Mkt3L10n.colorField = "選択";
+Mkt3L10n.emailHtmlVariableEditor = "保存";
+Mkt3L10n.RawEntryTypePanel = "タイプの選択";
+Mkt3L10n.abmFilterAutoSuggest = "空";
+Mkt3L10n.formFollowup = "デフォルト";
+Mkt3L10n.socialAppEditorContentPanel = "クリック前";
+Mkt3L10n.Dashboard = "アクティビティ日";
+Mkt3L10n.abmAccountListTree = "すべてのアカウントリスト";
+Mkt3L10n.LandingPagePropertyPanel = "プロパティ シート";
+Mkt3L10n.QuickSearch = "クイック検索...";
+Mkt3L10n.MessageModal = "閉じる";
+Mkt3L10n.SegmentButton = "セグメンテーション基準";
+Mkt3L10n.presentationTreePanel = "プレゼンテーション...";
+Mkt3L10n.FacebookPostSettings = "<a href=\\\"{0}\\\" target=\\\"_blank\\\">詳細</a>";
+Mkt3L10n.lpFormSettings = "これは管理者設定により無効になります";
+Mkt3L10n.inAppMessageEditorStylePanel = "スタイル";
+Mkt3L10n.socialAppWinnerCandidate = "すべて承認";
+Mkt3L10n.lpRichTextForm = "リッチ テキスト エディタ";
+Mkt3L10n.assetApiErrors = "カレンダーエントリを作成できません";
+Mkt3L10n.ShareButtonForm = "設定の編集";
+Mkt3L10n.inAppMessageAssetForm = "新規アプリ内メッセージ";
+Mkt3L10n.LandingPageFormPicker = "このページに留まる";
+Mkt3L10n.socialAppEditorShareButtonContentSettings = "スタイリング オプション";
+Mkt3L10n.testGroupFromVariant = "差出人";
+Mkt3L10n.emailEditorToolbar = "下書きのプレビュー";
+Mkt3L10n.testGroupEditorVariantsContainer = "テスト バリエーションが最大数に達しました";
+Mkt3L10n.SourcePanel = "HTML ソース";
+Mkt3L10n.inboxPanel = "フィルター条件";
+Mkt3L10n.mktocustomactivityTreePanel = "Marketo カスタムアクティビティ";
+Mkt3L10n.adminHome = "管理";
+Mkt3L10n.email2AltTextToolbar = "テキストバージョンを編集";
+Mkt3L10n.controllerAdminNewSubscriptionForm = "サブスクリプション作成中…";
+Mkt3L10n.SocialFunnel = "合計";
+Mkt3L10n.saveToDesignStudio = "テンプレートなし";
+Mkt3L10n.PreviewPanel = "プレビュー";
+Mkt3L10n.socialAppEditor = "セットアップ";
+Mkt3L10n.modelEmailBlast = "承認済み";
+Mkt3L10n.abmDynamicListTree = "すべての動的リスト";
+Mkt3L10n.programOneClickImportForm = "ワークスペースの選択";
+Mkt3L10n.sendTestTemplateForm = "サンプル メールの送信";
+Mkt3L10n.Palette = "パレット";
+Mkt3L10n.appComponentUsedBy = "なし";
+Mkt3L10n.testGroupDateTimeVariant = "名前";
+Mkt3L10n.TreeDragZone = "{0} 選択した行{1}";
+Mkt3L10n.modelEmailBlastStats = "次の後";

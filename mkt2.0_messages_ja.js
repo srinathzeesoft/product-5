@@ -1,131 +1,121 @@
-module.exports = {
-  "mkt2": {
-    "0_messages": {
-      "js": {
-        "Mkt3L10n": {
-          "CustomTokens": "トークン",
-          "MarketingEvent": "オンライン セミナから更新",
-          "ViewSlackDetailsModal": "いいえ",
-          "ViewFacebookWorkplaceDetailsModal": "注目のアクション",
-          "session": "サーバが 要素 ID「{0}」に対して HTML を付与しましたが、この ID は既知のリストと一致しません",
-          "CampaignSchedule": "第 4",
-          "FieldManagement": "タイプの変更",
-          "DynamicContentAdmin": "言語の編集",
-          "page": "ブラウザの更新",
-          "EmailEditor": "HTML のダウンロード",
-          "WebinarAdmin": "失敗",
-          "FieldManager": "フィールド使用者:",
-          "LpSettings": "{0}ルールをロードしています...",
-          "AccountAnalyzerChart": "インタラクション(累積)",
-          "RSModeler": "マージ",
-          "idleTriggerCampaigns": "閉じる",
-          "DataFormPanel": "設定なし",
-          "CustAdmin": "それ以上",
-          "ImageUtils": "既存のファイルを上書きする",
-          "LpEditorSocialShare": "追加",
-          "analytics": "上記以上...",
-          "ObjectSyncManager": "同期済みのオブジェクトは読み取り専用です",
-          "impExp": "同じ名前の画像",
-          "AdvancedFlowWait": "待機の終了日時",
-          "analyzers": "プログラムの成功",
-          "campaigns": "メール",
-          "IsAnonymousCampaigns": "匿名のスマートキャンペーン",
-          "MktPurlModals": "保存",
-          "ActivityFilters": "Marketo",
-          "Rsm": "詳細:",
-          "nav": "スニペット",
-          "DataMgr": "以前",
-          "LocalAsset": "検索しています...",
-          "Preview": "このフィールドは必須です",
-          "MarketingProgramSettings": "プログラムステータス",
-          "TreeFilterMenu": "フォーム",
-          "Dynamics": "URL",
-          "ListImport": "タブ区切り",
-          "WebhookAdmin": "削除",
-          "message": "<p>プログラムサマリのロード中にエラーが発生しました。</p><p>ブラウザを更新してください。</p>",
-          "UsedByListField": "なし",
-          "CheckedTreePanel": "{0} ({1}/{2})",
-          "SAP": "デフォルトのリード企業",
-          "MktTree20": "デフォルトのタイトル",
-          "EmailPreview": "閉じる",
-          "WebinarAdminMenu": "更新",
-          "LocalAssetMenu": "新規ソーシャルボタン",
-          "InviteParticipants": "このフィールドは必須です",
-          "AnalyticsMenu": "アナライザ設定",
-          "FormValidationRule": "更新",
-          "DescriptorAdmin": "タグの検索",
-          "FilterTreePanel": "一致なし",
-          "AnalyticsReportSetup": "フィルターには承認済みモデルが必要です",
-          "Crm": "フォーム入力完了",
-          "WebhookAdminMenu": "カスタム ヘッダの設定",
-          "Captcha": "未設定",
-          "CachedTreePanel": "Salesforce",
-          "JigsawAdmin": "ユーザ名",
-          "PredictiveLeadScoreModelAdmin": "ロード中...",
-          "BaseViewPort": "コミュニティ",
-          "ModalForm": "キャンセル",
-          "explorer": "管理...",
-          "CustAdminMenu": "Sales Insight",
-          "MarketingEventMenu": "新規イベント",
-          "TreasureChest": "<i>開発者: {0}</i>",
-          "ReportSettings": "終了日は開始日より後の日付でなければなりません",
-          "FacebookPublish": "タブ名を入力してください",
-          "canvas": "ロード中...",
-          "FieldManagementMenu": "マージしようとしているフィールドは、非表示フィールドです。 非表示フィールドをマージすることはできません。",
-          "util": "<i>空</i>",
-          "DeviceSwitch": "新規ページ テンプレート",
-          "EmailBlast": "<b>テスト ビュー:</b> {0}",
-          "LpTemplate": "承認済み",
-          "MktPortal": "名前:",
-          "RowEditor": "保存",
-          "vtypes": "L[.L][.L][.L][...] L は文字で始まり、文字または数字で終わっており、63 文字を超えていません",
-          "MultiFileUploader": "警告 - 最大サイズ {maxSize} です。 ファイル {fileName} は {fileSize} です",
-          "LayoutCanvas": "保存しています...",
-          "DataMgrMenu": "フィールド オーガナイザの削除",
-          "EmailDetails": "承認済み",
-          "HomeMenu": "新規作成",
-          "SysAdminMenu": "Rubiks 新規サブスクリプション",
-          "CanvasCoverPage": "実行履歴",
-          "UsedByModal": "使用者",
-          "ProgramAnalyzerChart": "名前",
-          "programs": "日時 {0}",
-          "MktGrids": "計算しています...",
-          "PredictiveLeadScoreModelAdminMenu": "新規モデル",
-          "HasLinkedinSocialFill": "{0} 個のフォームをロードしています...",
-          "Progressions": "{0} 進行状況をロードしています...",
-          "LayoutDesigner": "自動保存: {0}",
-          "CampaignMonitor": "キャンペーンが見つかりません",
-          "CampaignInspector": "{0} キャンペーン",
-          "SparkHome": "{text}",
-          "Format": "テスト グループ",
-          "ViewDetailsModal": "クライアントシークレット",
-          "RsmMenu": "承認",
-          "ImprovedComboBox": "検索しています...",
-          "CanvasHeader": "保存",
-          "DescriptorAdminMenu": "非表示",
-          "LpSettingsMenu": "新規ドメイン別名",
-          "SocialShare": "適用",
-          "MktSparkline": "drawRect は実装されていません",
-          "AsyncMenu": "ロード中...",
-          "LandingPagePreview": "{0} ランディングページ プレビューア",
-          "LeadAction": "数式フィールドのルールを定義する",
-          "Field": "{0} は有効な日付ではありません - 日付は {1} のフォーマットでなければなりません",
-          "CampaignScheduleRun": "日時が無効です。",
-          "ComboChooser": "すべて追加 >>",
-          "FileUploadField": "参照...",
-          "LpTemplateEditor": "変更を保存しています...",
-          "GridFilters": "フィルター",
-          "WizardModal": "キャンセル",
-          "PFA": "運営：",
-          "JigsawAdminMenu": "Data.com フィールド マッピングの編集",
-          "ListFilter": "テキスト",
-          "DataFormPanelErrors": "{0} の値が必要です",
-          "AppSatelliteViewport": "名前を付けて保存...",
-          "CanvasMask": "ロード中...",
-          "Note": "注意:",
-          "AppViewport": "タイプとステータスでフィルター"
-        }
-      }
-    }
-  }
-};
+Mkt3L10n.FieldManagement = "競合時の優先:";
+Mkt3L10n.session = "ブラウザを更新してください.";
+Mkt3L10n.EmailEditor = "メールで CSS 警告が検出されました<br><br>";
+Mkt3L10n.CustAdmin = "これらの設定は Google および Outlook プラグインには適用されません.";
+Mkt3L10n.campaigns = "属性名";
+Mkt3L10n.ViewFacebookWorkplaceDetailsModal = "はい";
+Mkt3L10n.LpSettings = "ルールが見つかりません";
+Mkt3L10n.WebinarAdmin = "認証情報の変更";
+Mkt3L10n.Rsm = "元のモデル:";
+Mkt3L10n.Preview = "追加";
+Mkt3L10n.analyzers = "友達に転送";
+Mkt3L10n.MarketingProgramSettings = "選択したカレンダーを削除してもよろしいですか？";
+Mkt3L10n.RSModeler = "ステージ 「<b>{0}</b>」 を削除してもよろしいですか？";
+Mkt3L10n.CustomTokens = "更新済み";
+Mkt3L10n.MarketingEvent = "新規プログラム";
+Mkt3L10n.ViewSlackDetailsModal = "再認証";
+Mkt3L10n.CampaignSchedule = "か月";
+Mkt3L10n.DynamicContentAdmin = "{0} (デフォルト)";
+Mkt3L10n.page = "送信";
+Mkt3L10n.FieldManager = "タイプを変更できるのはカスタム フィールドのみです";
+Mkt3L10n.AccountAnalyzerChart = "商談";
+Mkt3L10n.idleTriggerCampaigns = "閉じる";
+Mkt3L10n.DataFormPanel = "アカウント";
+Mkt3L10n.ImageUtils = "画像またはファイルのアップロード";
+Mkt3L10n.LpEditorSocialShare = "カスタム";
+Mkt3L10n.analytics = "次に該当";
+Mkt3L10n.ObjectSyncManager = "表示フィールドの編集";
+Mkt3L10n.impExp = "インポートルールの設定";
+Mkt3L10n.AdvancedFlowWait = "待機の詳細設定";
+Mkt3L10n.IsAnonymousCampaigns = "{0} キャンペーン";
+Mkt3L10n.MktPurlModals = "エクスポート";
+Mkt3L10n.ActivityFilters = "OK";
+Mkt3L10n.nav = "メール";
+Mkt3L10n.DataMgr = "{0} グループ";
+Mkt3L10n.LocalAsset = "選択...";
+Mkt3L10n.CustAdminMenu = "FullContact 利用規約に同意する";
+Mkt3L10n.AnalyticsReportSetup = "名前";
+Mkt3L10n.Dynamics = "NA";
+Mkt3L10n.FieldManagementMenu = "マップしようとしているフィールドは標準フィールドです。標準フィールドをマップ解除することはできません。";
+Mkt3L10n.JigsawAdmin = "<b><i>'{0}'</i> の更新に失敗しました</b><p>";
+Mkt3L10n.Crm = "CRM 同期オプション";
+Mkt3L10n.message = "ページがタイムアウトしました";
+Mkt3L10n.AnalyticsMenu = "レポートの削除";
+Mkt3L10n.CanvasCoverPage = "{0} 項目";
+Mkt3L10n.MarketingEventMenu = "失敗した登録を再試行";
+Mkt3L10n.DescriptorAdmin = "{0}-{1}/{2}";
+Mkt3L10n.TreasureChest = "注意: 変更を画面に反映させるには、ブラウザで画面を更新する必要があります。";
+Mkt3L10n.HasLinkedinSocialFill = "最後のアクティビティ";
+Mkt3L10n.CachedTreePanel = "ルート";
+Mkt3L10n.FormValidationRule = "非アクティブ";
+Mkt3L10n.WebhookAdmin = "Marketo 属性";
+Mkt3L10n.ListImport = "プログラムの選択";
+Mkt3L10n.PredictiveLeadScoreModelAdmin = "これらの機能とモデルの仕組みについて.";
+Mkt3L10n.LeadAction = "ルールを保存できません。選択項目がすべて有効であることを確認してください";
+Mkt3L10n.MktGrids = "更新済み{0}";
+Mkt3L10n.TreeFilterMenu = "メール- 承認待ち下書きあり";
+Mkt3L10n.AppViewport = "タイプとステータスでフィルター";
+Mkt3L10n.RsmMenu = "モデルを承認してもよろしいですか？&nbsp;&nbsp;承認可能なモデルは {0} 個のみです。";
+Mkt3L10n.HomeMenu = "SEO";
+Mkt3L10n.CampaignInspector = "すべてのアクティブ トリガー キャンペーン";
+Mkt3L10n.FacebookPublish = "関連する Facebook タブの削除";
+Mkt3L10n.EmailPreview = "HTML";
+Mkt3L10n.ViewDetailsModal = "詳細";
+Mkt3L10n.SAP = "ラストネーム";
+Mkt3L10n.CampaignScheduleRun = "後で実行";
+Mkt3L10n.DescriptorAdminMenu = "アクションの入力";
+Mkt3L10n.AsyncMenu = "メニュー項目のロードに失敗しました";
+Mkt3L10n.Progressions = "ステップ数";
+Mkt3L10n.CampaignMonitor = "中";
+Mkt3L10n.LocalAssetMenu = "新規フォーム";
+Mkt3L10n.explorer = "名前は必須です";
+Mkt3L10n.WebinarAdminMenu = "サービス アクション";
+Mkt3L10n.SparkHome = "タイプ";
+Mkt3L10n.LayoutCanvas = "右からフィールドをドロップしてください";
+Mkt3L10n.ReportSettings = "22,500";
+Mkt3L10n.LpTemplateEditor = "保存して終了";
+Mkt3L10n.DataFormPanelErrors = "{0} の値が必要です";
+Mkt3L10n.FilterTreePanel = "&ldquo;{0}&rdquo; に一致する項目はありません";
+Mkt3L10n.MktPortal = "ルート";
+Mkt3L10n.BaseViewPort = "「スポットライト」、近日開設";
+Mkt3L10n.DeviceSwitch = "既存の HTML ファイルを選択";
+Mkt3L10n.MultiFileUploader = "ファイル {fileName} が削除されました";
+Mkt3L10n.UsedByListField = "なし";
+Mkt3L10n.CheckedTreePanel = "{0} ({1}/{2})";
+Mkt3L10n.MktTree20 = "デフォルトのタイトル";
+Mkt3L10n.InviteParticipants = "このフィールドは必須です";
+Mkt3L10n.WebhookAdminMenu = "カスタム ヘッダの設定";
+Mkt3L10n.Captcha = "未設定";
+Mkt3L10n.ModalForm = "キャンセル";
+Mkt3L10n.canvas = "ロード中...";
+Mkt3L10n.util = "<i>空</i>";
+Mkt3L10n.EmailBlast = "<b>テスト ビュー:</b> {0}";
+Mkt3L10n.LpTemplate = "承認済み";
+Mkt3L10n.RowEditor = "保存";
+Mkt3L10n.vtypes = "L[.L][.L][.L][...] L は文字で始まり、文字または数字で終わっており、63 文字を超えていません";
+Mkt3L10n.DataMgrMenu = "フィールド オーガナイザの削除";
+Mkt3L10n.EmailDetails = "承認済み";
+Mkt3L10n.SysAdminMenu = "Rubiks 新規サブスクリプション";
+Mkt3L10n.UsedByModal = "使用者";
+Mkt3L10n.ProgramAnalyzerChart = "名前";
+Mkt3L10n.programs = "日時 {0}";
+Mkt3L10n.PredictiveLeadScoreModelAdminMenu = "新規モデル";
+Mkt3L10n.LayoutDesigner = "自動保存: {0}";
+Mkt3L10n.Format = "テスト グループ";
+Mkt3L10n.ImprovedComboBox = "検索しています...";
+Mkt3L10n.CanvasHeader = "保存";
+Mkt3L10n.LpSettingsMenu = "新規ドメイン別名";
+Mkt3L10n.SocialShare = "適用";
+Mkt3L10n.MktSparkline = "drawRect は実装されていません";
+Mkt3L10n.LandingPagePreview = "{0} ランディングページ プレビューア";
+Mkt3L10n.Field = "{0} は有効な日付ではありません - 日付は {1} のフォーマットでなければなりません";
+Mkt3L10n.ComboChooser = "すべて追加 >>";
+Mkt3L10n.FileUploadField = "参照...";
+Mkt3L10n.GridFilters = "フィルター";
+Mkt3L10n.WizardModal = "キャンセル";
+Mkt3L10n.PFA = "運営：";
+Mkt3L10n.JigsawAdminMenu = "Data.com フィールド マッピングの編集";
+Mkt3L10n.ListFilter = "テキスト";
+Mkt3L10n.AppSatelliteViewport = "名前を付けて保存...";
+Mkt3L10n.CanvasMask = "ロード中...";
+Mkt3L10n.Note = "注意:";

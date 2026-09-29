@@ -1,692 +1,682 @@
-module.exports = {
-  "mkt3": {
-    "0_messages": {
-      "js": {
-        "Mkt3L10n": {
-          "email2EditorToolbar": ":Approve and Close:",
-          "nurtureDashboard": ":Edited::",
-          "CalendarView": ":Global Overlay:",
-          "mktocustomobjectDashboard": ":New Custom Object:",
-          "abmImportAccountCanvas": ":Import Processing:",
-          "SettingsForm": ":IP Address:",
-          "formFieldSelection": ":Multiple Selections::",
-          "facebookPushToFacebookForm": ":Updating:",
-          "inAppProgramDashboard": ":None: {0}:",
-          "auditTrailAssetGrid": ":Parent:",
-          "dcVideoShareForm": ":Replace YouTube Video:",
-          "Email": ":{0} Template:",
-          "modelMobilePushNotification": ":Draft:",
-          "ImageInfo": ":Name:",
-          "adminSsfsServiceWizard": ":Provide a list of Marketo Lead fields to send to <b>{0}</b> when <b>{1}</b> is invoked from a Smart Campaign.<br><b>{0}</b> will have access to all active fields.:",
-          "mobilePushNotificationDashboard": ":Hours since sent:",
-          "abmIcpModelingCreateModel": ":Your model basis list must have people attached to at least 100 unique accounts to use Account Profiling:",
-          "nurtureTrackForm": ":Description:",
-          "Tree": ":From Email:",
-          "abmWelcomeOnboarding": ":<h1>Import</br>Accounts</h1>:",
-          "customFlowActions": ":Context Approved:",
-          "abmDiscoverMktoGrid": ":Company:",
-          "leadDbOverview": ":click to refresh:",
-          "home": ":Marketo Sky (Beta):",
-          "mktSmsMessage": ":<b>{0}</b> is approved and must be unapproved before it is deleted:",
-          "LandingPage": ":Overflow:",
-          "adminPasswordForm": ":Passwords Match:",
-          "MktCalendarIcons": ":Marker:",
-          "mktocustomactivityFieldPanel": ":Primary Attribute:",
-          "testGroupEmailBlastEditor": ":Notifications:",
-          "vespaTestDevicesPanel": ":Are you sure you want to delete the test device?:",
-          "mktocustomobjectFieldPanel": ":State:",
-          "Canvas": ":Icons:",
-          "loginHistoryFilter": ":Login Date:",
-          "columnPicker": ":Apply:",
-          "inAppMessageEditorPrimaryTextStyle": ":Alignment:",
-          "mobilePushNotificationEditor": ":None:",
-          "inAppMessageEditorBackgroundStyle": ":Border:",
-          "abmIcpModelingDeleteModelForm": ":Are you sure you want to delete this model? This action will also delete all of the custom attributes associated with this model.:",
-          "storeSocialAppFlow": ":Social Networks:",
-          "launchpointServiceIntegrationSettingsForm": ":Facebook requires that you integrate with a Business Manager if you want to use Offline Conversions.:",
-          "presentationToolbar": ":Launch:",
-          "emailEditorSettingsForm": ":Email already includes the {{system.viewAsWebpageLink}} token:",
-          "mktocustomactivityActivityTypeForm": ":A field with this name already exists:",
-          "socialAppDashboardAudience": ":Social Reach Trend:",
-          "listSelectListForm": ":Select a list:",
-          "adminHomeSummary": ":Field Management:",
-          "FiscalCalendarForm": ":Fiscal Calendar Settings:",
-          "emailVideoPicker": ":Insert Video:",
-          "presentationSetupGridPanel": ":{0} Minutes:",
-          "controllerInbox": ":All Notifications:",
-          "vespaNewDeviceForm": ":New Test Device:",
-          "emailBlastEmailAbortForm": ":Abort:",
-          "vespaAppForm": ":Type:",
-          "AdobeConnect": ":Add Users:",
-          "calendarViewDetailsModal": ":Program Tags:",
-          "formEditorConversationalFormDefaultChoice": ":Use Conversational Flow:",
-          "vespaAppDetailsPanel": ":Push Access Type:",
-          "colorPicker": ":G:",
-          "programCalendar": ":Editing and dragging in marketing calendar is not yet allowed:",
-          "abmWebActivityCard": ":Error:",
-          "calendarEmailBlastDetailsSummaryPanel": ":Winner:",
-          "lpCanvas": ":HTML:",
-          "linkToNamedAccountForm": ":Link:",
-          "adminAbmReportSettingsForm": ":Friday:",
-          "emailBlastDashboard": ":E:",
-          "adminPackagingFormV2": ":Bundle Summary:",
-          "adminAcceptFullContactTermsForm": ":Accept FullContact Terms:",
-          "snippetCanvas": ":Marketo Snippet Designer:",
-          "email2PredictiveContent": ":Presentation:",
-          "socialAppEditorReferralOfferSignUpOrderAppSettings": ":With this ordering, the participant can skip the sharing step if desired:",
-          "socialAppEditorEmailsSettingsGroup": ":Use Promo Codes:",
-          "assetForm": ":Clone Asset:",
-          "landingPageTemplateEditor": ":Make Mobile Compatible:",
-          "adminScoreSettingsForm": ":External Score (API Enabled):",
-          "sfdcSyncStatusGrid": ":Updated:",
-          "adminResolveMultiUserPanel": ":Cancel:",
-          "Inbox": ":Are you sure you want to delete <b>{0}</b> notifications?:",
-          "formSettings": ":Polish:",
-          "conditionalLogicForm": ":Is Any:",
-          "actionTilePanel": ":Less:",
-          "adminFieldMapToCrmForm": ":Choose a CRM account field:",
-          "reconfigureAuthForm": ":WEB API S2S:",
-          "adminUsersExportForm": ":Comma Separated Values:",
-          "smsMessageEditorLinkForm": ":Track Link:",
-          "Feature": ":Internal:",
-          "smsMessageEditorContentPanel": ":Token:",
-          "audienceExportForm": ":Overwrite Existing Audience:",
-          "emailBlastControlPanel": ":Note: Schedule set by A/B Test:",
-          "LocalePicker": ":Language and Locale settings are controlled in Experience cloud:",
-          "migrationConsole": ":Verification Email:",
-          "abmNamedAccountGrid": ":{0} is Deleted:",
-          "smsMessageDashboard": ":This Month:",
-          "recentEmailsGrid": ":Approval State:",
-          "CustomHtmlForm": ":Replace Custom HTML:",
-          "modelEmailTestGroupVariant": ":B:",
-          "inAppMessageAssetForm": ":New In-App Message:",
-          "formLocale": ":Russia:",
-          "socialAppEditorVideoShareSettingsGroup": ":Confirmation Message:",
-          "inAppMessageToolbar": ":Preview:",
-          "socialAppWinnerCandidate": ":Approve All:",
-          "adminNewSubscriptionFormV2": ":Password:",
-          "nurtureTouch": ":Unsubscribed: {0}:",
-          "smartListReportSubscriptionGrid": ":Format:",
-          "launchpointServiceForm": ":API and Program:",
-          "auditTrailAssetFilter": ":Actions:",
-          "abmIcpModelingSaveRanksAndIndicatorsForm": ":Are you sure you want to automatically promote all A and B ranked accounts to a Named Account? Please validate the number of A and B ranked accounts before continuing.:",
-          "formAssetForm": ":Editor:",
-          "inAppMessageEditorDecisionFullScreenLayout": ":Button:",
-          "mktocustomobjectObjectDetailsPanel": ":Show in Lead Detail:",
-          "ssfsActTypeAttrib": ":Success:",
-          "TokenPicker": ":Insert:",
-          "controllerAbmDashboard": ": - {0}:",
-          "abmAccountListPushToFacebookLinkedInForm": ":Clear audience and add leads:",
-          "emailEditor2": ":No modules. Email is broken from template.:",
-          "trackCadenceForm": ":Day of the month:",
-          "appTopBar": ":Community:",
-          "emailPreviewer": ":Select a lead by Email:",
-          "editRotationIntervalForm": ":Disable Rotation:",
-          "socialAppEditorVideoShareContentSettings": ":YouTube URL:",
-          "adBridgeForm": ":By combining the power of Marketo with MediaMath's TerminalOne Marketing Operating System&trade;, Marketers can engage their audiences across channels with greater context.<br/><br/><a href='http://launchpoint.marketo.com/mediamath/1553-terminalone-marketing-operating-system' target='_blank'>Learn More</a>:",
-          "abmNamedAccountAddToAccountListForm": ":Add to Account List:",
-          "FormTheme": ":Some option::",
-          "socialAppEditorButtonStyleSettingsGroup": ":Upload Images:",
-          "auditTrailAdminFilter": ":Actions:",
-          "controllerSocialApp": ":{0} Referred Visits:",
-          "abmAccountListAccountGrid": ":City:",
-          "controllerInAppMessageSendSampleForm": ":You must select an app:",
-          "mktocustomactivity": ":Wait! Are you sure you want to do this?<br><br><b>Activity Name: {0}</b><br><br>When you delete this activity type it will be like all of this data never existed.<br><br>If you're sure you want to do this, please confirm by typing <b>I understand</b> in the box below.<br><br><div class='mktMessageIndent mktRequired'><b>Confirm:</b><span id='mktTypeTextWrap'></span><br><span id='mktAgreeCbWrap'></span></div>:",
-          "controllerSubscriptionFeatureForm": ":There are errors with some of the fields. They have been highlighted below:",
-          "abmIcpModelingDashboard": ":Save Ranks and Indicators:",
-          "VTypes": ":Invalid Email Address:",
-          "abmIcpModelingTuneModelForm": ":We apologize, but we have encountered a system error. Please try again in a few minutes.<br>If the problem persists, please contact <u>support@marketo.com</u>.:",
-          "controllerVariants": ":H:",
-          "emailTemplateVariableTable": ":Global Variables:",
-          "googleAdWordsSettingsForm": ":Auto-tagging:",
-          "presentationGoalsGridPanel": ":Current Value/Smart List:",
-          "lpFormSettings": ":This will be overridden by the admin setting:",
-          "email2ElementContextMenu": ":Rename:",
-          "mktocustomobject": ":An object with the same name is currently enabled for sync. Please give the object a unique name and retry.:",
-          "testGroupSettingsPanel": ":Test Stage:",
-          "SocialCampaignForm": ":Replace Social Campaign:",
-          "emailTemplatePicker": ":Search My Templates ...:",
-          "linkedInFieldMapping": ":Marketo Field:",
-          "auditTrailAdminGrid": ":Sorry, we can't show you activity here that's more than 30 days old.<br/>To see more, you can export up to the last six months of data.:",
-          "modelSocialApp": ":Sweepstakes:",
-          "abmIcpModelingUpdateAccountsForm": ":Update Existing Accounts:",
-          "newExperienceEditSubscriptionForm": ":Cancel:",
-          "LanguageMenu": ":English-American:",
-          "formFieldNames": ":Unsubscribed:",
-          "abmDiscoverCRMGrid": ":Revenue:",
-          "adminUserInviteWizard": ":Reason:",
-          "storeFormFlow": ":Form Theme:",
-          "Palette": ":Palette:",
-          "testGroupChampionChallengerEditor": ":Whole Emails:",
-          "smartCampaignAssetForm": ":Account Campaign:",
-          "mktocustomobjectPreview": ":Linked Object Name:",
-          "ImagePicker": ":More Images...:",
-          "smsMessage": ":Discarding SMS Message:",
-          "modelEmailBlast": ":Approved:",
-          "ReplaceHtml": ":Replacing HTML disconnects the email from the template:",
-          "abmDynamicListTree": ":All Dynamic Lists:",
-          "predictiveAudiencesAdmin": ":RUNNING:",
-          "checkImportStatusModal": ":Download Details:",
-          "socialAppDashboard": ":<div style=\\\"font-weight: bold\\\">Visits:</div><p>The number of times users have been to your site (unique sessions initiated by your visitors) during a given period. Users that leave and return within 30 minutes will be counted as part of the original session. Breaks in activity of more than 30 minutes or a browser close and restart will result in a new session or visit.</p><br/><div style=\\\"font-weight: bold\\\">Campaign Visits:</div><p>The number of visits to all campaigns on your site. Visits to a page with multiple placements of the same campaign count as one campaign visit. Visits to multiple pages with placements of the same campaign also count as one campaign visit.</p><br/><div style=\\\"font-weight: bold\\\">Interactions:</div><p>The number of times users have completed a social action, e.g. voting, rating, sharing, posting a comment, signing up for an offer, sharing a video, and so on. </p><br/><div style=\\\"font-weight: bold\\\">Shares:</div><p>The number of times users have shared a message to a social network.</p><br/><div style=\\\"font-weight: bold\\\">Resulting Clicks:</div><p>The number of page views generated by shared links from a campaign.</p><br/><div style=\\\"font-weight: bold\\\">Conversions:</div><p>The number of times users have completed a specific action (for example, purchasing a product), as defined by a conversion script implemented on your site. \\\"Registrations\\\" (or first time users who interact as a result of following a shared link back to your site) is the default conversion event if no conversion script is deployed.</p><br/>:",
-          "auditTrailAssetDetails": ":Email:",
-          "activityGrid": ":No results found matching your filter criteria.<br/>Please update your filters and try again.:",
-          "CalendarEntryTypeStore": ":Seminar:",
-          "controllerDashboardSettingsForm": ":Data will be updated within 24 hours:",
-          "socialAppParticipantsGrid": ":Social Profile Name:",
-          "mobilePushNotificationSummaryPanel": ":{0} uploaded ({1} used , :",
-          "mobilePushNotificationPreviewerIosPanel": ":Notification Center:",
-          "deleteZoneForm": ":Email Batch Program:",
-          "TagsContainer": ":Program Tags:",
-          "inAppControlPanel": ":Resume:",
-          "formRichTextFieldEditor": ":Delete:",
-          "controllerSmsMessageEditor": ":Approving SMS Message:",
-          "socialAppEditorTimelineSettingsGroup": ":Daily:",
-          "Calendar": ":Confirm:",
-          "modelInAppMessage": ":an image:",
-          "smartListAssetForm": ":Clone Account Smart List:",
-          "mktocustomobjectObjectForm": ":Show:",
-          "nurtureTrackPanel": ":{0} months:",
-          "inAppMessagePreview": ":Tablet:",
-          "mobilePushNotificationEditorActionsSettingsPanel": ":Android:",
-          "testGroupSubjectVariant": ":Subject Line:",
-          "ViewSelectionPanel": ":Overlay:",
-          "emailVariantActionsMenu": ":Approve Draft:",
-          "inspectSyncForm": ":ERROR: {0}:",
-          "adminSubscriptionInformationForm": ":Name:",
-          "controllerTestGroup": ":Clicks To Open:",
-          "emailImagePicker": ":Insert:",
-          "createAccountListForm": ":Rename Account List:",
-          "socialAppEditorLeadCaptureSettingsGroup": ":State:",
-          "ShareButtonOptions": ":<i>Note: Only networks selected in the Share Flow are enabled</i>:",
-          "iCalendarSettingsForm": ":Subject:",
-          "adminAbmWeeklyReportSettingsPanel": ":Wednesday:",
-          "adminSubscriptionBundleForm": ":Bundle Summary:",
-          "dcShareButtonForm": ":Button Type:",
-          "inAppMessage": ":Before sending a sample, return to step one of the in-app message editor and select an app:",
-          "formEmbedCodeForm": ":Normal:",
-          "ContextMenu": ":Segment By:",
-          "emailTemplateAssetForm": ":New Email Template:",
-          "TrackForm": ":Set Stream Cadence:",
-          "viewSummaryModal": ":No:",
-          "adminAccountInsightSettingsForm": ":Chrome Plug-In Settings:",
-          "ToggleMunchkinModal": ":Disable Munchkin Tracking:",
-          "SendTestEmailForm": ":Also send text-only version:",
-          "assetMoveForm": ":Move Landing Page:",
-          "formEditorConversationalFormChoices": ":Conversational Flow Settings:",
-          "adminAbmSettingsPanel": ":Weighted:",
-          "ApproveFailedModal": ":Your template could not be approved.:",
-          "socialAppDashboardFunnel": ":Shares:",
-          "inAppMessageSummaryPanel": ":Used By:",
-          "FormPicker": ":Follow-up Page...:",
-          "AdditionalOptions": ":Privacy Link:",
-          "WEditor": ":token:",
-          "adminSubscriptionFeatureForm": ":Feature Summary:",
-          "hiddenFieldForm": ":Use Default Value:",
-          "RecipientTimeZoneSettingsForm": ":Deliver using program's default set time:",
-          "controllerVespaConfigurePushAccessForm": ":The certificate is no longer valid:",
-          "controllerSubscriptionBundleForm": ":Adding:",
-          "controllerPackagingForm": ":Apply:",
-          "mobilePushNotificationSendSampleForm": ":Select a person by email:",
-          "adminEditLicensesForm": ":Sorry, not enough licenses available. Contact your Sales Rep for more.:",
-          "predefinedLayoutLPEditor": ":Edit:",
-          "mobilePushNotification": ":Are you sure you want to delete <b>{0}</b>?:",
-          "MetaDataForm": ":Facebook OG Tags:",
-          "downloadMarketoSolutionForm": ":Marketo Sales Insight:",
-          "socialAppWinnerPicker": ":Sweepstakes Winners:",
-          "socialAppEditorSweepstakesSettingsGroup": ":Add this script to your HTML and call this function to register a conversion:",
-          "app": ":You do not have sufficient privileges to access this page:",
-          "inAppMessageEditorPrimaryButtonStyle": ":Image:",
-          "abmAccountTeamGrid": ":Title:",
-          "fileAemUploadForm": ":Close:",
-          "presentationSetupTreePanel": ":Views:",
-          "Toolbar": ":Preview Draft:",
-          "fieldValidationGrid": ":Functions:",
-          "SmartListReportSubscriptionForm": ":Learn More:",
-          "mercuryAdmin": ":Users who have already made Marketo Sky their default experience will be reverted back to Classic UI as their default experience by changing this setting.:",
-          "AssetSectionContextMenu": ":Hide on Desktop:",
-          "vespaConfigurePushAccessForm": ":Certificate:",
-          "abmIcpModelingNewAccounts": ":This may take some time. You may close this tab and continue working elsewhere in Marketo. You will receive a notification when complete.:",
-          "abmNamedAccountDashboard": ":Account Scores:",
-          "editFacebookMappingsForm": ":<b>Facebook Conversion</b>:",
-          "adminAbmTeamSettingsPanel": ":Account Owner:",
-          "inAppMessageSendSampleForm": ":App:",
-          "calendarAssetActionsContextMenu": ":View Flow:",
-          "socialAppAssetForm": ":Portuguese (Brazilian):",
-          "emailPreview": ":Unknown Lead:",
-          "ReportSubscriptionForm": ":Every Sunday:",
-          "adminAddWhitelistDomainForm": ":Delete:",
-          "mktocustomobjectFieldForm": ":No:",
-          "mobilePushNotificationAssetForm": ":New Mobile Push Notification:",
-          "lpConversationalFormPicker": ":In-line:",
-          "formFinish": ":Disabled:",
-          "socialAppParticipants": ":Codes Remaining:",
-          "adminAddDomainForm": ":Example: m1:",
-          "calendarEntryRescheduleForm": ":Reschedule all entries in this program relative to the anchor, except those already happened in the past.:",
-          "mktocustomactivityActivityDetailsPanel": ":phone:",
-          "FieldSelection": ":Delete {0}:",
-          "controllerMobilePushNotificationSendSampleForm": ":You must select a device:",
-          "controllerCrmEditCredentialsForm": ":Enter Credentials:",
-          "controllerAddToAccountListForm": ":{0} Named Account(s) already belongs to Account List {1} and can not be added.:",
-          "createDynamicListForm": ":Source:",
-          "abmDashboard": ":Dashboard:",
-          "socialAppSummaryPanel": ":{0} Referred Sign-Ups:",
-          "abmNamedAccountDeleteNamedAccountForm": ":Named Accounts delete operation failed:",
-          "dcPollForm": ":Poll:",
-          "adminSalesInsightInstallWizard": ":Please review our Disclaimer before proceeding.:",
-          "adminCrmFieldSettingsForm": ":Marketo Field:",
-          "abmPotentialPeopleGrid": ":Email:",
-          "email2HeaderEditor": ":Enter reply-to address:",
-          "smartListReportSubscription": ":You have reached the maximum number of report subscriptions:",
-          "formFieldWidget": ":Rich Text:",
-          "adminSalesInsight": ":Field Data Migration process is about to start...:",
-          "LeadNurture": ":Email is not approved:",
-          "controllerEmailEditor": ":Activate Predictive Content:",
-          "controllerSocialAppEditor": ":Cannot Approve {0}:",
-          "abmDiscoverMktoCanvas": ":Target Account:",
-          "controllerNurtureDashboard": ":Paused:",
-          "smsMessageSummaryPanel": ":View: Summary:",
-          "AddCalendarEntryTypeForm": ":Name:",
-          "inAppMessageEditor": ":Send Sample:",
-          "SegmentForm": ":Segments:",
-          "emailChampionChallengerDashboard": ":Summary:",
-          "adminAddBrandedDomainForm": ":Make <b>{0}</b> the primary domain for the following workspaces::",
-          "adminViewEnterpriseKeyForm": ":Error in getting munchkin Id.:",
-          "dcSweepstakesForm": ":Replace:",
-          "testGroupChampionChallengerEditorSummary": ":Test Type:",
-          "lpEditor": ":Drag to reorder mobile:",
-          "abmAccountListAdBridgeForm": ":LiveRamp:",
-          "mktocustomactivityToolbar": ":New Custom Activity:",
-          "Manager": ":Name:",
-          "ValidateFailedModal": ":Missing HTML5 Doctype:",
-          "abmAccountListDashboard": ":Account List Score (Avg):",
-          "modelNotificationMessageComponent": ":Poll:",
-          "abmNamedAccountAccountDetailPanel": ":COUNTRY:",
-          "auditTrailExportForm": ":Comma Separated Values:",
-          "vespaVerifyPushForm": ":Android:",
-          "landingPageTemplatePreviewer": ":Edit Draft:",
-          "UpgradeTemplateModal": ":Upgrade:",
-          "formIsAppendForm": ":Cancel:",
-          "controllerSocialAppEditorSettings": ":File cannot be larger than 1MB:",
-          "landingPagePersonalizedUrlSettingsForm": ":Example: {0}JoeSmith:",
-          "inAppMessageEditorNoTextLayout": ":Button:",
-          "modelForm": ":Draft:",
-          "fieldValidationRuleForm": ":Blank Values:",
-          "inAppMessageEditorImageOnlyLayout": ":No Image Selected:",
-          "abmNamedAccountPersonas": ":Personas:",
-          "newCustomGoalForm": ":Name:",
-          "setAdWordsConvForm": ":Select...:",
-          "activityCampaignGrid": ":Company:",
-          "analyticsCustomReportCanvas": ":Select a Report:",
-          "endDateDialog": ":Select Date:",
-          "landingPageUrlSettingsForm": ":Throw away {0}:",
-          "controllerPresentation": ":Launch:",
-          "socialAppEditorApprovalForm": ":Close Without Approving:",
-          "analyticsHome": ":Email Insights:",
-          "ColumnSetDialog": ":Add >>:",
-          "abmCanvas": ":Open Opportunities:",
-          "newExperienceAdmin": ":Pre-release Feature Enablement:",
-          "emailBlastHeadStartABTestConfirmForm": ": and:",
-          "editAdWordsMappingsForm": ":New conversion name:",
-          "abmNamedAccountCanvas": ":Dashboard:",
-          "abmNamedAccountToolbar": ":Discover Marketo Companies:",
-          "newPresentationForm": ":Name:",
-          "mobilePushNotificationEditorMessageSettingsPanel": ":You must enable at least one platform:",
-          "landingPageAssetForm": ":Clone Landing Page:",
-          "mktocustomactivityPreview": ":Preview:",
-          "assetNoDraftApprovalForm": ":Create Drafts:",
-          "adminNewSubscriptionForm": ":First Name:",
-          "modelSocialAppStats": ":Last 90 days:",
-          "dcReferralOfferForm": ":Replace:",
-          "mobilePushNotificationPreviewerAndroidPanel": ":Home Screen:",
-          "mobilePushNotificationPreviewer": ":View Default:",
-          "contentActionsMenu": ":<b>Draft Actions</b>:",
-          "createNamedAccountForm": ":An account with this name already exists:",
-          "contentAnalytics": ":All Cast::",
-          "mktocustomactivityDependencyPanel": ":Lists or Campaigns using object fields:",
-          "socialAppEditorNetworkContentSettings": ":Social Network Options:",
-          "AbstractPanel": ":Loading...:",
-          "trackAnalytics": ":Leads in Stream::",
-          "adminSalesInsightDataSubprocessingNoticeForm": ":Data Subprocessing Notice:",
-          "adminAccountSettingsForm": ":Phone Number:",
-          "mktocustomactivityFieldToolbar": ":Delete Field:",
-          "calendarWebinarDetailsSummaryPanel": ":Event Status:",
-          "ProfileCapture": ":Disabled:",
-          "DynamicContent": ":Unable to retrieve snippet information:",
-          "featureSwitchForm": ":Enabled:",
-          "calendarEntryEditDatesForm": ":Timezone:",
-          "reportAssetForm": ":Clone Report:",
-          "rangeField": ":Maximum value required:",
-          "templateCarousel": ":Used By:",
-          "setFacebookConvForm": ":Conversion:",
-          "listAssetForm": ":New List:",
-          "mobilePushNotificationPreviewerContentPanel": ":Send Sample:",
-          "snippetEditor": ":Preview Draft:",
-          "snippetPreviewer": ":Edit Draft:",
-          "auditTrailAdminDetails": ":Action:",
-          "adminSalesInsightActionsFieldMappingPreviewForm": ":START SYNC:",
-          "Content": ":Change account:",
-          "inAppMessageEditorImageStyle": ":Image::",
-          "trackActionsMenu": ":Show archived content:",
-          "presentationSummaryPanel": ":Rotate Every:",
-          "formFieldMaskForm": ":Mask {0} Input:",
-          "crmEditCredentialsForm": ":Web Api Version:",
-          "adminSalesUserInviteWizard": ":Step 2: Licenses:",
-          "activitySearchToolbar": ":{0} entries:",
-          "newMembersAreaChart": ":Day:",
-          "codeEditorSearchModal": ":Search Code:",
-          "socialAppEditorShareUrlSettingsGroup": ":Landing Page:",
-          "ScriptingObject": ":OK:",
-          "customKnownLeadForm": ":Not you?:",
-          "SyncMonitor": ":Auto-saved:",
-          "adminAccountTeamForm": ":Account Team Fields:",
-          "nurtureNewContent": ":Please select push notification:",
-          "socialAppEditorLinkedinContentSettings": ":Use {html_title} to automatically pull the page title into your message:",
-          "controllerWinnerPicker": ":You must check <i>I'm ready to pick</i>:",
-          "auditTrailCanvas": ":Date:",
-          "presentationViewerGoalPanel": ":Invalid:",
-          "calendarDetailsSummaryPanel": ":Details:",
-          "featureEnableConfirmation": ":Are you sure you want to disable CAPTCHA? This will remove CAPTCHA from all Forms.:",
-          "socialAppEditorButtonStyleBeforeClickSettingsGroup": ":Label:",
-          "templateContextMenu": ":Clone to Design Studio:",
-          "mobilePushNotificationEditorAndroidSettingsPanel": ":No app selected:",
-          "email2CodeEditor": ":Cancel:",
-          "socialAppDisqualificationForm": ":Reason:",
-          "adminPersonaSettingsForm": ":Name your persona groups and choose what field will define them.<br>There is a max of 3 persona groups.:",
-          "ImageForm": ":Select Image:",
-          "webServicesApiRequestsModal": ":Close:",
-          "picklistForm": ":Simple Editor:",
-          "adminPersonaSetting": ":Automatic:",
-          "controllerMobilePushNotificationEditor": ":<i>None</i>:",
-          "inAppMessageEditorTextButtonLayout": ":Button:",
-          "abmDiscoverCRMCanvas": ":Filters are not available when accounts are grouped by hierarchy.:",
-          "facebookPages": ":ID:",
-          "dcSnippetForm": ":Replace with Snippet:",
-          "socialAppWinners": ":Winners:",
-          "FormEdit": ":Discarding Draft:",
-          "snippetAssetForm": ":New Snippet:",
-          "adminScoreSettings": ":Select Field:",
-          "mobilePushNotificationToolbar": ":Edit Draft:",
-          "vespaSendForm": ":Send:",
-          "messagebox": ":Not Allowed:",
-          "socialAppVoteViewerForm": ":Close:",
-          "calendarPublishForm": ":Close:",
-          "controllerGoals": ":Cannot Delete Goal<br/><br/> These Goals are in use elsewhere <br/> {0}:",
-          "CalendarEntryContextMenu": ":View Details:",
-          "appNavigationMenu": ":Target Account Management:",
-          "DynamicComponentEditor": ":Segmentation:",
-          "presentationGoalsTreePanel": ":Smart List Goal:",
-          "activityFiltersForm": ":Activities From:",
-          "smsMessageToolbar": ":Clone:",
-          "appSubscriptionSwitchModal": ":Are you sure you want to switch from <b>{0}</b> to <b>{1}</b>:",
-          "EmailVerification": ":Updating user's email will send email verification. The user's email and login will not be updated until they verify the new email.:",
-          "smsMessageEditorApprovalForm": ":Close Without Approving:",
-          "base": ":Marketo Email Designer:",
-          "ObjectsForm": ":Expand all:",
-          "daysToggle": ":T:",
-          "controllerFormEditor": ":Please Wait...:",
-          "CardsCanvasPanel": ":Add or select a app from the tree:",
-          "landingPagePreviewUrlForm": ":Close:",
-          "note": ":Note:",
-          "inAppMessageEditorCloseButtonStyle": ":Standard:",
-          "inAppMessageEditorDecisionLayout": ":Button:",
-          "FailedTransaction": ":contact:",
-          "controllerInAppMessageEditor": ":Approving In-App Message:",
-          "sfdcSyncErrorsGrid": ":Time:",
-          "inAppMessageEditorStyles": ":Marketo Landing Page:",
-          "adminTagsCalendarEntryTypeMenu": ":Hide:",
-          "controllerFileUploadForm": ":Box Account Failure:",
-          "SocialSignOnForm": ":Add Social Form Fill to Form:",
-          "controllerAbmNamedAccountDashboard": ":Revenue:",
-          "SocialMetrics": ":Social Lift:",
-          "goalsToolbar": ":New Custom Goal:",
-          "newSmartListGoalForm": ":Goal Target:",
-          "socialAppEditorSweepstakesContentSettings": ":Ex. background-color: purple;:",
-          "adminTinyMceSettingForm": ":Legacy:",
-          "socialAppApprovalForm": ":This could affect the layout of approved landing pages:",
-          "assetAutosuggestField": ":Select...:",
-          "adminPackagingForm": ":Not Available:",
-          "wildcardRedirectForm": ":Landing Page:",
-          "canvasPanelHeader": ":Cancel:",
-          "fileDetail": ":Used By:",
-          "runInAppProgramConfirmForm": ":Audience contains new custom fields. It may take several minutes up to hours before messages will be viewable, depending on audience size:",
-          "adminDkimDomainDetailsForm": ":Once added, verify your domain to enable signing.:",
-          "adminAbmSalesSettingsPanel": ":Prioritize Accounts by::",
-          "leadComponentForm": ":Last Name:",
-          "emailCcSettingsForm": ":Select Email Fields ...:",
-          "selectListForm": ":Apply:",
-          "socialAppEditorTwitterContentSettings": ":Use {html_title} to automatically pull the page title into your message:",
-          "vespaContextMenu": ":Verify Push Configuration:",
-          "smartCampaignAbortCampaignForm": ":Are you sure you want to abort {0}? All flow actions will be stopped:",
-          "controllerVespaAppForm": ":Edit Mobile App:",
-          "inAppMessageEditorDefaultLayout": ":Button:",
-          "mktocustomobjectDependencyPanel": ":Lists or Campaigns using object fields:",
-          "controllerFileAemUploadForm": ":{0} image(s) could not be imported:",
-          "socialAppEditorFlowNavToolbar": ":Back:",
-          "mktoerrors": ":List must have at least one value:",
-          "nurtureContentScheduleForm": ":Active Through:",
-          "socialAppEditorButtonStyleAfterClickSettingsGroup": ":After-Click Style:",
-          "SocialApp": ":Discarding Draft:",
-          "appGlobalSearch": ":Search...:",
-          "inAppMessageImageForm": ":Select:",
-          "audienceImportForm": ":Audience Library Folder:",
-          "ReportSettingsForm": ":Date of Activity:",
-          "socialAppWidgetEmbedCodeForm": ":Body Code:",
-          "socialAppDashboardSettingsForm": ":From:",
-          "modelSmsMessage": ":Approved:",
-          "localAssetGallery": ":Form:",
-          "adminFieldHtmlEncodeForm": ":HTML Encode Tokens in Emails:",
-          "addNotificationForm": ":Notification type:",
-          "inAppMessageEditorApprovalForm": ":Back to Editor:",
-          "EditableSectionContextMenu": ":Edit:",
-          "modelTestGroup": ":Engagement Score:",
-          "RichTextEditor": ":HTML source content cannot exceed 65535 character limit:",
-          "adminSalesInsightRestApiConfigForm": ":REST API Configuration:",
-          "storeAssetGroup": ":Design Studio...:",
-          "socialAppEditorPrivacySettingsGroup": ":Show Privacy Link:",
-          "clonePresentationForm": ":Name:",
-          "cancelAudienceExportForm": ":Are you sure you want to stop syncing to <b>{0}</b>:",
-          "msdErrorDetailsForm": ":Details:",
-          "meue": ":We encountered a system error. If the problem persists, please contact Marketo Support.:",
-          "OverlayMenu": ":All Email Programs:",
-          "modalForm": ":There are errors with some of the fields. They have been highlighted below:",
-          "vespa": ":<a href='{0}' target='_blank'>iOS(Not Integrated)</a>:",
-          "referralOfferParticipantsContextMenu": ":Mark as \\\"Fulfillment Email Sent\\\":",
-          "Sender": ":Invalid email address list (Example: a@b.com; c@d.com):",
-          "sweepstakesParticipantsContextMenu": ":View Lead Details:",
-          "programOperationalModeForm": ":Edit Analytics Behavior Settings:",
-          "ThemeStyleOverrideForm": ":Add your custom CSS below:",
-          "modelEmailBlastTestGroup": ":Date/Time:",
-          "ShareButton": ":Select Method:",
-          "email2EditableSectionContextMenu": ":Make Dynamic:",
-          "CalendarPanel": ":Learn which browsers are supported:",
-          "linkedInAccounts": ":Account Name:",
-          "inbox": ":Delete:",
-          "abmAccountList": ":STATIC:",
-          "abmNamedAccountPersonaGrid": ":Persona:",
-          "mktocustomobjectToolbar": ":Discard Draft:",
-          "formProgressiveProfiling": ":Blank Fields:",
-          "LandingPageContent": ":This Landing Page Template contains an mktEditable section without an ID:",
-          "launchpointServiceDetails": ":Close:",
-          "socialAppEditorReferralOfferSettingsGroup": ":Smart List Trigger:",
-          "formFollowupSet": ":External URL:",
-          "socialAppEditorShareButtonSettingsGroup": ":After Share:",
-          "nurtureTouchPanel": ":Add Content:",
-          "fieldValidationApplyRuleForm": ":Save:",
-          "testGroupWholeEmailVariant": ":CLONE:",
-          "vespaDashboard": ":Unable to complete the action at this time.<br>If this continues, contact Marketo Support:",
-          "webServicesBulkExportApiModal": ":API Requests:",
-          "mktowsEditIpRestrictionForm": ":Add:",
-          "nurtureRuntimeTestForm": ":Create Lead...:",
-          "controllerLandingPage": ":Social:",
-          "abmOpportunityGrid": ":Stage:",
-          "psnippetCanvas": ":Switch to Editor:",
-          "launchpointAuthorizeForm": ":Installation Successful:",
-          "mobilePushNotificationEditorIosSettingsPanel": ":Enter your message...:",
-          "facebookLeadMapping": ":Select Facebook Field:",
-          "calendarCampaignSummaryModalForm": ":Smart List:",
-          "AssetFragment": ":{0} is {1}:",
-          "testGroupSummaryPanel": ":Champion Selection:",
-          "CalendarEntryTypesPanel": ":{0} Items:",
-          "formLanguage": ":Chinese (Simplified):",
-          "analyticsGroupedColumnChart": ":Success:",
-          "mktocustomobjectFieldToolbar": ":Field Actions:",
-          "ownerAssetField": ":Folder:",
-          "activityProgramGrid": ":From:",
-          "templateEditor": ":Validate HTML:",
-          "landingPagePreviewer": ":Generate Preview URL:",
-          "WinnerPicker": ":Declare Date:",
-          "inAppMessageEditorLayoutPanel": ":Layout:",
-          "TestGroupToolbar": ":Edit Test:",
-          "socialAppWinnersGrid": ":Promo Code:",
-          "mobilePushNotificationEditorSummary": ":Android:",
-          "mktMobilePushNotification": ":<b>{0}</b> is in use and cannot be deleted:",
-          "emailBlastTestGroupSummaryForm": ":Close:",
-          "Email2ComponentForm": ":<b>Not Saved. Invalid attribute specified.</b><br>\\\"mktoModule\\\" is a reserved HTML class attribute. Please remove this and try saving again.:",
-          "abmDiscoverCRMIncludeChildrenForm": ":Submit:",
-          "abmAccountListToolbar": ":Account List Actions:",
-          "controllerFieldValidationGrid": ":Rule being used by fields, cannot be deleted:",
-          "mktocustomobjectTreePanel": ":New Custom Object:",
-          "controllerAbmAccountListDashboard": ":revenue:",
-          "assignAccountMemberForm": ":Assign Account Member:",
-          "mobilePushNotificationEditorApprovalForm": ":Back to Editor:",
-          "socialAppEditorLeadCaptureContentSettings": ":Lead capture screen is only displayed if their info hasn't already been provided:",
-          "activityFilterByField": ":Select One:",
-          "mktocustomobjectFieldContextMenu": ":Delete Field:",
-          "stopInAppProgramConfirmForm": ":This will stop the program from running. The program cannot be resumed once stopped.:",
-          "vespaSecureModeForm": ":Access security authenticates the identity of users logged in from the mobile app. <a href=\\\"{0}\\\" target=\\\"_blank\\\">Learn More</a>:",
-          "presentationViewer": ":Full Screen:",
-          "FormExportTheme": ":View {0} CSS:",
-          "TagSelection": ":Filter By Program Tags...:",
-          "adminEditSubscriptionForm": ":Purpose:",
-          "abmColumnPicker": ":You may only add up to 10 Account Profiling indicators as columns. Please remove an indicator before adding a new one.:",
-          "SimpleWarning": ":Warning:",
-          "warning": ":Warning:",
-          "controllerMobilePushNotificationPreviewer": ":Before sending a sample, return to step one of the push notification editor and select an app:",
-          "Snippet": ":Preview Draft:",
-          "calendarPresentationContextMenu": ":Delete:",
-          "HeaderEditor": ":Reply-to:",
-          "fileUploadForm": ":Save in Folder:",
-          "ProgressModal": ":Please Wait...:",
-          "emailAssetForm": ":Test Group:",
-          "socialAppEditorContent": ":Share with your friends:",
-          "controllerVespaVerifyPushForm": ":Not Found:",
-          "nurtureTrack": ":Flow:",
-          "wizardEditorNavBar": ":Finish:",
-          "buttonStyleForm": ":Color hex values must be either 3 or 6 characters:",
-          "EditEntryDescriptionForm": ":Edit Description:",
-          "previewerSnippet": ":Edit Draft:",
-          "controllerTestGroupEditor": ":Reset Test:",
-          "Asset": ":Adding this segmentation would create a total of {0} variations. More than {1} makes our brain hurt.<br /><br />Can you simplify?:",
-          "filter": ":Apply:",
-          "controllermktocustomobjectVerifyPushForm": ":Verification Complete:",
-          "analyzerAssetForm": ":Clone Analyzer:",
-          "mktocustomactivityContextMenu": ":Approve Activity:",
-          "PagingDataView": ":More Images...:",
-          "controllerCanvasPanelHeader": ":A Message:",
-          "landingPageTemplateAssetForm": ":Guided Template:",
-          "abmNamedAccountUnlinkFromNamedAccountForm": ":Named Accounts unlink operation failed:",
-          "mktocustomactivityDashboard": ":Marketo Custom Activities:",
-          "smsMessageAssetForm": ":Clone SMS Message:",
-          "distributionField": ":Segment {0}:",
-          "charts": ":Export:",
-          "smsMessageEditorMessageField": ":Type your message here:",
-          "assetUsedByGrid": ":Unknown:",
-          "DlManager": ":Following dlCompCode: {0} is already used by {1}:",
-          "emailChampionChallengerSummaryForm": ":Close:",
-          "assignTeamMemberForm": ":Assign Account Owner:",
-          "abmEmailActivityCard": ":Last 30 Days:",
-          "disablePrefillForm": ":Prefill:",
-          "programMembershipChart": ":Current:",
-          "adminAbmScoreWeightsForm": ":Designate a weight for each persona. Weighted scores do not overwrite underlying Lead Scores.:",
-          "adminABMToolbar": ":Edit Settings:",
-          "abmIcpModelingTabPanel": ":Account Profiling:",
-          "socialAppEditorReferralOfferContentSettings": ":Styling Options:",
-          "mktocustomobjectContextMenu": ":Export Object:",
-          "socialAppEditorPollSettingsGroup": ":Settings:",
-          "socialAppEditorReshareContentSettings": ":This appends the user's unique URL automatically to the email:",
-          "loginHistoryGrid": ":Failed Login:",
-          "abmSelectionBox": ":Selected Companies <strong>{0}/{1}</strong>:",
-          "socialAppEditorRulesSettingsGroup": ":Rules Link URL:",
-          "AbstractModal": ":Close:",
-          "socialAppPromoCodeViewer": ":Promo Codes:",
-          "smsMessageEditor": ":Send Sample:",
-          "managePresentationsPanel": ":Name:",
-          "mktoCustomObjectSummary": ":Custom Objects:",
-          "vespaToolbar": ":Verify Push Configuration:",
-          "activityLeadGrid": ":Activity Type:",
-          "AssetToken": ":edit me:",
-          "adminVespaSmartlistFiltersGrid": ":No Smart List Filters:",
-          "presentationGoalsPanel": ":Goals:",
-          "emailGridContextMenu": ":Send Sample:",
-          "adminAbmReportResubscribeForm": ":Users:",
-          "analyticsLandingPageChart": ":Conversions:",
-          "mobilePushNotificationApprovalForm": ":Not available:",
-          "adminAccountTeam": ":Remove Account Role:",
-          "controllerCalendarPro": ":Overlay:",
-          "mktInAppMessage": ":Are you sure you want to delete <b>{0}</b>? :",
-          "ScheduleContentForm": ":Active Through date should be later than Active From date:",
-          "emailEditorComponentForm": ":HTML:",
-          "fileSummary": ":URL:",
-          "assetField": ":Select...:",
-          "emailBlastEditEmailsForm": ":Edit Notifications:",
-          "socialAppEditorFacebookPostContentSettings": ":The URL for the shared content will be automatically appended to the Facebook message:",
-          "nurtureTrackRules": ":Edit Transition Rules:",
-          "SnippetEmptyPanel": ":Use 'Segment By' to make this Snippet dynamic:",
-          "calendarCustomViewForm": ":Description:",
-          "dataViewPanel": ":No Templates Found:",
-          "emailBlastCommunicationLimitForm": ":Ignore Limit:",
-          "abmAccountListGrid": ":<label>No Account Lists</label><label><a href=\\\"http://docs.marketo.com/display/public/DOCS/Account+Lists\\\" target=\\\"_blank\\\">Learn More</a> about Account Lists</label>:",
-          "RemotePagingToolbar": ":Quick Find:",
-          "formPreview": ":Edit Draft:",
-          "controllerForm": ":Are you sures you want to delete {0}?:",
-          "lpCustomHtmlForm": ":Custom HTML Editor:",
-          "socialAppEditorEmailCaptureContentSettings": ":Email capture screen is only displayed if their info hasn't already been provided:",
-          "presentationSetupPanel": ":Setup:",
-          "formEmbed": ":Embed Code:",
-          "subscriptionChat": ":Chat Window:",
-          "abmNamedAccountIcpIndicatorsGrid": ":Category:",
-          "actionableContentGroup": ":Edit:",
-          "colorField": ":Select:",
-          "emailHtmlVariableEditor": ":Save:",
-          "RawEntryTypePanel": ":Select Type...:",
-          "abmFilterAutoSuggest": ":Empty:",
-          "formFollowup": ":Default:",
-          "socialAppEditorContentPanel": ":Before-Click:",
-          "Dashboard": ":Date of Activity:",
-          "abmAccountListTree": ":All Account Lists:",
-          "LandingPagePropertyPanel": ":Property Sheet:",
-          "QuickSearch": ":Quick Find...:",
-          "MessageModal": ":Close:",
-          "SegmentButton": ":Segment By:",
-          "presentationTreePanel": ":Presentations...:",
-          "FacebookPostSettings": ":<a href=\\\"{0}\\\" target=\\\"_blank\\\">Learn More</a>:",
-          "inAppMessageEditorStylePanel": ":Style:",
-          "lpRichTextForm": ":Rich Text Editor:",
-          "assetApiErrors": ":Unable to create Calendar entry:",
-          "ShareButtonForm": ":Edit Settings:",
-          "LandingPageFormPicker": ":Stay on this Page:",
-          "socialAppEditorShareButtonContentSettings": ":Styling Options:",
-          "testGroupFromVariant": ":From Name:",
-          "emailEditorToolbar": ":Preview Draft:",
-          "testGroupEditorVariantsContainer": ":You have reached the maximum number of test variants:",
-          "SourcePanel": ":HTML Source:",
-          "inboxPanel": ":Filter By:",
-          "mktocustomactivityTreePanel": ":Marketo Custom Activities:",
-          "adminHome": ":Admin:",
-          "email2AltTextToolbar": ":Edit Text Version:",
-          "controllerAdminNewSubscriptionForm": ":Creating Subscription...:",
-          "SocialFunnel": ":Total:",
-          "saveToDesignStudio": ":No templates:",
-          "PreviewPanel": ":Preview:",
-          "socialAppEditor": ":Setup:",
-          "programOneClickImportForm": ":Select Workspace:",
-          "sendTestTemplateForm": ":Send Sample Email:",
-          "appComponentUsedBy": ":None:",
-          "testGroupDateTimeVariant": ":Name:",
-          "TreeDragZone": ":{0} selected row{1}:",
-          "modelEmailBlastStats": ":after:"
-        }
-      }
-    }
-  }
-};
+Mkt3L10n.landingPageUrlSettingsForm = ":Throw away {0}:";
+Mkt3L10n.SyncMonitor = ":Auto-saved:";
+Mkt3L10n.adminNewSubscriptionForm = ":First Name:";
+Mkt3L10n.MktCalendarIcons = ":Marker:";
+Mkt3L10n.Toolbar = ":Preview Draft:";
+Mkt3L10n.controllerInAppMessageEditor = ":Approving In-App Message:";
+Mkt3L10n.ssfsActTypeAttrib = ":Success:";
+Mkt3L10n.fieldValidationGrid = ":Functions:";
+Mkt3L10n.auditTrailAssetGrid = ":Parent:";
+Mkt3L10n.assignTeamMemberForm = ":Assign Account Owner:";
+Mkt3L10n.emailBlastControlPanel = ":Note: Schedule set by A/B Test:";
+Mkt3L10n.abmEmailActivityCard = ":Last 30 Days:";
+Mkt3L10n.email2EditorToolbar = ":Approve and Close:";
+Mkt3L10n.emailPreviewer = ":Select a lead by Email:";
+Mkt3L10n.emailChampionChallengerDashboard = ":Summary:";
+Mkt3L10n.launchpointServiceIntegrationSettingsForm = ":Facebook requires that you integrate with a Business Manager if you want to use Offline Conversions.:";
+Mkt3L10n.deleteZoneForm = ":Email Batch Program:";
+Mkt3L10n.formFieldSelection = ":Multiple Selections::";
+Mkt3L10n.modelEmailTestGroupVariant = ":B:";
+Mkt3L10n.conditionalLogicForm = ":Is Any:";
+Mkt3L10n.socialAppParticipantsGrid = ":Social Profile Name:";
+Mkt3L10n.abmAccountTeamGrid = ":Title:";
+Mkt3L10n.listSelectListForm = ":Select a list:";
+Mkt3L10n.socialAppWinnerPicker = ":Sweepstakes Winners:";
+Mkt3L10n.mktocustomobjectObjectDetailsPanel = ":Show in Lead Detail:";
+Mkt3L10n.mobilePushNotificationEditorActionsSettingsPanel = ":Android:";
+Mkt3L10n.ScriptingObject = ":OK:";
+Mkt3L10n.mktocustomobject = ":An object with the same name is currently enabled for sync. Please give the object a unique name and retry.:";
+Mkt3L10n.modelMobilePushNotification = ":Draft:";
+Mkt3L10n.mobilePushNotificationEditor = ":None:";
+Mkt3L10n.abmNamedAccountToolbar = ":Discover Marketo Companies:";
+Mkt3L10n.Sender = ":Invalid email address list (Example: a@b.com; c@d.com):";
+Mkt3L10n.FormTheme = ":Some option::";
+Mkt3L10n.adminDkimDomainDetailsForm = ":Once added, verify your domain to enable signing.:";
+Mkt3L10n.migrationConsole = ":Verification Email:";
+Mkt3L10n.controllerSubscriptionFeatureForm = ":There are errors with some of the fields. They have been highlighted below:";
+Mkt3L10n.appNavigationMenu = ":Target Account Management:";
+Mkt3L10n.adminHomeSummary = ":Field Management:";
+Mkt3L10n.Content = ":Change account:";
+Mkt3L10n.mobilePushNotificationEditorSummary = ":Android:";
+Mkt3L10n.inspectSyncForm = ":ERROR: {0}:";
+Mkt3L10n.SocialSignOnForm = ":Add Social Form Fill to Form:";
+Mkt3L10n.mktocustomactivityActivityDetailsPanel = ":phone:";
+Mkt3L10n.ColumnSetDialog = ":Add >>:";
+Mkt3L10n.activityGrid = ":Search by Marketing Asset Name:";
+Mkt3L10n.adminPersonaSettingsForm = ":Name your persona groups and choose what field will define them.<br>There is a max of 3 persona groups.:";
+Mkt3L10n.presentationGoalsGridPanel = ":Drag a goal here to get started:";
+Mkt3L10n.disablePrefillForm = ":Prefill:";
+Mkt3L10n.adminSubscriptionFeatureForm = ":Feature Summary:";
+Mkt3L10n.ImagePicker = ":Swap {0}:";
+Mkt3L10n.socialAppEditorShareButtonSettingsGroup = ":After Share:";
+Mkt3L10n.adminAbmTeamSettingsPanel = ":Account Owner:";
+Mkt3L10n.AdditionalOptions = ":Privacy Link:";
+Mkt3L10n.nurtureNewContent = ":Please select push notification:";
+Mkt3L10n.assetNoDraftApprovalForm = ":Create Drafts:";
+Mkt3L10n.formFieldNames = ":Unsubscribed:";
+Mkt3L10n.Canvas = ":Icons:";
+Mkt3L10n.downloadMarketoSolutionForm = ":Marketo Sales Insight:";
+Mkt3L10n.socialAppEditorShareUrlSettingsGroup = ":Landing Page:";
+Mkt3L10n.vespaToolbar = ":Verify Push Configuration:";
+Mkt3L10n.adminAccountSettingsForm = ":Phone Number:";
+Mkt3L10n.programCalendar = ":Editing and dragging in marketing calendar is not yet allowed:";
+Mkt3L10n.programMembershipChart = ":Current:";
+Mkt3L10n.mktocustomobjectFieldForm = ":New Field:";
+Mkt3L10n.loginHistoryFilter = ":Login Date:";
+Mkt3L10n.formSettings = ":Polish:";
+Mkt3L10n.adminViewEnterpriseKeyForm = ":Error in getting munchkin Id.:";
+Mkt3L10n.templateContextMenu = ":Clone to Design Studio:";
+Mkt3L10n.launchpointAuthorizeForm = ":Installation Successful:";
+Mkt3L10n.inAppControlPanel = ":Resume:";
+Mkt3L10n.socialAppEditorSweepstakesContentSettings = ":Ex. background-color: purple;:";
+Mkt3L10n.mobilePushNotificationDashboard = ":Hours since sent:";
+Mkt3L10n.landingPageTemplateAssetForm = ":Guided Template:";
+Mkt3L10n.ImageForm = ":Select Image:";
+Mkt3L10n.formEditorConversationalFormChoices = ":Conversational Flow Settings:";
+Mkt3L10n.activityCampaignGrid = ":Company:";
+Mkt3L10n.inAppMessageEditorImageStyle = ":Image::";
+Mkt3L10n.SmartListReportSubscriptionForm = ":Learn More:";
+Mkt3L10n.abmImportAccountCanvas = ":Import Processing:";
+Mkt3L10n.activityLeadGrid = ":Activity Type:";
+Mkt3L10n.AssetToken = ":edit me:";
+Mkt3L10n.mktocustomactivity = ":Wait! Are you sure you want to do this?<br><br><b>Activity Name: {0}</b><br><br>When you delete this activity type it will be like all of this data never existed.<br><br>If you're sure you want to do this, please confirm by typing <b>I understand</b> in the box below.<br><br><div class='mktMessageIndent mktRequired'><b>Confirm:</b><span id='mktTypeTextWrap'></span><br><span id='mktAgreeCbWrap'></span></div>:";
+Mkt3L10n.linkToNamedAccountForm = ":Link:";
+Mkt3L10n.LandingPage = ":Overflow:";
+Mkt3L10n.TagSelection = ":Filter By Program Tags...:";
+Mkt3L10n.adminVespaSmartlistFiltersGrid = ":No Smart List Filters:";
+Mkt3L10n.abmDiscoverCRMCanvas = ":Filters are not available when accounts are grouped by hierarchy.:";
+Mkt3L10n.mktocustomobjectFieldToolbar = ":Field Actions:";
+Mkt3L10n.abmAccountListAdBridgeForm = ":LiveRamp:";
+Mkt3L10n.inAppMessageEditorDecisionFullScreenLayout = ":No Image Selected:";
+Mkt3L10n.templateEditor = ":Validate HTML:";
+Mkt3L10n.nurtureDashboard = ":Oldest Content:";
+Mkt3L10n.CalendarView = ":Global Overlay:";
+Mkt3L10n.mktocustomobjectDashboard = ":New Custom Object:";
+Mkt3L10n.SettingsForm = ":IP Address:";
+Mkt3L10n.facebookPushToFacebookForm = ":Updating:";
+Mkt3L10n.inAppProgramDashboard = ":None: {0}:";
+Mkt3L10n.dcVideoShareForm = ":Replace YouTube Video:";
+Mkt3L10n.Email = ":Errors Fixed:<ul>{0}</ul>:";
+Mkt3L10n.ImageInfo = ":Name:";
+Mkt3L10n.abmIcpModelingCreateModel = ":Your model basis list must have people attached to at least 100 unique accounts to use Account Profiling:";
+Mkt3L10n.mktSmsMessage = ":<b>{0}</b> is approved and must be unapproved before it is deleted:";
+Mkt3L10n.adminPasswordForm = ":Passwords Match:";
+Mkt3L10n.mktocustomactivityFieldPanel = ":Data Type:";
+Mkt3L10n.socialAppEditorTimelineSettingsGroup = ":Daily:";
+Mkt3L10n.Calendar = ":Confirm:";
+Mkt3L10n.formLocale = ":Russia:";
+Mkt3L10n.modelInAppMessage = ":an image:";
+Mkt3L10n.smartListAssetForm = ":Clone Account Smart List:";
+Mkt3L10n.mktocustomobjectObjectForm = ":Show:";
+Mkt3L10n.socialAppEditorVideoShareSettingsGroup = ":Confirmation Message:";
+Mkt3L10n.testGroupEmailBlastEditor = ":Notifications:";
+Mkt3L10n.vespaTestDevicesPanel = ":Are you sure you want to delete the test device?:";
+Mkt3L10n.mktocustomobjectFieldPanel = ":State:";
+Mkt3L10n.adminPackagingFormV2 = ":Bundle Summary:";
+Mkt3L10n.adminSsfsServiceWizard = ":Provide a list of Marketo Lead fields to send to <b>{0}</b> when <b>{1}</b> is invoked from a Smart Campaign.<br><b>{0}</b> will have access to all active fields.:";
+Mkt3L10n.columnPicker = ":Apply:";
+Mkt3L10n.inAppMessageEditorPrimaryTextStyle = ":Alignment:";
+Mkt3L10n.abmIcpModelingDeleteModelForm = ":Delete Model:";
+Mkt3L10n.customFlowActions = ":Context Approved:";
+Mkt3L10n.storeSocialAppFlow = ":Social Networks:";
+Mkt3L10n.presentationToolbar = ":Launch:";
+Mkt3L10n.emailEditorSettingsForm = ":Email already includes the {{system.viewAsWebpageLink}} token:";
+Mkt3L10n.mktocustomactivityActivityTypeForm = ":A field with this name already exists:";
+Mkt3L10n.socialAppDashboardAudience = ":Social Reach Trend:";
+Mkt3L10n.testGroupChampionChallengerEditorSummary = ":Test Type:";
+Mkt3L10n.abmAccountListToolbar = ":Account List Actions:";
+Mkt3L10n.FiscalCalendarForm = ":Fiscal Calendar Settings:";
+Mkt3L10n.emailVideoPicker = ":Insert Video:";
+Mkt3L10n.presentationSetupGridPanel = ":{0} Minutes:";
+Mkt3L10n.controllerInbox = ":All Notifications:";
+Mkt3L10n.vespaNewDeviceForm = ":New Test Device:";
+Mkt3L10n.DynamicContent = ":Unable to retrieve snippet information:";
+Mkt3L10n.emailBlastEmailAbortForm = ":Abort:";
+Mkt3L10n.TagsContainer = ":Program Tags:";
+Mkt3L10n.vespaAppForm = ":Type:";
+Mkt3L10n.AdobeConnect = ":Add Users:";
+Mkt3L10n.app = ":You do not have sufficient privileges to access this page:";
+Mkt3L10n.abmDiscoverMktoGrid = ":ANY Acct Profiling Indicators:";
+Mkt3L10n.mktInAppMessage = ":Are you sure you want to delete <b>{0}</b>? :";
+Mkt3L10n.socialAppEditorButtonStyleBeforeClickSettingsGroup = ":Label:";
+Mkt3L10n.vespaAppDetailsPanel = ":Push Access Type:";
+Mkt3L10n.RemotePagingToolbar = ":Quick Find:";
+Mkt3L10n.formLanguage = ":Chinese (Simplified):";
+Mkt3L10n.mobilePushNotificationToolbar = ":Edit Draft:";
+Mkt3L10n.adminAddWhitelistDomainForm = ":Delete:";
+Mkt3L10n.mobilePushNotification = ":Are you sure you want to delete <b>{0}</b>?:";
+Mkt3L10n.stopInAppProgramConfirmForm = ":This will stop the program from running. The program cannot be resumed once stopped.:";
+Mkt3L10n.controllerVespaConfigurePushAccessForm = ":The certificate is no longer valid:";
+Mkt3L10n.ViewSelectionPanel = ":Overlay:";
+Mkt3L10n.buttonStyleForm = ":Color hex values must be either 3 or 6 characters:";
+Mkt3L10n.calendarEmailBlastDetailsSummaryPanel = ":Winner:";
+Mkt3L10n.emailImagePicker = ":Insert:";
+Mkt3L10n.analyticsHome = ":Email Insights:";
+Mkt3L10n.abmWebActivityCard = ":Error:";
+Mkt3L10n.localAssetGallery = ":Form:";
+Mkt3L10n.adminAbmReportSettingsForm = ":Friday:";
+Mkt3L10n.emailBlastDashboard = ":E:";
+Mkt3L10n.adminAcceptFullContactTermsForm = ":Accept FullContact Terms:";
+Mkt3L10n.snippetCanvas = ":Marketo Snippet Designer:";
+Mkt3L10n.email2PredictiveContent = ":Presentation:";
+Mkt3L10n.socialAppEditorReferralOfferSignUpOrderAppSettings = ":With this ordering, the participant can skip the sharing step if desired:";
+Mkt3L10n.socialAppEditorEmailsSettingsGroup = ":Use Promo Codes:";
+Mkt3L10n.reconfigureAuthForm = ":WEB API S2S:";
+Mkt3L10n.adminUsersExportForm = ":Comma Separated Values:";
+Mkt3L10n.smsMessageEditorLinkForm = ":Track Link:";
+Mkt3L10n.Feature = ":Internal:";
+Mkt3L10n.smsMessageEditorContentPanel = ":Token:";
+Mkt3L10n.audienceExportForm = ":Overwrite Existing Audience:";
+Mkt3L10n.LocalePicker = ":Language and Locale settings are controlled in Experience cloud:";
+Mkt3L10n.abmNamedAccountGrid = ":{0} is Deleted:";
+Mkt3L10n.smsMessageDashboard = ":This Month:";
+Mkt3L10n.recentEmailsGrid = ":Date Created:";
+Mkt3L10n.inAppMessageAssetForm = ":New In-App Message:";
+Mkt3L10n.inAppMessageToolbar = ":Preview:";
+Mkt3L10n.socialAppWinnerCandidate = ":Approve All:";
+Mkt3L10n.adminNewSubscriptionFormV2 = ":Create:";
+Mkt3L10n.nurtureTouch = ":Unsubscribed: {0}:";
+Mkt3L10n.smartListReportSubscriptionGrid = ":Format:";
+Mkt3L10n.launchpointServiceForm = ":API and Program:";
+Mkt3L10n.auditTrailAssetFilter = ":Actions:";
+Mkt3L10n.abmIcpModelingSaveRanksAndIndicatorsForm = ":Are you sure you want to automatically promote all A and B ranked accounts to a Named Account? Please validate the number of A and B ranked accounts before continuing.:";
+Mkt3L10n.formAssetForm = ":Editor:";
+Mkt3L10n.abmAccountListPushToFacebookLinkedInForm = ":Clear audience and add leads:";
+Mkt3L10n.editRotationIntervalForm = ":Disable Rotation:";
+Mkt3L10n.socialAppEditorVideoShareContentSettings = ":YouTube URL:";
+Mkt3L10n.adBridgeForm = ":By combining the power of Marketo with MediaMath's TerminalOne Marketing Operating System&trade;, Marketers can engage their audiences across channels with greater context.<br/><br/><a href='http://launchpoint.marketo.com/mediamath/1553-terminalone-marketing-operating-system' target='_blank'>Learn More</a>:";
+Mkt3L10n.abmNamedAccountAddToAccountListForm = ":Add to Account List:";
+Mkt3L10n.socialAppEditorButtonStyleSettingsGroup = ":Upload Images:";
+Mkt3L10n.auditTrailAdminFilter = ":Actions:";
+Mkt3L10n.controllerSocialApp = ":{0} Referred Visits:";
+Mkt3L10n.abmAccountListAccountGrid = ":City:";
+Mkt3L10n.controllerInAppMessageSendSampleForm = ":You must select an app:";
+Mkt3L10n.abmIcpModelingDashboard = ":Save Ranks and Indicators:";
+Mkt3L10n.abmIcpModelingTuneModelForm = ":We apologize, but we have encountered a system error. Please try again in a few minutes.<br>If the problem persists, please contact <u>support@marketo.com</u>.:";
+Mkt3L10n.abmColumnPicker = ":You may only add up to 10 Account Profiling indicators as columns. Please remove an indicator before adding a new one.:";
+Mkt3L10n.newCustomGoalForm = ":Please fill all required fields:";
+Mkt3L10n.abmDiscoverCRMGrid = ":Revenue:";
+Mkt3L10n.adminUserInviteWizard = ":Reason:";
+Mkt3L10n.storeFormFlow = ":Form Theme:";
+Mkt3L10n.Palette = ":Palette:";
+Mkt3L10n.testGroupChampionChallengerEditor = ":Whole Emails:";
+Mkt3L10n.adminResolveMultiUserPanel = ":Cancel:";
+Mkt3L10n.mktocustomactivityTreePanel = ":New Custom Activity:";
+Mkt3L10n.SendTestEmailForm = ":Enter at least one email address:";
+Mkt3L10n.smsMessageEditor = ":Approve & Close:";
+Mkt3L10n.inAppMessage = ":{0} is used by other asset(s):";
+Mkt3L10n.createDynamicListForm = ":Select an account View in CRM:";
+Mkt3L10n.socialAppEditorLeadCaptureSettingsGroup = ":State:";
+Mkt3L10n.assetMoveForm = ":Move Landing Page:";
+Mkt3L10n.SocialApp = ":Discarding Draft:";
+Mkt3L10n.abmNamedAccountAccountDetailPanel = ":COUNTRY:";
+Mkt3L10n.adminAbmScoreWeightsForm = ":Designate a weight for each persona. Weighted scores do not overwrite underlying Lead Scores.:";
+Mkt3L10n.ValidateFailedModal = ":Missing HTML5 Doctype:";
+Mkt3L10n.WinnerPicker = ":Declare Date:";
+Mkt3L10n.launchpointServiceDetails = ":Close:";
+Mkt3L10n.controllerSocialAppEditorSettings = ":File cannot be larger than 1MB:";
+Mkt3L10n.emailTemplatePicker = ":Search My Templates ...:";
+Mkt3L10n.adminABMToolbar = ":Edit Settings:";
+Mkt3L10n.LeadNurture = ":Email is not approved:";
+Mkt3L10n.fieldValidationRuleForm = ":Blank Values:";
+Mkt3L10n.ShareButtonOptions = ":<i>Note: Only networks selected in the Share Flow are enabled</i>:";
+Mkt3L10n.adminSalesInsightInstallWizard = ":Please review our Disclaimer before proceeding.:";
+Mkt3L10n.formFollowupSet = ":External URL:";
+Mkt3L10n.actionTilePanel = ":More:";
+Mkt3L10n.socialAppEditorPrivacySettingsGroup = ":Show Privacy Link:";
+Mkt3L10n.FailedTransaction = ":contact:";
+Mkt3L10n.abmIcpModelingTabPanel = ":Account Profiling:";
+Mkt3L10n.adminAddBrandedDomainForm = ":Make <b>{0}</b> the primary domain for the following workspaces::";
+Mkt3L10n.socialAppSummaryPanel = ":{0} Referred Sign-Ups:";
+Mkt3L10n.emailTemplateVariableTable = ":Global Variables:";
+Mkt3L10n.socialAppEditorReferralOfferContentSettings = ":Styling Options:";
+Mkt3L10n.mobilePushNotificationPreviewerAndroidPanel = ":Home Screen:";
+Mkt3L10n.dcSweepstakesForm = ":Replace:";
+Mkt3L10n.controllerAbmAccountListDashboard = ":revenue:";
+Mkt3L10n.ToggleMunchkinModal = ":Disable Munchkin Tracking:";
+Mkt3L10n.socialAppDashboardSettingsForm = ":From:";
+Mkt3L10n.auditTrailAdminDetails = ":Action:";
+Mkt3L10n.mktocustomobjectContextMenu = ":Export Object:";
+Mkt3L10n.calendarDetailsSummaryPanel = ":Details:";
+Mkt3L10n.ApproveFailedModal = ":Your template could not be approved.:";
+Mkt3L10n.lpCanvas = ":HTML:";
+Mkt3L10n.ReportSubscriptionForm = ":Every Sunday:";
+Mkt3L10n.templateCarousel = ":Used By:";
+Mkt3L10n.socialAppEditorPollSettingsGroup = ":Per user, per single session:";
+Mkt3L10n.vespaConfigurePushAccessForm = ":Certificate:";
+Mkt3L10n.predictiveAudiencesAdmin = ":RUNNING:";
+Mkt3L10n.landingPagePreviewer = ":Generate Preview URL:";
+Mkt3L10n.socialAppEditorReshareContentSettings = ":This appends the user's unique URL automatically to the email:";
+Mkt3L10n.adminPersonaSetting = ":Automatic:";
+Mkt3L10n.loginHistoryGrid = ":Failed Login:";
+Mkt3L10n.inAppMessageSendSampleForm = ":App:";
+Mkt3L10n.sfdcSyncErrorsGrid = ":Time:";
+Mkt3L10n.featureEnableConfirmation = ":Disable Captcha:";
+Mkt3L10n.contentActionsMenu = ":<b>Draft Actions</b>:";
+Mkt3L10n.controllerTestGroup = ":Clicks To Open:";
+Mkt3L10n.mobilePushNotificationSummaryPanel = ":{0} uploaded ({1} used , :";
+Mkt3L10n.fileAemUploadForm = ":Close:";
+Mkt3L10n.controllerVariants = ":D:";
+Mkt3L10n.emailEditor2 = ":No modules. Email is broken from template.:";
+Mkt3L10n.dcSnippetForm = ":Replace with Snippet:";
+Mkt3L10n.formIsAppendForm = ":Cancel:";
+Mkt3L10n.activityFiltersForm = ":Date:";
+Mkt3L10n.inAppMessageEditorCloseButtonStyle = ":Standard:";
+Mkt3L10n.socialAppEditorLinkedinContentSettings = ":Use {html_title} to automatically pull the page title into your message:";
+Mkt3L10n.socialAppEditorFlowNavToolbar = ":Back:";
+Mkt3L10n.ReplaceHtml = ":Replacing HTML disconnects the email from the template:";
+Mkt3L10n.linkedInAccounts = ":<b>Select the Account(s) you would like to capture people from:</b>:";
+Mkt3L10n.testGroupSummaryPanel = ":Champion Selection:";
+Mkt3L10n.analyticsCustomReportCanvas = ":Select a Report:";
+Mkt3L10n.MetaDataForm = ":Facebook OG Tags:";
+Mkt3L10n.mktocustomactivityContextMenu = ":Approve Activity:";
+Mkt3L10n.featureSwitchForm = ":Enabled:";
+Mkt3L10n.daysToggle = ":T:";
+Mkt3L10n.auditTrailAssetDetails = ":Email:";
+Mkt3L10n.editAdWordsMappingsForm = ":New conversion name:";
+Mkt3L10n.sfdcSyncStatusGrid = ":Updated:";
+Mkt3L10n.presentationSummaryPanel = ":Rotate Every:";
+Mkt3L10n.googleAdWordsSettingsForm = ":Auto-tagging:";
+Mkt3L10n.adminTinyMceSettingForm = ":Legacy:";
+Mkt3L10n.abmSelectionBox = ":Selected Companies <strong>{0}/{1}</strong>:";
+Mkt3L10n.modalForm = ":There are errors with some of the fields. They have been highlighted below:";
+Mkt3L10n.abmNamedAccountDeleteNamedAccountForm = ":Named Accounts delete operation failed:";
+Mkt3L10n.vespa = ":<a href='{0}' target='_blank'>iOS(Not Integrated)</a>:";
+Mkt3L10n.createNamedAccountForm = ":An account with this name already exists:";
+Mkt3L10n.referralOfferParticipantsContextMenu = ":Mark as \\\"Fulfillment Email Sent\\\":";
+Mkt3L10n.sweepstakesParticipantsContextMenu = ":View Lead Details:";
+Mkt3L10n.programOperationalModeForm = ":Edit Analytics Behavior Settings:";
+Mkt3L10n.messagebox = ":System Information:";
+Mkt3L10n.modelSocialAppStats = ":Last 7 days:";
+Mkt3L10n.FormEdit = ":Discarding Draft:";
+Mkt3L10n.controllerEmailEditor = ":Empty:";
+Mkt3L10n.formRichTextFieldEditor = ":Delete:";
+Mkt3L10n.CalendarEntryTypeStore = ":Seminar:";
+Mkt3L10n.controllerSmsMessageEditor = ":Please wait...:";
+Mkt3L10n.controllerAbmDashboard = ":Top Named Accounts By Pipeline{0}:";
+Mkt3L10n.mobilePushNotificationPreviewer = ":View Default:";
+Mkt3L10n.mobilePushNotificationSendSampleForm = ":Select a person by email:";
+Mkt3L10n.mktMobilePushNotification = ":<b>{0}</b> is in use and cannot be deleted:";
+Mkt3L10n.adminEditSubscriptionForm = ":Purpose:";
+Mkt3L10n.FormPicker = ":Follow-up Page...:";
+Mkt3L10n.abmDashboard = ":Dashboard:";
+Mkt3L10n.adminAbmSalesSettingsPanel = ":Prioritize Accounts by::";
+Mkt3L10n.socialAppEditorContent = ":Share with your friends:";
+Mkt3L10n.predefinedLayoutLPEditor = ":Edit:";
+Mkt3L10n.adminEditLicensesForm = ":Sorry, not enough licenses available. Contact your Sales Rep for more.:";
+Mkt3L10n.controllerFormEditor = ":Please Wait...:";
+Mkt3L10n.assetForm = ":Clone Asset:";
+Mkt3L10n.modelTestGroup = ":Engagement Score:";
+Mkt3L10n.adminScoreSettingsForm = ":External Score (API Enabled):";
+Mkt3L10n.calendarCampaignSummaryModalForm = ":Smart List:";
+Mkt3L10n.auditTrailAdminGrid = ":Id:";
+Mkt3L10n.controllerAbmNamedAccountDashboard = ":Revenue:";
+Mkt3L10n.socialAppEditorRulesSettingsGroup = ":Rules Link URL:";
+Mkt3L10n.inAppMessageSummaryPanel = ":Used By:";
+Mkt3L10n.calendarEntryEditDatesForm = ":Timezone:";
+Mkt3L10n.AbstractModal = ":Close:";
+Mkt3L10n.adminPackagingForm = ":Not Available:";
+Mkt3L10n.controllerGoals = ":Delete Goal:";
+Mkt3L10n.inAppMessageEditorPrimaryButtonStyle = ":Image:";
+Mkt3L10n.editFacebookMappingsForm = ":<b>Facebook Conversion</b>:";
+Mkt3L10n.socialAppPromoCodeViewer = ":Promo Codes:";
+Mkt3L10n.managePresentationsPanel = ":Name:";
+Mkt3L10n.formFinish = ":Disabled:";
+Mkt3L10n.mktowsEditIpRestrictionForm = ":Add:";
+Mkt3L10n.appSubscriptionSwitchModal = ":Are you sure you want to switch from <b>{0}</b> to <b>{1}</b>:";
+Mkt3L10n.setAdWordsConvForm = ":Select...:";
+Mkt3L10n.dcPollForm = ":Poll:";
+Mkt3L10n.nurtureTrackPanel = ":{0} months:";
+Mkt3L10n.controllerTestGroupEditor = ":Reset Test:";
+Mkt3L10n.abmDiscoverMktoCanvas = ":Target Account:";
+Mkt3L10n.trackCadenceForm = ":Day of the month:";
+Mkt3L10n.wizardEditorNavBar = ":Finish:";
+Mkt3L10n.abmNamedAccountCanvas = ":Dashboard:";
+Mkt3L10n.lpEditor = ":Drag to reorder mobile:";
+Mkt3L10n.checkImportStatusModal = ":Failed:";
+Mkt3L10n.socialAppAssetForm = ":Portuguese (Brazilian):";
+Mkt3L10n.smsMessageSummaryPanel = ":View: Summary:";
+Mkt3L10n.email2ElementContextMenu = ":Delete:";
+Mkt3L10n.newSmartListGoalForm = ":Goal Target:";
+Mkt3L10n.facebookPages = ":ID:";
+Mkt3L10n.inAppMessageEditorStyles = ":Marketo Landing Page:";
+Mkt3L10n.socialAppParticipants = ":Codes Remaining:";
+Mkt3L10n.crmEditCredentialsForm = ":Web Api Version:";
+Mkt3L10n.lpConversationalFormPicker = ":In-line:";
+Mkt3L10n.emailAssetForm = ":Test Group:";
+Mkt3L10n.inAppMessagePreview = ":Tablet:";
+Mkt3L10n.testGroupSubjectVariant = ":Subject Line:";
+Mkt3L10n.linkedInFieldMapping = ":Marketo Field:";
+Mkt3L10n.auditTrailExportForm = ":Comma Separated Values:";
+Mkt3L10n.vespaVerifyPushForm = ":Android:";
+Mkt3L10n.landingPageTemplatePreviewer = ":Edit Draft:";
+Mkt3L10n.controllerNurtureDashboard = ":Paused:";
+Mkt3L10n.storeAssetGroup = ":Design Studio...:";
+Mkt3L10n.ReportSettingsForm = ":Date of Activity:";
+Mkt3L10n.webServicesBulkExportApiModal = ":API Requests:";
+Mkt3L10n.inAppMessageEditorBackgroundStyle = ":Border:";
+Mkt3L10n.emailVariantActionsMenu = ":Approve Draft:";
+Mkt3L10n.assetUsedByGrid = ":Name:";
+Mkt3L10n.nurtureTrackForm = ":Description:";
+Mkt3L10n.Tree = ":From Email:";
+Mkt3L10n.abmWelcomeOnboarding = ":<h1>Import</br>Accounts</h1>:";
+Mkt3L10n.leadDbOverview = ":click to refresh:";
+Mkt3L10n.home = ":Marketo Sky (Beta):";
+Mkt3L10n.adminAbmSettingsPanel = ":Weighted:";
+Mkt3L10n.socialAppDashboardFunnel = ":Shares:";
+Mkt3L10n.WEditor = ":token:";
+Mkt3L10n.iCalendarSettingsForm = ":Subject:";
+Mkt3L10n.hiddenFieldForm = ":Use Default Value:";
+Mkt3L10n.RecipientTimeZoneSettingsForm = ":Deliver using program's default set time:";
+Mkt3L10n.controllerSubscriptionBundleForm = ":Adding:";
+Mkt3L10n.controllerPackagingForm = ":Apply:";
+Mkt3L10n.socialAppEditorSweepstakesSettingsGroup = ":Add this script to your HTML and call this function to register a conversion:";
+Mkt3L10n.presentationSetupTreePanel = ":Views:";
+Mkt3L10n.mercuryAdmin = ":Users who have already made Marketo Sky their default experience will be reverted back to Classic UI as their default experience by changing this setting.:";
+Mkt3L10n.AssetSectionContextMenu = ":Hide on Desktop:";
+Mkt3L10n.abmIcpModelingNewAccounts = ":This may take some time. You may close this tab and continue working elsewhere in Marketo. You will receive a notification when complete.:";
+Mkt3L10n.abmNamedAccountDashboard = ":Account Scores:";
+Mkt3L10n.calendarAssetActionsContextMenu = ":View Flow:";
+Mkt3L10n.smartCampaignAssetForm = ":Account Campaign:";
+Mkt3L10n.emailPreview = ":Unknown Lead:";
+Mkt3L10n.mobilePushNotificationAssetForm = ":New Mobile Push Notification:";
+Mkt3L10n.adminAddDomainForm = ":Example: m1:";
+Mkt3L10n.LanguageMenu = ":English-American:";
+Mkt3L10n.ContextMenu = ":Rename:";
+Mkt3L10n.calendarEntryRescheduleForm = ":Reschedule all entries in this program relative to the anchor, except those already happened in the past.:";
+Mkt3L10n.formEditorConversationalFormDefaultChoice = ":Use Conversational Flow:";
+Mkt3L10n.FieldSelection = ":Delete {0}:";
+Mkt3L10n.controllerMobilePushNotificationSendSampleForm = ":You must select a device:";
+Mkt3L10n.controllerCrmEditCredentialsForm = ":Enter Credentials:";
+Mkt3L10n.controllerAddToAccountListForm = ":{0} Named Account(s) already belongs to Account List {1} and can not be added.:";
+Mkt3L10n.adminCrmFieldSettingsForm = ":Marketo Field:";
+Mkt3L10n.abmPotentialPeopleGrid = ":Email:";
+Mkt3L10n.email2HeaderEditor = ":Enter reply-to address:";
+Mkt3L10n.smartListReportSubscription = ":You have reached the maximum number of report subscriptions:";
+Mkt3L10n.formFieldWidget = ":Rich Text:";
+Mkt3L10n.CustomHtmlForm = ":Replace Custom HTML:";
+Mkt3L10n.adminSalesInsight = ":Field Data Migration process is about to start...:";
+Mkt3L10n.controllerSocialAppEditor = ":Cannot Approve {0}:";
+Mkt3L10n.newExperienceEditSubscriptionForm = ":Users who have already made New Experience their default experience will be reverted back to Classic UI as their default experience by changing this setting.:";
+Mkt3L10n.Inbox = ":Are you sure you want to delete <b>{0}</b> notifications?:";
+Mkt3L10n.VTypes = ":Invalid Email Address:";
+Mkt3L10n.AddCalendarEntryTypeForm = ":Name:";
+Mkt3L10n.inAppMessageEditor = ":Send Sample:";
+Mkt3L10n.SegmentForm = ":Segments:";
+Mkt3L10n.mktocustomactivityToolbar = ":New Custom Activity:";
+Mkt3L10n.Manager = ":Name:";
+Mkt3L10n.abmAccountListDashboard = ":Account List Score (Avg):";
+Mkt3L10n.modelNotificationMessageComponent = ":Poll:";
+Mkt3L10n.CalendarEntryContextMenu = ":View Details:";
+Mkt3L10n.adminAccountInsightSettingsForm = ":Chrome Plug-In Settings:";
+Mkt3L10n.DynamicComponentEditor = ":Segmentation:";
+Mkt3L10n.presentationGoalsTreePanel = ":Smart List Goal:";
+Mkt3L10n.adminSubscriptionBundleForm = ":Bundle Summary:";
+Mkt3L10n.smsMessageToolbar = ":Clone:";
+Mkt3L10n.EmailVerification = ":Updating user's email will send email verification. The user's email and login will not be updated until they verify the new email.:";
+Mkt3L10n.UpgradeTemplateModal = ":Upgrade:";
+Mkt3L10n.landingPagePersonalizedUrlSettingsForm = ":Example: {0}JoeSmith:";
+Mkt3L10n.inAppMessageEditorNoTextLayout = ":Button:";
+Mkt3L10n.modelForm = ":Draft:";
+Mkt3L10n.inAppMessageEditorImageOnlyLayout = ":No Image Selected:";
+Mkt3L10n.abmNamedAccountPersonas = ":Personas:";
+Mkt3L10n.endDateDialog = ":Select Date:";
+Mkt3L10n.controllerPresentation = ":Launch:";
+Mkt3L10n.socialAppEditorApprovalForm = ":Close Without Approving:";
+Mkt3L10n.abmCanvas = ":Open Opportunities:";
+Mkt3L10n.newExperienceAdmin = ":Pre-release Feature Enablement:";
+Mkt3L10n.emailBlastHeadStartABTestConfirmForm = ": and:";
+Mkt3L10n.newPresentationForm = ":Name:";
+Mkt3L10n.abmIcpModelingUpdateAccountsForm = ":Update Existing Accounts:";
+Mkt3L10n.mobilePushNotificationEditorMessageSettingsPanel = ":You must enable at least one platform:";
+Mkt3L10n.landingPageAssetForm = ":Clone Landing Page:";
+Mkt3L10n.TrackForm = ":Stream already exists for this program. Please choose another name.:";
+Mkt3L10n.mktocustomactivityPreview = ":Preview:";
+Mkt3L10n.adminAbmWeeklyReportSettingsPanel = ":Wednesday:";
+Mkt3L10n.dcReferralOfferForm = ":Replace:";
+Mkt3L10n.calendarViewDetailsModal = ":Program Tags:";
+Mkt3L10n.contentAnalytics = ":All Cast::";
+Mkt3L10n.mktocustomactivityDependencyPanel = ":Lists or Campaigns using object fields:";
+Mkt3L10n.socialAppEditorNetworkContentSettings = ":Social Network Options:";
+Mkt3L10n.AbstractPanel = ":Loading...:";
+Mkt3L10n.mktocustomobjectPreview = ":Linked Object Name:";
+Mkt3L10n.trackAnalytics = ":Leads in Stream::";
+Mkt3L10n.smsMessage = ":Unapproving SMS Message:";
+Mkt3L10n.adminSalesInsightDataSubprocessingNoticeForm = ":Data Subprocessing Notice:";
+Mkt3L10n.mktocustomactivityFieldToolbar = ":Delete Field:";
+Mkt3L10n.calendarWebinarDetailsSummaryPanel = ":Event Status:";
+Mkt3L10n.ProfileCapture = ":Disabled:";
+Mkt3L10n.landingPageTemplateEditor = ":Make Mobile Compatible:";
+Mkt3L10n.reportAssetForm = ":Clone Report:";
+Mkt3L10n.socialAppDashboard = ":<div style=\\\"font-weight: bold\\\">Visits:</div><p>The number of times users have been to your site (unique sessions initiated by your visitors) during a given period. Users that leave and return within 30 minutes will be counted as part of the original session. Breaks in activity of more than 30 minutes or a browser close and restart will result in a new session or visit.</p><br/><div style=\\\"font-weight: bold\\\">Campaign Visits:</div><p>The number of visits to all campaigns on your site. Visits to a page with multiple placements of the same campaign count as one campaign visit. Visits to multiple pages with placements of the same campaign also count as one campaign visit.</p><br/><div style=\\\"font-weight: bold\\\">Interactions:</div><p>The number of times users have completed a social action, e.g. voting, rating, sharing, posting a comment, signing up for an offer, sharing a video, and so on. </p><br/><div style=\\\"font-weight: bold\\\">Shares:</div><p>The number of times users have shared a message to a social network.</p><br/><div style=\\\"font-weight: bold\\\">Resulting Clicks:</div><p>The number of page views generated by shared links from a campaign.</p><br/><div style=\\\"font-weight: bold\\\">Conversions:</div><p>The number of times users have completed a specific action (for example, purchasing a product), as defined by a conversion script implemented on your site. \\\"Registrations\\\" (or first time users who interact as a result of following a shared link back to your site) is the default conversion event if no conversion script is deployed.</p><br/>:";
+Mkt3L10n.rangeField = ":Maximum value required:";
+Mkt3L10n.setFacebookConvForm = ":Conversion:";
+Mkt3L10n.listAssetForm = ":New List:";
+Mkt3L10n.mobilePushNotificationPreviewerContentPanel = ":Send Sample:";
+Mkt3L10n.snippetEditor = ":Preview Draft:";
+Mkt3L10n.snippetPreviewer = ":Edit Draft:";
+Mkt3L10n.adminSalesInsightActionsFieldMappingPreviewForm = ":START SYNC:";
+Mkt3L10n.trackActionsMenu = ":Show archived content:";
+Mkt3L10n.formFieldMaskForm = ":Mask {0} Input:";
+Mkt3L10n.modelSocialApp = ":Draft:";
+Mkt3L10n.adminSalesUserInviteWizard = ":Step 2: Licenses:";
+Mkt3L10n.activitySearchToolbar = ":{0} entries:";
+Mkt3L10n.newMembersAreaChart = ":Day:";
+Mkt3L10n.codeEditorSearchModal = ":Search Code:";
+Mkt3L10n.customKnownLeadForm = ":Not you?:";
+Mkt3L10n.adminAccountTeamForm = ":Account Team Fields:";
+Mkt3L10n.controllerWinnerPicker = ":You must check <i>I'm ready to pick</i>:";
+Mkt3L10n.auditTrailCanvas = ":Date:";
+Mkt3L10n.presentationViewerGoalPanel = ":Invalid:";
+Mkt3L10n.mobilePushNotificationEditorAndroidSettingsPanel = ":No app selected:";
+Mkt3L10n.email2CodeEditor = ":Cancel:";
+Mkt3L10n.socialAppDisqualificationForm = ":Reason:";
+Mkt3L10n.webServicesApiRequestsModal = ":Close:";
+Mkt3L10n.picklistForm = ":Simple Editor:";
+Mkt3L10n.controllerMobilePushNotificationEditor = ":<i>None</i>:";
+Mkt3L10n.inAppMessageEditorTextButtonLayout = ":Button:";
+Mkt3L10n.socialAppWinners = ":Winners:";
+Mkt3L10n.snippetAssetForm = ":New Snippet:";
+Mkt3L10n.adminScoreSettings = ":Select Field:";
+Mkt3L10n.vespaSendForm = ":Send:";
+Mkt3L10n.socialAppVoteViewerForm = ":Close:";
+Mkt3L10n.calendarPublishForm = ":Close:";
+Mkt3L10n.controllerCanvasPanelHeader = ":A Message:";
+Mkt3L10n.smsMessageEditorApprovalForm = ":Close Without Approving:";
+Mkt3L10n.base = ":Marketo Email Designer:";
+Mkt3L10n.ObjectsForm = ":Expand all:";
+Mkt3L10n.CardsCanvasPanel = ":Add or select a app from the tree:";
+Mkt3L10n.landingPagePreviewUrlForm = ":Close:";
+Mkt3L10n.note = ":Note:";
+Mkt3L10n.inAppMessageEditorDecisionLayout = ":Button:";
+Mkt3L10n.adminTagsCalendarEntryTypeMenu = ":Hide:";
+Mkt3L10n.controllerFileUploadForm = ":Box Account Failure:";
+Mkt3L10n.TokenPicker = ":Default Value:";
+Mkt3L10n.SocialMetrics = ":Social Lift:";
+Mkt3L10n.goalsToolbar = ":New Custom Goal:";
+Mkt3L10n.socialAppApprovalForm = ":This could affect the layout of approved landing pages:";
+Mkt3L10n.assetAutosuggestField = ":Select...:";
+Mkt3L10n.wildcardRedirectForm = ":Landing Page:";
+Mkt3L10n.canvasPanelHeader = ":Cancel:";
+Mkt3L10n.fileDetail = ":Used By:";
+Mkt3L10n.runInAppProgramConfirmForm = ":Audience contains new custom fields. It may take several minutes up to hours before messages will be viewable, depending on audience size:";
+Mkt3L10n.leadComponentForm = ":New Lead:";
+Mkt3L10n.emailCcSettingsForm = ":Select Email Fields ...:";
+Mkt3L10n.selectListForm = ":Apply:";
+Mkt3L10n.socialAppEditorTwitterContentSettings = ":Use {html_title} to automatically pull the page title into your message:";
+Mkt3L10n.vespaContextMenu = ":Verify Push Configuration:";
+Mkt3L10n.smartCampaignAbortCampaignForm = ":Are you sure you want to abort {0}? All flow actions will be stopped:";
+Mkt3L10n.controllerVespaAppForm = ":Edit Mobile App:";
+Mkt3L10n.inAppMessageEditorDefaultLayout = ":Button:";
+Mkt3L10n.mktocustomobjectDependencyPanel = ":Lists or Campaigns using object fields:";
+Mkt3L10n.controllerFileAemUploadForm = ":{0} image(s) could not be imported:";
+Mkt3L10n.mktoerrors = ":List must have at least one value:";
+Mkt3L10n.nurtureContentScheduleForm = ":Active Through:";
+Mkt3L10n.socialAppEditorButtonStyleAfterClickSettingsGroup = ":After-Click Style:";
+Mkt3L10n.colorPicker = ":G:";
+Mkt3L10n.appGlobalSearch = ":Search...:";
+Mkt3L10n.inAppMessageImageForm = ":Select:";
+Mkt3L10n.audienceImportForm = ":Audience Library Folder:";
+Mkt3L10n.socialAppWidgetEmbedCodeForm = ":Body Code:";
+Mkt3L10n.modelSmsMessage = ":Approved:";
+Mkt3L10n.adminFieldHtmlEncodeForm = ":HTML Encode Tokens in Emails:";
+Mkt3L10n.addNotificationForm = ":Notification type:";
+Mkt3L10n.inAppMessageEditorApprovalForm = ":Back to Editor:";
+Mkt3L10n.EditableSectionContextMenu = ":Edit:";
+Mkt3L10n.RichTextEditor = ":HTML source content cannot exceed 65535 character limit:";
+Mkt3L10n.adminSalesInsightRestApiConfigForm = ":REST API Configuration:";
+Mkt3L10n.clonePresentationForm = ":Name:";
+Mkt3L10n.cancelAudienceExportForm = ":Are you sure you want to stop syncing to <b>{0}</b>:";
+Mkt3L10n.msdErrorDetailsForm = ":Details:";
+Mkt3L10n.dcShareButtonForm = ":Button Type:";
+Mkt3L10n.meue = ":We encountered a system error. If the problem persists, please contact Marketo Support.:";
+Mkt3L10n.OverlayMenu = ":All Email Programs:";
+Mkt3L10n.mktoCustomObjectSummary = ":Custom Objects:";
+Mkt3L10n.ThemeStyleOverrideForm = ":Add your custom CSS below:";
+Mkt3L10n.modelEmailBlastTestGroup = ":Date/Time:";
+Mkt3L10n.ShareButton = ":Select Method:";
+Mkt3L10n.email2EditableSectionContextMenu = ":Make Dynamic:";
+Mkt3L10n.CalendarPanel = ":Learn which browsers are supported:";
+Mkt3L10n.inbox = ":Delete:";
+Mkt3L10n.abmAccountList = ":STATIC:";
+Mkt3L10n.abmNamedAccountPersonaGrid = ":Persona:";
+Mkt3L10n.mktocustomobjectToolbar = ":Discard Draft:";
+Mkt3L10n.formProgressiveProfiling = ":Blank Fields:";
+Mkt3L10n.LandingPageContent = ":This Landing Page Template contains an mktEditable section without an ID:";
+Mkt3L10n.socialAppEditorReferralOfferSettingsGroup = ":Smart List Trigger:";
+Mkt3L10n.nurtureTouchPanel = ":Add Content:";
+Mkt3L10n.fieldValidationApplyRuleForm = ":Save:";
+Mkt3L10n.testGroupWholeEmailVariant = ":CLONE:";
+Mkt3L10n.vespaDashboard = ":Unable to complete the action at this time.<br>If this continues, contact Marketo Support:";
+Mkt3L10n.nurtureRuntimeTestForm = ":Create Lead...:";
+Mkt3L10n.controllerLandingPage = ":Social:";
+Mkt3L10n.abmOpportunityGrid = ":Stage:";
+Mkt3L10n.psnippetCanvas = ":Switch to Editor:";
+Mkt3L10n.controllerDashboardSettingsForm = ":From and To date field cannot be empty:";
+Mkt3L10n.SocialCampaignForm = ":Social Campaign:";
+Mkt3L10n.mobilePushNotificationEditorIosSettingsPanel = ":Enter your message...:";
+Mkt3L10n.facebookLeadMapping = ":Select Facebook Field:";
+Mkt3L10n.AssetFragment = ":{0} is {1}:";
+Mkt3L10n.appTopBar = ":Help:";
+Mkt3L10n.CalendarEntryTypesPanel = ":{0} Items:";
+Mkt3L10n.analyticsGroupedColumnChart = ":Success:";
+Mkt3L10n.ownerAssetField = ":Folder:";
+Mkt3L10n.activityProgramGrid = ":From:";
+Mkt3L10n.inAppMessageEditorLayoutPanel = ":Layout:";
+Mkt3L10n.TestGroupToolbar = ":Edit Test:";
+Mkt3L10n.socialAppWinnersGrid = ":Promo Code:";
+Mkt3L10n.emailBlastTestGroupSummaryForm = ":Close:";
+Mkt3L10n.Email2ComponentForm = ":<b>Not Saved. Invalid attribute specified.</b><br>\\\"mktoModule\\\" is a reserved HTML class attribute. Please remove this and try saving again.:";
+Mkt3L10n.abmDiscoverCRMIncludeChildrenForm = ":Submit:";
+Mkt3L10n.controllerFieldValidationGrid = ":Rule being used by fields, cannot be deleted:";
+Mkt3L10n.mktocustomobjectTreePanel = ":New Custom Object:";
+Mkt3L10n.formEmbedCodeForm = ":Normal:";
+Mkt3L10n.assignAccountMemberForm = ":Assign Account Member:";
+Mkt3L10n.mobilePushNotificationEditorApprovalForm = ":Back to Editor:";
+Mkt3L10n.socialAppEditorLeadCaptureContentSettings = ":Lead capture screen is only displayed if their info hasn't already been provided:";
+Mkt3L10n.activityFilterByField = ":Select One:";
+Mkt3L10n.mktocustomobjectFieldContextMenu = ":Delete Field:";
+Mkt3L10n.vespaSecureModeForm = ":Access security authenticates the identity of users logged in from the mobile app. <a href=\\\"{0}\\\" target=\\\"_blank\\\">Learn More</a>:";
+Mkt3L10n.presentationViewer = ":Full Screen:";
+Mkt3L10n.FormExportTheme = ":View {0} CSS:";
+Mkt3L10n.SimpleWarning = ":Warning:";
+Mkt3L10n.warning = ":Warning:";
+Mkt3L10n.controllerMobilePushNotificationPreviewer = ":Before sending a sample, return to step one of the push notification editor and select an app:";
+Mkt3L10n.Snippet = ":Preview Draft:";
+Mkt3L10n.calendarPresentationContextMenu = ":Delete:";
+Mkt3L10n.HeaderEditor = ":Reply-to:";
+Mkt3L10n.fileUploadForm = ":Save in Folder:";
+Mkt3L10n.ProgressModal = ":Please Wait...:";
+Mkt3L10n.viewSummaryModal = ":No:";
+Mkt3L10n.controllerVespaVerifyPushForm = ":Not Found:";
+Mkt3L10n.nurtureTrack = ":Flow:";
+Mkt3L10n.adminFieldMapToCrmForm = ":Map to CRM Field:";
+Mkt3L10n.EditEntryDescriptionForm = ":Edit Description:";
+Mkt3L10n.previewerSnippet = ":Edit Draft:";
+Mkt3L10n.Asset = ":Adding this segmentation would create a total of {0} variations. More than {1} makes our brain hurt.<br /><br />Can you simplify?:";
+Mkt3L10n.createAccountListForm = ":Rename Account List:";
+Mkt3L10n.filter = ":Apply:";
+Mkt3L10n.mobilePushNotificationPreviewerIosPanel = ":Notification Center:";
+Mkt3L10n.controllermktocustomobjectVerifyPushForm = ":Verification Complete:";
+Mkt3L10n.analyzerAssetForm = ":Clone Analyzer:";
+Mkt3L10n.emailTemplateAssetForm = ":New Email Template:";
+Mkt3L10n.PagingDataView = ":More Images...:";
+Mkt3L10n.abmNamedAccountUnlinkFromNamedAccountForm = ":Named Accounts unlink operation failed:";
+Mkt3L10n.mktocustomactivityDashboard = ":Marketo Custom Activities:";
+Mkt3L10n.adminSubscriptionInformationForm = ":Edit Subscription Information:";
+Mkt3L10n.smsMessageAssetForm = ":Clone SMS Message:";
+Mkt3L10n.distributionField = ":Segment {0}:";
+Mkt3L10n.charts = ":Export:";
+Mkt3L10n.smsMessageEditorMessageField = ":Type your message here:";
+Mkt3L10n.DlManager = ":Following dlCompCode: {0} is already used by {1}:";
+Mkt3L10n.emailChampionChallengerSummaryForm = ":Close:";
+Mkt3L10n.presentationGoalsPanel = ":Goals:";
+Mkt3L10n.emailGridContextMenu = ":Send Sample:";
+Mkt3L10n.adminAbmReportResubscribeForm = ":Users:";
+Mkt3L10n.analyticsLandingPageChart = ":Conversions:";
+Mkt3L10n.mobilePushNotificationApprovalForm = ":Not available:";
+Mkt3L10n.adminAccountTeam = ":Remove Account Role:";
+Mkt3L10n.controllerCalendarPro = ":Overlay:";
+Mkt3L10n.calendarCustomViewForm = ":Description:";
+Mkt3L10n.ScheduleContentForm = ":Active Through date should be later than Active From date:";
+Mkt3L10n.emailEditorComponentForm = ":HTML:";
+Mkt3L10n.fileSummary = ":URL:";
+Mkt3L10n.testGroupSettingsPanel = ":Test Stage:";
+Mkt3L10n.assetField = ":Select...:";
+Mkt3L10n.emailBlastEditEmailsForm = ":Edit Notifications:";
+Mkt3L10n.socialAppEditorFacebookPostContentSettings = ":The URL for the shared content will be automatically appended to the Facebook message:";
+Mkt3L10n.nurtureTrackRules = ":Edit Transition Rules:";
+Mkt3L10n.SnippetEmptyPanel = ":Use 'Segment By' to make this Snippet dynamic:";
+Mkt3L10n.dataViewPanel = ":No Templates Found:";
+Mkt3L10n.emailBlastCommunicationLimitForm = ":Ignore Limit:";
+Mkt3L10n.abmAccountListGrid = ":<label>No Account Lists</label><label><a href=\\\"http://docs.marketo.com/display/public/DOCS/Account+Lists\\\" target=\\\"_blank\\\">Learn More</a> about Account Lists</label>:";
+Mkt3L10n.formPreview = ":Edit Draft:";
+Mkt3L10n.controllerForm = ":Are you sures you want to delete {0}?:";
+Mkt3L10n.lpCustomHtmlForm = ":Custom HTML Editor:";
+Mkt3L10n.socialAppEditorEmailCaptureContentSettings = ":Email capture screen is only displayed if their info hasn't already been provided:";
+Mkt3L10n.presentationSetupPanel = ":Setup:";
+Mkt3L10n.formEmbed = ":Embed Code:";
+Mkt3L10n.subscriptionChat = ":Chat Window:";
+Mkt3L10n.abmNamedAccountIcpIndicatorsGrid = ":Category:";
+Mkt3L10n.actionableContentGroup = ":Edit:";
+Mkt3L10n.colorField = ":Select:";
+Mkt3L10n.emailHtmlVariableEditor = ":Save:";
+Mkt3L10n.RawEntryTypePanel = ":Select Type...:";
+Mkt3L10n.abmFilterAutoSuggest = ":Empty:";
+Mkt3L10n.formFollowup = ":Default:";
+Mkt3L10n.socialAppEditorContentPanel = ":Before-Click:";
+Mkt3L10n.Dashboard = ":Date of Activity:";
+Mkt3L10n.abmAccountListTree = ":All Account Lists:";
+Mkt3L10n.LandingPagePropertyPanel = ":Property Sheet:";
+Mkt3L10n.QuickSearch = ":Quick Find...:";
+Mkt3L10n.MessageModal = ":Close:";
+Mkt3L10n.SegmentButton = ":Segment By:";
+Mkt3L10n.presentationTreePanel = ":Presentations...:";
+Mkt3L10n.FacebookPostSettings = ":<a href=\\\"{0}\\\" target=\\\"_blank\\\">Learn More</a>:";
+Mkt3L10n.lpFormSettings = ":This will be overridden by the admin setting:";
+Mkt3L10n.inAppMessageEditorStylePanel = ":Style:";
+Mkt3L10n.lpRichTextForm = ":Rich Text Editor:";
+Mkt3L10n.assetApiErrors = ":Unable to create Calendar entry:";
+Mkt3L10n.ShareButtonForm = ":Edit Settings:";
+Mkt3L10n.LandingPageFormPicker = ":Stay on this Page:";
+Mkt3L10n.socialAppEditorShareButtonContentSettings = ":Styling Options:";
+Mkt3L10n.testGroupFromVariant = ":From Name:";
+Mkt3L10n.emailEditorToolbar = ":Preview Draft:";
+Mkt3L10n.testGroupEditorVariantsContainer = ":You have reached the maximum number of test variants:";
+Mkt3L10n.SourcePanel = ":HTML Source:";
+Mkt3L10n.inboxPanel = ":Filter By:";
+Mkt3L10n.adminHome = ":Admin:";
+Mkt3L10n.email2AltTextToolbar = ":Edit Text Version:";
+Mkt3L10n.controllerAdminNewSubscriptionForm = ":Creating Subscription...:";
+Mkt3L10n.SocialFunnel = ":Total:";
+Mkt3L10n.saveToDesignStudio = ":No templates:";
+Mkt3L10n.PreviewPanel = ":Preview:";
+Mkt3L10n.socialAppEditor = ":Setup:";
+Mkt3L10n.modelEmailBlast = ":Approved:";
+Mkt3L10n.abmDynamicListTree = ":All Dynamic Lists:";
+Mkt3L10n.programOneClickImportForm = ":Select Workspace:";
+Mkt3L10n.sendTestTemplateForm = ":Send Sample Email:";
+Mkt3L10n.appComponentUsedBy = ":None:";
+Mkt3L10n.testGroupDateTimeVariant = ":Name:";
+Mkt3L10n.TreeDragZone = ":{0} selected row{1}:";
+Mkt3L10n.modelEmailBlastStats = ":after:";

@@ -1,131 +1,121 @@
-module.exports = {
-  "mkt2": {
-    "0_messages": {
-      "js": {
-        "Mkt3L10n": {
-          "ObjectSyncManager": ":Synced objects are read-only:",
-          "TreeFilterMenu": ":Forms:",
-          "Dynamics": ":URL:",
-          "ListImport": ":Tab Delimited:",
-          "WebhookAdmin": ":Remove:",
-          "message": ":<p>Error Loading Program Summary.</p><p>Refresh your browser.</p>:",
-          "UsedByListField": ":None:",
-          "CheckedTreePanel": ":{0} ({1} of {2}):",
-          "EmailEditor": ":Download HTML:",
-          "SAP": ":Last Name:",
-          "FieldManagement": ":Change Type:",
-          "MktTree20": ":Default Title:",
-          "EmailPreview": ":Close:",
-          "WebinarAdminMenu": ":Update:",
-          "LocalAssetMenu": ":New Social Button:",
-          "MktPurlModals": ":Save:",
-          "DataFormPanel": ":no settings:",
-          "LayoutCanvas": ":Saving...:",
-          "PredictiveLeadScoreModelAdminMenu": ":Edit Model:",
-          "CustAdmin": ":and up:",
-          "RSModeler": ": transition cannot be deleted because it is the default transition.:",
-          "BaseViewPort": ":Community:",
-          "WebinarAdmin": ":Fail:",
-          "canvas": ":Loading...:",
-          "FieldManager": ":Field Used By::",
-          "CampaignInspector": ":{0} campaigns:",
-          "AnalyticsReportSetup": ":Filter requires approved Model:",
-          "FormValidationRule": ":Enter description of the rule:",
-          "session": ":The server supplied HTML for element ID '{0}', but the ID does not match the known list:",
-          "MktSparkline": ":drawRect not implemented:",
-          "Preview": ":This field is required:",
-          "impExp": ":Images with the same name:",
-          "HasLinkedinSocialFill": ":Loading {0} forms...:",
-          "MarketingProgramSettings": ":You cannot change the Channel of this Program because the 'Change Program Status' flow step is being used in one or more places. Try removing or changing the flow step. :",
-          "analytics": ":more...:",
-          "LpSettings": ":Loading {0} rules...:",
-          "PredictiveLeadScoreModelAdmin": ":Loading...:",
-          "SparkHome": ":{text}:",
-          "WizardModal": ":Cancel:",
-          "CustAdminMenu": ":Sales Insight:",
-          "page": ":Refresh Browser:",
-          "MarketingEvent": ":Refresh from webinar:",
-          "ActivityFilters": ":Marketo:",
-          "ListFilter": ":Loading...:",
-          "CampaignSchedule": ":fourth:",
-          "Rsm": ":Description::",
-          "programs": ":Date/Time {0}:",
-          "DescriptorAdmin": ":Search for tags:",
-          "CustomTokens": ":Token:",
-          "analyzers": ":Program Success:",
-          "nav": ":PR:",
-          "CampaignMonitor": ":No campaigns were found:",
-          "ReportSettings": ":To Date must be after From Date:",
-          "ViewDetailsModal": ":Client Secret:",
-          "DataMgr": ":On or before:",
-          "FieldManagementMenu": ":The field you are trying to map is hidden. Mapping a hidden field is prohibited:",
-          "AdvancedFlowWait": ":Advanced Wait Properties:",
-          "InviteParticipants": ":This field is required:",
-          "AnalyticsMenu": ":Analyzer Settings:",
-          "campaigns": ":Email:",
-          "Crm": ":Filled out form:",
-          "ViewSlackDetailsModal": ":No:",
-          "FilterTreePanel": ":No matches:",
-          "WebhookAdminMenu": ":Set Custom Header:",
-          "Captcha": ":Not Set:",
-          "CachedTreePanel": ":Salesforce:",
-          "JigsawAdmin": ":Username:",
-          "ModalForm": ":Cancel:",
-          "explorer": ":Admin...:",
-          "LocalAsset": ":Searching...:",
-          "ViewFacebookWorkplaceDetailsModal": ":Interesting Moments:",
-          "idleTriggerCampaigns": ":These campaigns were deactivated on :",
-          "MarketingEventMenu": ":New Event:",
-          "TreasureChest": ":<i>Developed by {0}</i>:",
-          "FacebookPublish": ":Please enter a Tab Name:",
-          "util": ":<i>Empty</i>:",
-          "DeviceSwitch": ":New Page Template:",
-          "EmailBlast": ":<b>Test View:</b> {0}:",
-          "LpEditorSocialShare": ":Add:",
-          "LpTemplate": ":Approved:",
-          "MktPortal": ":Name::",
-          "RowEditor": ":Save:",
-          "IsAnonymousCampaigns": ":Anonymous Smart Campaign:",
-          "DynamicContentAdmin": ":Edit Languages:",
-          "vtypes": ":L[.L][.L][.L][...] where L begins with a letter, ends with a letter or number, and does not exceed 63 characters:",
-          "MultiFileUploader": ":WARNING - Maximum size is {maxSize}. File {fileName} is {fileSize}:",
-          "ImageUtils": ":Overwrite existing files:",
-          "DataMgrMenu": ":Delete Field Organizer:",
-          "EmailDetails": ":Approved:",
-          "HomeMenu": ":New:",
-          "SysAdminMenu": ":New Subscription Rubiks:",
-          "CanvasCoverPage": ":Run History:",
-          "UsedByModal": ":Used by:",
-          "ProgramAnalyzerChart": ":name:",
-          "MktGrids": ":Calculating...:",
-          "Progressions": ":Loading {0} progressions...:",
-          "LayoutDesigner": ":Auto-Save: {0}:",
-          "Format": ":Test Group:",
-          "RsmMenu": ":Approve:",
-          "ImprovedComboBox": ":Searching...:",
-          "CanvasHeader": ":Save:",
-          "CampaignScheduleRun": ":Invalid date and time.:",
-          "DescriptorAdminMenu": ":Hide:",
-          "LpSettingsMenu": ":New Domain Alias:",
-          "SocialShare": ":Apply:",
-          "AccountAnalyzerChart": ":Trend now now now:",
-          "AsyncMenu": ":Loading...:",
-          "LandingPagePreview": ":{0} Landing Page Previewer:",
-          "LeadAction": ":Define rules for formula field:",
-          "Field": ":{0} is not a valid date - it must be in the format {1}:",
-          "ComboChooser": ":Add All >>:",
-          "FileUploadField": ":Browse...:",
-          "LpTemplateEditor": ":Saving changes ...:",
-          "GridFilters": ":Filters:",
-          "PFA": ":Powered By:",
-          "JigsawAdminMenu": ":Edit Data.com Field Mapping:",
-          "DataFormPanelErrors": ":A value is required for {0}:",
-          "AppSatelliteViewport": ":Save As...:",
-          "CanvasMask": ":Loading...:",
-          "Note": ":Note::",
-          "AppViewport": ":Filter by type and status:"
-        }
-      }
-    }
-  }
-};
+Mkt3L10n.ObjectSyncManager = ":Synced objects are read-only:";
+Mkt3L10n.TreeFilterMenu = ":Forms:";
+Mkt3L10n.Dynamics = ":URL:";
+Mkt3L10n.ListImport = ":Tab Delimited:";
+Mkt3L10n.WebhookAdmin = ":Enter a correct value on all required fields:";
+Mkt3L10n.message = ":<p>Error Loading Program Summary.</p><p>Refresh your browser.</p>:";
+Mkt3L10n.UsedByListField = ":None:";
+Mkt3L10n.CheckedTreePanel = ":{0} ({1} of {2}):";
+Mkt3L10n.EmailEditor = ":Download HTML:";
+Mkt3L10n.SAP = ":Last Name:";
+Mkt3L10n.FieldManagement = ":Change Type:";
+Mkt3L10n.MktTree20 = ":Default Title:";
+Mkt3L10n.EmailPreview = ":Close:";
+Mkt3L10n.WebinarAdminMenu = ":Update:";
+Mkt3L10n.LocalAssetMenu = ":New Social Button:";
+Mkt3L10n.InviteParticipants = ":This field is required:";
+Mkt3L10n.AnalyticsMenu = ":Analyzer Settings:";
+Mkt3L10n.CustomTokens = ":Token:";
+Mkt3L10n.CustAdmin = ":and up:";
+Mkt3L10n.WebinarAdmin = ":Fail:";
+Mkt3L10n.FormValidationRule = ":Enter description of the rule:";
+Mkt3L10n.MarketingEvent = ":Refresh from webinar:";
+Mkt3L10n.ViewSlackDetailsModal = ":Re-Authorize:";
+Mkt3L10n.programs = ":Date/Time {0}:";
+Mkt3L10n.CanvasHeader = ":Save:";
+Mkt3L10n.LayoutCanvas = ":Saving...:";
+Mkt3L10n.PredictiveLeadScoreModelAdminMenu = ":Edit Model:";
+Mkt3L10n.RSModeler = ": transition cannot be deleted because it is the default transition.:";
+Mkt3L10n.BaseViewPort = ":Community:";
+Mkt3L10n.MarketingProgramSettings = ":You cannot change the Channel of this Program because the 'Change Program Status' flow step is being used in one or more places. Try removing or changing the flow step. :";
+Mkt3L10n.FieldManager = ":Field Used By::";
+Mkt3L10n.CampaignInspector = ":{0} campaigns:";
+Mkt3L10n.AnalyticsReportSetup = ":Filter requires approved Model:";
+Mkt3L10n.analyzers = ":Program Success:";
+Mkt3L10n.DataFormPanel = ":no settings:";
+Mkt3L10n.LpEditorSocialShare = ":Add:";
+Mkt3L10n.LocalAsset = ":Searching...:";
+Mkt3L10n.Crm = ":Filled out form:";
+Mkt3L10n.MktSparkline = ":drawRect not implemented:";
+Mkt3L10n.Preview = ":This field is required:";
+Mkt3L10n.impExp = ":Images with the same name:";
+Mkt3L10n.PredictiveLeadScoreModelAdmin = ":Loading...:";
+Mkt3L10n.SparkHome = ":{text}:";
+Mkt3L10n.WizardModal = ":Cancel:";
+Mkt3L10n.LpSettings = ":Loading {0} rules...:";
+Mkt3L10n.DataMgr = ":On or before:";
+Mkt3L10n.analytics = ":more...:";
+Mkt3L10n.CustAdminMenu = ":Sales Insight:";
+Mkt3L10n.page = ":Refresh Browser:";
+Mkt3L10n.MktPurlModals = ":Save:";
+Mkt3L10n.ActivityFilters = ":Marketo:";
+Mkt3L10n.ListFilter = ":Loading...:";
+Mkt3L10n.CampaignSchedule = ":fourth:";
+Mkt3L10n.Rsm = ":Description::";
+Mkt3L10n.DescriptorAdmin = ":Search for tags:";
+Mkt3L10n.ReportSettings = ":To Date must be after From Date:";
+Mkt3L10n.explorer = ":Admin...:";
+Mkt3L10n.ViewDetailsModal = ":Client Secret:";
+Mkt3L10n.FieldManagementMenu = ":The field you are trying to map is hidden. Mapping a hidden field is prohibited:";
+Mkt3L10n.AdvancedFlowWait = ":Advanced Wait Properties:";
+Mkt3L10n.nav = ":PR:";
+Mkt3L10n.CampaignMonitor = ":No campaigns were found:";
+Mkt3L10n.campaigns = ":Email:";
+Mkt3L10n.ViewFacebookWorkplaceDetailsModal = ":Workplace by Facebook Features: :";
+Mkt3L10n.CampaignScheduleRun = ":Run later:";
+Mkt3L10n.DescriptorAdminMenu = ":Hide:";
+Mkt3L10n.session = ":Ajax request with no URL!:";
+Mkt3L10n.AsyncMenu = ":Failed to load menu items:";
+Mkt3L10n.FilterTreePanel = ":No matches:";
+Mkt3L10n.WebhookAdminMenu = ":Set Custom Header:";
+Mkt3L10n.Captcha = ":Not Set:";
+Mkt3L10n.CachedTreePanel = ":Salesforce:";
+Mkt3L10n.JigsawAdmin = ":Username:";
+Mkt3L10n.ModalForm = ":Cancel:";
+Mkt3L10n.idleTriggerCampaigns = ":These campaigns were deactivated on :";
+Mkt3L10n.MarketingEventMenu = ":New Event:";
+Mkt3L10n.TreasureChest = ":<i>Developed by {0}</i>:";
+Mkt3L10n.FacebookPublish = ":Please enter a Tab Name:";
+Mkt3L10n.canvas = ":Loading...:";
+Mkt3L10n.util = ":<i>Empty</i>:";
+Mkt3L10n.DeviceSwitch = ":New Page Template:";
+Mkt3L10n.EmailBlast = ":<b>Test View:</b> {0}:";
+Mkt3L10n.LpTemplate = ":Approved:";
+Mkt3L10n.MktPortal = ":Name::";
+Mkt3L10n.RowEditor = ":Save:";
+Mkt3L10n.IsAnonymousCampaigns = ":Anonymous Smart Campaign:";
+Mkt3L10n.DynamicContentAdmin = ":Edit Languages:";
+Mkt3L10n.vtypes = ":L[.L][.L][.L][...] where L begins with a letter, ends with a letter or number, and does not exceed 63 characters:";
+Mkt3L10n.MultiFileUploader = ":WARNING - Maximum size is {maxSize}. File {fileName} is {fileSize}:";
+Mkt3L10n.ImageUtils = ":Overwrite existing files:";
+Mkt3L10n.DataMgrMenu = ":Delete Field Organizer:";
+Mkt3L10n.EmailDetails = ":Approved:";
+Mkt3L10n.HomeMenu = ":New:";
+Mkt3L10n.SysAdminMenu = ":New Subscription Rubiks:";
+Mkt3L10n.CanvasCoverPage = ":Run History:";
+Mkt3L10n.UsedByModal = ":Used by:";
+Mkt3L10n.ProgramAnalyzerChart = ":name:";
+Mkt3L10n.MktGrids = ":Calculating...:";
+Mkt3L10n.HasLinkedinSocialFill = ":Loading {0} forms...:";
+Mkt3L10n.Progressions = ":Loading {0} progressions...:";
+Mkt3L10n.LayoutDesigner = ":Auto-Save: {0}:";
+Mkt3L10n.Format = ":Test Group:";
+Mkt3L10n.RsmMenu = ":Approve:";
+Mkt3L10n.ImprovedComboBox = ":Searching...:";
+Mkt3L10n.LpSettingsMenu = ":New Domain Alias:";
+Mkt3L10n.SocialShare = ":Apply:";
+Mkt3L10n.AccountAnalyzerChart = ":Interactions (Cumulative):";
+Mkt3L10n.LandingPagePreview = ":{0} Landing Page Previewer:";
+Mkt3L10n.LeadAction = ":Define rules for formula field:";
+Mkt3L10n.Field = ":{0} is not a valid date - it must be in the format {1}:";
+Mkt3L10n.ComboChooser = ":Add All >>:";
+Mkt3L10n.FileUploadField = ":Browse...:";
+Mkt3L10n.LpTemplateEditor = ":Saving changes ...:";
+Mkt3L10n.GridFilters = ":Filters:";
+Mkt3L10n.PFA = ":Powered By:";
+Mkt3L10n.JigsawAdminMenu = ":Edit Data.com Field Mapping:";
+Mkt3L10n.DataFormPanelErrors = ":A value is required for {0}:";
+Mkt3L10n.AppSatelliteViewport = ":Save As...:";
+Mkt3L10n.CanvasMask = ":Loading...:";
+Mkt3L10n.Note = ":Note::";
+Mkt3L10n.AppViewport = ":Filter by type and status:";
