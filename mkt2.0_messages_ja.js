@@ -6,6 +6,8 @@ Mkt3L10n.AccountAnalyzerChart = {
   Opportunity: "商談",
   Opportunity: "商談",
   Opportunity: "商談",
+  Opportunity: "商談",
+  Opportunity: "商談",
   Interactions: "インタラクション数",
   Week_Of_Date_Interaction: "",
   Date_Interaction: "",
