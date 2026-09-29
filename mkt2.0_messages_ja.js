@@ -1,5 +1,5 @@
 Mkt3L10n.AccountAnalyzerChart = {
-  Trend: "トレンド",
+  Trend: "",
   Trend1: "",
   Trend2: "",
   Trend3: "",
